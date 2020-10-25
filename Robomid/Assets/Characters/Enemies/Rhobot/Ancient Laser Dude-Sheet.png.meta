@@ -1,0 +1,620 @@
+fileFormatVersion: 2
+guid: 8fa972783cd46ca48a2bd2d75716bda2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8613032672051484352
+    second: Ancient Laser Dude-Sheet_0
+  - first:
+      213: -8208309319244343689
+    second: Ancient Laser Dude-Sheet_1
+  - first:
+      213: 4739746302355102361
+    second: Ancient Laser Dude-Sheet_2
+  - first:
+      213: 2860990173557606032
+    second: Ancient Laser Dude-Sheet_3
+  - first:
+      213: -6637100227206031209
+    second: Ancient Laser Dude-Sheet_4
+  - first:
+      213: -3571244524452401060
+    second: Ancient Laser Dude-Sheet_5
+  - first:
+      213: 4002247605081212716
+    second: Ancient Laser Dude-Sheet_6
+  - first:
+      213: -4233244656315348888
+    second: Ancient Laser Dude-Sheet_7
+  - first:
+      213: 6351046441167930080
+    second: Ancient Laser Dude-Sheet_8
+  - first:
+      213: -1324080610346229022
+    second: Ancient Laser Dude-Sheet_9
+  - first:
+      213: -6266907733863526949
+    second: Ancient Laser Dude-Sheet_10
+  - first:
+      213: -8438842345561343311
+    second: Ancient Laser Dude-Sheet_11
+  - first:
+      213: -3675198045538385338
+    second: Ancient Laser Dude-Sheet_12
+  - first:
+      213: 6476256174363878840
+    second: Ancient Laser Dude-Sheet_13
+  - first:
+      213: -8903718095307703068
+    second: Ancient Laser Dude-Sheet_14
+  - first:
+      213: -5197883347165310441
+    second: Ancient Laser Dude-Sheet_15
+  - first:
+      213: 5989628922904980471
+    second: Ancient Laser Dude-Sheet_16
+  - first:
+      213: 3483148683955883265
+    second: Ancient Laser Dude-Sheet_17
+  - first:
+      213: 7443282699069121120
+    second: Ancient Laser Dude-Sheet_18
+  - first:
+      213: 5513708482757994054
+    second: Ancient Laser Dude-Sheet_19
+  - first:
+      213: 3621728647622372876
+    second: Ancient Laser Dude-Sheet_20
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Ancient Laser Dude-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 580
+        width: 83
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049a9872b6c587880800000000000000
+      internalID: -8613032672051484352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Laser Dude-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 551
+        width: 83
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77699e3e92a361e80800000000000000
+      internalID: -8208309319244343689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Laser Dude-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 522
+        width: 83
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ad8555626f6c140800000000000000
+      internalID: 4739746302355102361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Laser Dude-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 493
+        width: 83
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 096c8c8976744b720800000000000000
+      internalID: 2860990173557606032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Laser Dude-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 464
+        width: 83
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79858ba128844e3a0800000000000000
+      internalID: -6637100227206031209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Laser Dude-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 435
+        width: 83
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50b4f9b604607ec0800000000000000
+      internalID: -3571244524452401060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Laser Dude-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 406
+        width: 83
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c270604fdf6da8730800000000000000
+      internalID: 4002247605081212716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Laser Dude-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 377
+        width: 83
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 868c00de96e7045c0800000000000000
+      internalID: -4233244656315348888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Laser Dude-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 348
+        width: 83
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2c2d5c613732850800000000000000
+      internalID: 6351046441167930080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Laser Dude-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 319
+        width: 83
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2a45e33bbef9de0800000000000000
+      internalID: -1324080610346229022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Laser Dude-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 290
+        width: 83
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd8aea9e987709a0800000000000000
+      internalID: -6266907733863526949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Laser Dude-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 261
+        width: 83
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1baba4df89533ea80800000000000000
+      internalID: -8438842345561343311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Laser Dude-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 232
+        width: 83
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642897089d21ffcc0800000000000000
+      internalID: -3675198045538385338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Laser Dude-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 203
+        width: 83
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b5a36b8da840e950800000000000000
+      internalID: 6476256174363878840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Laser Dude-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 174
+        width: 83
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec77f4f093af6480800000000000000
+      internalID: -8903718095307703068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Laser Dude-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 145
+        width: 83
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7121b44a2a86dd7b0800000000000000
+      internalID: -5197883347165310441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Laser Dude-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 116
+        width: 83
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb282e55cf6f1350800000000000000
+      internalID: 5989628922904980471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Laser Dude-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 87
+        width: 83
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d4f070641a65030800000000000000
+      internalID: 3483148683955883265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Laser Dude-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 58
+        width: 83
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06263d8bd2adb4760800000000000000
+      internalID: 7443282699069121120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Laser Dude-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 29
+        width: 83
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64629d5f6a0a48c40800000000000000
+      internalID: 5513708482757994054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ancient Laser Dude-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 83
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0e236a2407f24230800000000000000
+      internalID: 3621728647622372876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

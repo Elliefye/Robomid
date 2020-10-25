@@ -1,0 +1,908 @@
+fileFormatVersion: 2
+guid: 58dd09a8faa5f294aa094146939c3c24
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4283074975545869010
+    second: Police Shielder-Sheet_0
+  - first:
+      213: 435956236259874251
+    second: Police Shielder-Sheet_1
+  - first:
+      213: 229425716534723310
+    second: Police Shielder-Sheet_2
+  - first:
+      213: -4583755246900092681
+    second: Police Shielder-Sheet_3
+  - first:
+      213: -1566677166675670471
+    second: Police Shielder-Sheet_4
+  - first:
+      213: 2988941505280298222
+    second: Police Shielder-Sheet_5
+  - first:
+      213: -7988570241748864769
+    second: Police Shielder-Sheet_6
+  - first:
+      213: -5158449297479037569
+    second: Police Shielder-Sheet_7
+  - first:
+      213: -679822818166503314
+    second: Police Shielder-Sheet_8
+  - first:
+      213: -4291407134620296490
+    second: Police Shielder-Sheet_9
+  - first:
+      213: 6709827829163674138
+    second: Police Shielder-Sheet_10
+  - first:
+      213: -4980562263857833684
+    second: Police Shielder-Sheet_11
+  - first:
+      213: -8494666828619044598
+    second: Police Shielder-Sheet_12
+  - first:
+      213: 3182733139064393389
+    second: Police Shielder-Sheet_13
+  - first:
+      213: -1852472180024214033
+    second: Police Shielder-Sheet_14
+  - first:
+      213: -5501307794994632305
+    second: Police Shielder-Sheet_15
+  - first:
+      213: 5281175214831083213
+    second: Police Shielder-Sheet_16
+  - first:
+      213: 5110324735302568927
+    second: Police Shielder-Sheet_17
+  - first:
+      213: 8999532379141247748
+    second: Police Shielder-Sheet_18
+  - first:
+      213: -4027242447284761845
+    second: Police Shielder-Sheet_19
+  - first:
+      213: -5948602849823602876
+    second: Police Shielder-Sheet_20
+  - first:
+      213: -1994648400706866242
+    second: Police Shielder-Sheet_21
+  - first:
+      213: 4156159274700917614
+    second: Police Shielder-Sheet_22
+  - first:
+      213: -5845773568950535985
+    second: Police Shielder-Sheet_23
+  - first:
+      213: -5810272714728766761
+    second: Police Shielder-Sheet_24
+  - first:
+      213: -9206114872352424826
+    second: Police Shielder-Sheet_25
+  - first:
+      213: -4789831572785461541
+    second: Police Shielder-Sheet_26
+  - first:
+      213: -6244673002731458936
+    second: Police Shielder-Sheet_27
+  - first:
+      213: -6120949413932846867
+    second: Police Shielder-Sheet_28
+  - first:
+      213: -6217685841806107085
+    second: Police Shielder-Sheet_29
+  - first:
+      213: 3799753444199430408
+    second: Police Shielder-Sheet_30
+  - first:
+      213: 7412604725296077366
+    second: Police Shielder-Sheet_31
+  - first:
+      213: -944681306041894927
+    second: Police Shielder-Sheet_32
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Police Shielder-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2c6cf5ff9807b30800000000000000
+      internalID: 4283074975545869010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Shielder-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 992
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5d2e713e3dc0600800000000000000
+      internalID: 435956236259874251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Shielder-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2446049751f2300800000000000000
+      internalID: 229425716534723310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Shielder-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 928
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0ef2383ea3360c0800000000000000
+      internalID: -4583755246900092681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Shielder-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ac492ea6b024ae0800000000000000
+      internalID: -1566677166675670471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Shielder-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 864
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec47a4867ada7920800000000000000
+      internalID: 2988941505280298222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Shielder-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff07d4db0b5e22190800000000000000
+      internalID: -7988570241748864769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Shielder-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d06efc1b18968b0800000000000000
+      internalID: -5158449297479037569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Shielder-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e680bfcafb8c096f0800000000000000
+      internalID: -679822818166503314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Shielder-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 736
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da516aa2fbd174c0800000000000000
+      internalID: -4291407134620296490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Shielder-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 704
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ac4554cd81e1d50800000000000000
+      internalID: 6709827829163674138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Shielder-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29d909520d71eab0800000000000000
+      internalID: -4980562263857833684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Shielder-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a092edaa681ec1a80800000000000000
+      internalID: -8494666828619044598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Shielder-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 608
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae0cc85de65b2c20800000000000000
+      internalID: 3182733139064393389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Shielder-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fedfc59fd52ba46e0800000000000000
+      internalID: -1852472180024214033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Shielder-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 544
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f89e14725bd67a3b0800000000000000
+      internalID: -5501307794994632305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Shielder-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce9a9480e08a4940800000000000000
+      internalID: 5281175214831083213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Shielder-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb0a9665458be640800000000000000
+      internalID: 5110324735302568927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Shielder-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403175b6403c4ec70800000000000000
+      internalID: 8999532379141247748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Shielder-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b8739d45c5c18c0800000000000000
+      internalID: -4027242447284761845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Shielder-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4474362a931527da0800000000000000
+      internalID: -5948602849823602876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Shielder-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3f01009d59154e0800000000000000
+      internalID: -1994648400706866242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Shielder-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b4e7e07d4ada930800000000000000
+      internalID: 4156159274700917614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Shielder-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc8f55949e3afdea0800000000000000
+      internalID: -5845773568950535985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Shielder-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2827600c3cd5fa0800000000000000
+      internalID: -5810272714728766761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Shielder-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68c3ef7bc4f4d3080800000000000000
+      internalID: -9206114872352424826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Shielder-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd60c2aef89178db0800000000000000
+      internalID: -4789831572785461541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Shielder-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e28bd5df67659a0800000000000000
+      internalID: -6244673002731458936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Shielder-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0b56e20f40e0ba0800000000000000
+      internalID: -6120949413932846867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Shielder-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33edb2a6ba756b9a0800000000000000
+      internalID: -6217685841806107085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Shielder-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809f29320af6bb430800000000000000
+      internalID: 3799753444199430408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Shielder-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a97a759bcded660800000000000000
+      internalID: 7412604725296077366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Police Shielder-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7bb677b51d3e2f0800000000000000
+      internalID: -944681306041894927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

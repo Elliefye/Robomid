@@ -1,0 +1,589 @@
+fileFormatVersion: 2
+guid: 1ed946102087398468ce6a9d345124db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1888292757693065114
+    second: bat-Sheet_0
+  - first:
+      213: 7360164545447539809
+    second: bat-Sheet_1
+  - first:
+      213: -5765014430053050310
+    second: bat-Sheet_2
+  - first:
+      213: -8831660610282219494
+    second: bat-Sheet_3
+  - first:
+      213: 2526245119218066668
+    second: bat-Sheet_4
+  - first:
+      213: 2102040775360450033
+    second: bat-Sheet_5
+  - first:
+      213: -3313772421320225885
+    second: bat-Sheet_6
+  - first:
+      213: 4756179305472686952
+    second: bat-Sheet_7
+  - first:
+      213: -5304673500503999552
+    second: bat-Sheet_8
+  - first:
+      213: 3087327543419501868
+    second: bat-Sheet_9
+  - first:
+      213: 7284607243724767330
+    second: bat-Sheet_10
+  - first:
+      213: 2858446139714366859
+    second: bat-Sheet_11
+  - first:
+      213: 4857035560541550162
+    second: bat-Sheet_12
+  - first:
+      213: 5225236685702416962
+    second: bat-Sheet_13
+  - first:
+      213: 2872093827620918492
+    second: bat-Sheet_14
+  - first:
+      213: -8835183365038204745
+    second: bat-Sheet_15
+  - first:
+      213: -3726589491086480746
+    second: bat-Sheet_16
+  - first:
+      213: -6319149440809603580
+    second: bat-Sheet_17
+  - first:
+      213: -3846424202876600805
+    second: bat-Sheet_18
+  - first:
+      213: -7098592740017907210
+    second: bat-Sheet_19
+  - first:
+      213: 7513165661377657703
+    second: bat-Sheet_20
+  - first:
+      213: 5673443176311517242
+    second: bat-Sheet_21
+  - first:
+      213: 6004749748225582024
+    second: bat-Sheet_22
+  - first:
+      213: -2891228733618450597
+    second: bat-Sheet_23
+  - first:
+      213: -5918982611093544848
+    second: bat-Sheet_24
+  - first:
+      213: -7059226622157859981
+    second: bat-Sheet_25
+  - first:
+      213: -988717307231405724
+    second: bat-Sheet_26
+  - first:
+      213: 4687631849862063478
+    second: bat-Sheet_27
+  - first:
+      213: 5184139986721295343
+    second: bat-Sheet_28
+  - first:
+      213: -2245363347035931141
+    second: bat-Sheet_29
+  - first:
+      213: -1614673095083185311
+    second: bat-Sheet_30
+  - first:
+      213: -6805444537749744998
+    second: bat-Sheet_31
+  - first:
+      213: 4197512955804732482
+    second: bat-Sheet_32
+  - first:
+      213: 8420537946760320930
+    second: bat-Sheet_33
+  - first:
+      213: -1077056723466028323
+    second: bat-Sheet_34
+  - first:
+      213: 2553851329060956383
+    second: bat-Sheet_35
+  - first:
+      213: 7796343212451731153
+    second: bat-Sheet_36
+  - first:
+      213: 8807959336319124886
+    second: bat-Sheet_37
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bat-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97ec3e2240943a10800000000000000
+      internalID: 1888292757693065114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 17
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16433d388ae842660800000000000000
+      internalID: 7360164545447539809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 17
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38dfa39bed8effa0800000000000000
+      internalID: -5765014430053050310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 17
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1891539773af6580800000000000000
+      internalID: -8831660610282219494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 17
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4ae822d860f0320800000000000000
+      internalID: 2526245119218066668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 17
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd0fb6b2f2fb2d10800000000000000
+      internalID: 2102040775360450033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 17
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3abc8b83a8d1302d0800000000000000
+      internalID: -3313772421320225885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 17
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b73c601e7510240800000000000000
+      internalID: 4756179305472686952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 17
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cbf7018e830266b0800000000000000
+      internalID: -5304673500503999552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 17
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d7cca1b0468da20800000000000000
+      internalID: 3087327543419501868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 17
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 260c37251bf181560800000000000000
+      internalID: 7284607243724767330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 17
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8de24f8e9d3ba720800000000000000
+      internalID: 2858446139714366859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 17
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256f48fcb18a76340800000000000000
+      internalID: 4857035560541550162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 17
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ac1a6c415c38840800000000000000
+      internalID: 5225236685702416962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 17
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd4dfe48e1abbd720800000000000000
+      internalID: 2872093827620918492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 17
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b815715a8f136580800000000000000
+      internalID: -8835183365038204745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bat-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 17
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a26182a9e784cc0800000000000000
+      internalID: -3726589491086480746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
