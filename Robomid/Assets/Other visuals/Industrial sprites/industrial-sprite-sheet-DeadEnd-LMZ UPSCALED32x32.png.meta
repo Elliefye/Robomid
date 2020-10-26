@@ -1,7 +1,3373 @@
 fileFormatVersion: 2
 guid: 27b6f25142e591248a57900ea355c2dc
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2286129525155928318
+    second: industrial_tile_1
+  - first:
+      213: -8426439470574837094
+    second: industrial_tile_2
+  - first:
+      213: 5461395409302385230
+    second: industrial_tile_3
+  - first:
+      213: -7951105057024526591
+    second: industrial_tile_4
+  - first:
+      213: -5788541649773692977
+    second: industrial_tile_5
+  - first:
+      213: -6322086045695084797
+    second: industrial_tile_6
+  - first:
+      213: -8317736546549352994
+    second: industrial_tile_7
+  - first:
+      213: -1582430251440795817
+    second: industrial_tile_8
+  - first:
+      213: -1512234430989198809
+    second: industrial_tile_9
+  - first:
+      213: 7773330237756008253
+    second: industrial_tile_10
+  - first:
+      213: -7084025551653461534
+    second: industrial_tile_11
+  - first:
+      213: -8807814075024856896
+    second: industrial_tile_12
+  - first:
+      213: -9035761254571219820
+    second: industrial_tile_13
+  - first:
+      213: -7203885922878121105
+    second: industrial_tile_14
+  - first:
+      213: 7514171324810399929
+    second: industrial_tile_15
+  - first:
+      213: 7469327125583552957
+    second: industrial_tile_16
+  - first:
+      213: 7082251046798191279
+    second: industrial_tile_17
+  - first:
+      213: 2101632141225129100
+    second: industrial_tile_18
+  - first:
+      213: -479360034132261005
+    second: industrial_tile_r1
+  - first:
+      213: -7355887355626676899
+    second: industrial_tile_19
+  - first:
+      213: -5099650961816240286
+    second: industrial_tile_20
+  - first:
+      213: -6896537310972481594
+    second: industrial_tile_21
+  - first:
+      213: -437028947053471127
+    second: industrial_tile_22
+  - first:
+      213: -8896287392072683689
+    second: industrial_tile_23
+  - first:
+      213: -6742065799668117589
+    second: industrial_tile_24
+  - first:
+      213: -362584282659044907
+    second: industrial_tile_25
+  - first:
+      213: 9059886035473632192
+    second: industrial_tile_26
+  - first:
+      213: 1921421009691867373
+    second: industrial_tile_27
+  - first:
+      213: -569812909082964746
+    second: industrial_tile_28
+  - first:
+      213: 995681887175766105
+    second: industrial_tile_29
+  - first:
+      213: 2637643577537975354
+    second: industrial_tile_30
+  - first:
+      213: -1609700724252662051
+    second: industrial_tile_31
+  - first:
+      213: 1595707221545698875
+    second: industrial_tile_32
+  - first:
+      213: 1190073931950314952
+    second: industrial_tile_33
+  - first:
+      213: 7242631399327880135
+    second: industrial_tile_34
+  - first:
+      213: -1059108795825980711
+    second: industrial_tile_35
+  - first:
+      213: 805359021764249334
+    second: industrial_tile_36
+  - first:
+      213: -8291834344161660095
+    second: industrial_tile_37
+  - first:
+      213: -4243750696579098562
+    second: industrial_tile_38
+  - first:
+      213: -8582654501002693386
+    second: industrial_tile_39
+  - first:
+      213: -4424468997920324191
+    second: industrial_tile_40
+  - first:
+      213: 5514564941847763130
+    second: industrial_tile_41
+  - first:
+      213: -358893794751655543
+    second: industrial_tile_42
+  - first:
+      213: -8957204102583341651
+    second: industrial_tile_43
+  - first:
+      213: -2120700086285745276
+    second: industrial_tile_44
+  - first:
+      213: 178840162957010077
+    second: industrial_tile_45
+  - first:
+      213: 1259975176223808771
+    second: industrial_tile_46
+  - first:
+      213: -5573974372210818880
+    second: industrial_tile_47
+  - first:
+      213: -2853161593701504926
+    second: industrial_tile_48
+  - first:
+      213: 8221823687475628353
+    second: industrial_tile_49
+  - first:
+      213: -2602920551608706728
+    second: industrial_tile_50
+  - first:
+      213: -8326023651763814974
+    second: industrial_tile_51
+  - first:
+      213: 3811243915509411515
+    second: industrial_tile_52
+  - first:
+      213: -4206033068660278859
+    second: industrial_tile_53
+  - first:
+      213: -7364457009934697379
+    second: industrial_tile_54
+  - first:
+      213: 5460670430559325246
+    second: industrial_tile_55
+  - first:
+      213: -5370724850776991889
+    second: industrial_tile_56
+  - first:
+      213: -3510755678169877700
+    second: industrial_tile_57
+  - first:
+      213: -4822843265155282623
+    second: industrial_tile_58
+  - first:
+      213: -8643989461435406088
+    second: industrial_tile_59
+  - first:
+      213: 6866220121646473496
+    second: industrial_tile_60
+  - first:
+      213: -2190817073610533797
+    second: industrial_tile_61
+  - first:
+      213: 9019885963669382866
+    second: industrial_tile_125
+  - first:
+      213: 9191038882775549066
+    second: industrial_tile_62
+  - first:
+      213: -5583029409380180388
+    second: industrial_tile_63
+  - first:
+      213: 3704754971590952432
+    second: industrial_tile_64
+  - first:
+      213: -1277272461594878877
+    second: industrial_tile_71
+  - first:
+      213: -7282390596026701154
+    second: industrial_tile_72
+  - first:
+      213: -6340937450783968906
+    second: industrial_tile_73
+  - first:
+      213: -5099526141061914967
+    second: industrial_tile_80
+  - first:
+      213: -1520529271847655987
+    second: industrial_tile_81
+  - first:
+      213: 8896344593566857179
+    second: industrial_tile_82
+  - first:
+      213: -4305767354194185946
+    second: industrial_tile_89
+  - first:
+      213: -6590687306692554554
+    second: industrial_tile_90
+  - first:
+      213: 3516303914625904342
+    second: industrial_tile_91
+  - first:
+      213: 5905950250984353937
+    second: industrial_tile_65
+  - first:
+      213: -7228316800919805853
+    second: industrial_tile_66
+  - first:
+      213: -2016808873401142962
+    second: industrial_tile_67
+  - first:
+      213: -1269278140661294933
+    second: industrial_tile_74
+  - first:
+      213: -324713128119679008
+    second: industrial_tile_75
+  - first:
+      213: -4358981553384814930
+    second: industrial_tile_76
+  - first:
+      213: 534352416629852149
+    second: industrial_tile_83
+  - first:
+      213: 8583951478468385677
+    second: industrial_tile_84
+  - first:
+      213: -7692892092182211416
+    second: industrial_tile_85
+  - first:
+      213: -8255077704987297802
+    second: industrial_tile_92
+  - first:
+      213: 2214416701810895363
+    second: industrial_tile_93
+  - first:
+      213: -5691010151579367470
+    second: industrial_tile_94
+  - first:
+      213: 1779508710415415875
+    second: industrial_tile_68
+  - first:
+      213: 5161851553537814006
+    second: industrial_tile_69
+  - first:
+      213: 8607589491172735307
+    second: industrial_tile_70
+  - first:
+      213: -1445100467926358029
+    second: industrial_tile_77
+  - first:
+      213: -9034091668474381735
+    second: industrial_tile_78
+  - first:
+      213: 1566540881664395587
+    second: industrial_tile_79
+  - first:
+      213: 5765496497698588168
+    second: industrial_tile_86
+  - first:
+      213: 7180503990908269387
+    second: industrial_tile_87
+  - first:
+      213: -1397846034047996817
+    second: industrial_tile_88
+  - first:
+      213: -3326908703766679242
+    second: industrial_tile_95
+  - first:
+      213: -5498152178695509034
+    second: industrial_tile_96
+  - first:
+      213: -4762679326237245769
+    second: industrial_tile_97
+  - first:
+      213: 6450751569189451263
+    second: industrial_tile_98
+  - first:
+      213: 7903403653459711482
+    second: industrial_tile_101
+  - first:
+      213: -1858783751442362611
+    second: industrial_tile_104
+  - first:
+      213: -4294124861397350316
+    second: industrial_tile_107
+  - first:
+      213: 784747462239879556
+    second: industrial_tile_109
+  - first:
+      213: -9156807335473808713
+    second: industrial_tile_111
+  - first:
+      213: -4705785892008422355
+    second: industrial_tile_113
+  - first:
+      213: -1477713467559912511
+    second: industrial_tile_115
+  - first:
+      213: 7749013746788260152
+    second: industrial_tile_117
+  - first:
+      213: 5309017106830157914
+    second: industrial_tile_119
+  - first:
+      213: -1527881892133411828
+    second: industrial_tile_120
+  - first:
+      213: 7034712533747183011
+    second: industrial_tile_99
+  - first:
+      213: -3137960729207482367
+    second: industrial_tile_102
+  - first:
+      213: -8232862065454802119
+    second: industrial_tile_105
+  - first:
+      213: -8716750976623120951
+    second: industrial_tile_108
+  - first:
+      213: 6612553736551354725
+    second: industrial_tile_110
+  - first:
+      213: -726111588054042830
+    second: industrial_tile_112
+  - first:
+      213: -1099852048086152253
+    second: industrial_tile_114
+  - first:
+      213: -1010718678941531722
+    second: industrial_tile_116
+  - first:
+      213: 8626635127536839865
+    second: industrial_tile_118
+  - first:
+      213: 1877938696686446117
+    second: industrial_tile_100
+  - first:
+      213: -9175980414998102934
+    second: industrial_tile_103
+  - first:
+      213: 7644623228611084447
+    second: industrial_tile_106
+  - first:
+      213: -7990106994331651897
+    second: industrial_tile_121
+  - first:
+      213: 2685930997151810295
+    second: industrial_tile_122
+  - first:
+      213: -7980073600541595890
+    second: industrial_tile_123
+  - first:
+      213: -7893770357007583546
+    second: industrial_tile_124
+  - first:
+      213: 4279140554226232261
+    second: industrial_left_door_red_1
+  - first:
+      213: -5334314286259626521
+    second: industrial_right_door_red_1
+  - first:
+      213: 6537165918662627241
+    second: industrial_left_door_red_2
+  - first:
+      213: -3396771131433718488
+    second: industrial_right_door_red_2
+  - first:
+      213: -4729593039758549516
+    second: industrial_left_door_red_3
+  - first:
+      213: -2812273650514324850
+    second: industrial_right_door_red_3
+  - first:
+      213: -4367350990429357754
+    second: industrial_left_door_red_4
+  - first:
+      213: -5760580452868589970
+    second: industrial_right_door_red_4
+  - first:
+      213: -3181863650093867481
+    second: industrial_left_door_yellow_4
+  - first:
+      213: -5233717653128652316
+    second: industrial_right_door_yellow_4
+  - first:
+      213: 8358814719462519385
+    second: industrial_left_door_yellow_5
+  - first:
+      213: 6048718893370674073
+    second: industrial_right_door_yellow_5
+  - first:
+      213: -8329630324760995805
+    second: industrial_left_door_yellow_6
+  - first:
+      213: -8049093898189851262
+    second: industrial_right_door_yellow_6
+  - first:
+      213: 184514931224862489
+    second: industrial_left_door_yellow_7
+  - first:
+      213: -6755492640573845396
+    second: industrial_right_door_yellow_7
+  - first:
+      213: 8810610452343169258
+    second: industrial_left_door_yellow_1
+  - first:
+      213: -9185646581823001728
+    second: industrial_right_door_yellow_1
+  - first:
+      213: -1217742947158466195
+    second: industrial_left_door_yellow_2
+  - first:
+      213: 8901048067288085772
+    second: industrial_right_door_yellow_2
+  - first:
+      213: -2723211089853751692
+    second: industrial_left_door_yellow_3
+  - first:
+      213: -7448779124853829751
+    second: industrial_right_door_yellow_3
+  - first:
+      213: 2092709327600266052
+    second: industrial_left_door_green_1
+  - first:
+      213: 4565984411446241322
+    second: industrial_right_door_green_1
+  - first:
+      213: -8574985440099977098
+    second: industrial_left_door_green_2
+  - first:
+      213: 25477545983285675
+    second: industrial_right_door_green_2
+  - first:
+      213: -2022907268675893323
+    second: industrial_left_door_green_3
+  - first:
+      213: -2782092772982383098
+    second: industrial_right_door_green_3
+  - first:
+      213: 7433318600253377556
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_154
+  - first:
+      213: 1364628517491409686
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_155
+  - first:
+      213: -2435195026480074933
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_156
+  - first:
+      213: 2532312442652565908
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_157
+  - first:
+      213: 4082491630638144968
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_158
+  - first:
+      213: -9174028043727119944
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_159
+  - first:
+      213: 4675464597329841511
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_160
+  - first:
+      213: 1282162284752259045
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_161
+  - first:
+      213: 2982227133201015198
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_162
+  - first:
+      213: -3780419238172928075
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_163
+  - first:
+      213: 8025686989811890495
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_164
+  - first:
+      213: 3745494110305948416
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_165
+  - first:
+      213: 566285774803867902
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_166
+  - first:
+      213: 2711542364655502956
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_167
+  - first:
+      213: 8206355097749244994
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_168
+  - first:
+      213: -1554847570463220837
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_169
+  - first:
+      213: 7227781166733518595
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_170
+  - first:
+      213: -8315423691561878794
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_171
+  - first:
+      213: 2027767643112350538
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_172
+  - first:
+      213: 4956600166032432711
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_173
+  - first:
+      213: 8464555823704756599
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_174
+  - first:
+      213: -32576177284598506
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_175
+  - first:
+      213: -1877569701905810681
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_176
+  - first:
+      213: 8949787586612321519
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_177
+  - first:
+      213: -888976030205519128
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_178
+  - first:
+      213: 91936208443393934
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_179
+  - first:
+      213: 5794055723600481805
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_180
+  - first:
+      213: 8068745106996099829
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_181
+  - first:
+      213: 1048298808500929108
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_182
+  - first:
+      213: 7728584438523650896
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_183
+  - first:
+      213: 2191477744494373047
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_184
+  - first:
+      213: 2685429605108530202
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_185
+  - first:
+      213: 3338006803910253646
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_186
+  - first:
+      213: 4374543525624371879
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_187
+  - first:
+      213: -3078906918590052583
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_188
+  - first:
+      213: -7399429424009977761
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_189
+  - first:
+      213: 5962854242722933147
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_190
+  - first:
+      213: 7382636572400541415
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_191
+  - first:
+      213: 1721777987507538705
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_192
+  - first:
+      213: -6708008629876049027
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_193
+  - first:
+      213: 7352412240206723213
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_194
+  - first:
+      213: 1158988890012285260
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_195
+  - first:
+      213: -1642520900193230605
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_196
+  - first:
+      213: -1247385896170826793
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_197
+  - first:
+      213: -7315377818575076465
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_198
+  - first:
+      213: -7801017240264720246
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_199
+  - first:
+      213: -8975501265611782270
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_200
+  - first:
+      213: -544699224038414912
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_201
+  - first:
+      213: 9104804872768193966
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_202
+  - first:
+      213: 9085957946604377296
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_203
+  - first:
+      213: -5697500494267553160
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_204
+  - first:
+      213: 8328236653603420731
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_205
+  - first:
+      213: -4564795475535499355
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_206
+  - first:
+      213: 7691370441303219962
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_207
+  - first:
+      213: -1410896622120755301
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_208
+  - first:
+      213: 5331763394758889452
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_209
+  - first:
+      213: 6769126780859774627
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_210
+  - first:
+      213: -6736951298962180743
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_211
+  - first:
+      213: 8898734933637950531
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_212
+  - first:
+      213: -5619099954812472601
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_213
+  - first:
+      213: 4561731428552997512
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_214
+  - first:
+      213: -8092799469322399982
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_215
+  - first:
+      213: -1700568608582502574
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_216
+  - first:
+      213: 9143684930567466277
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_217
+  - first:
+      213: -4616212274902016994
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_218
+  - first:
+      213: -4014305362655258777
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_219
+  - first:
+      213: 4398791210102544172
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_220
+  - first:
+      213: -1433056679234010195
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_221
+  - first:
+      213: -6769460073163536527
+    second: industrial_tile_1
+  - first:
+      213: 6264575605362405265
+    second: industrial_tile_2
+  - first:
+      213: 8197288471268881
+    second: industrial_tile_3
+  - first:
+      213: 4430118785981561693
+    second: industrial_tile_4
+  - first:
+      213: -8863970548223956664
+    second: industrial_tile_5
+  - first:
+      213: -4870638002136034408
+    second: industrial_tile_6
+  - first:
+      213: -4806583176439979456
+    second: industrial_tile_7
+  - first:
+      213: -5492719168331000086
+    second: industrial_tile_8
+  - first:
+      213: 5237138618495750452
+    second: industrial_tile_9
+  - first:
+      213: 6220113004168642966
+    second: industrial_tile_10
+  - first:
+      213: -7501241912524661838
+    second: industrial_tile_11
+  - first:
+      213: -3219872825129782689
+    second: industrial_tile_12
+  - first:
+      213: -6500641934101781409
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_12
+  - first:
+      213: 4187267421047435132
+    second: industrial_tile_13
+  - first:
+      213: 1192410114905749616
+    second: industrial_tile_14
+  - first:
+      213: -1095904435564558013
+    second: industrial_tile_15
+  - first:
+      213: -7438559277292162797
+    second: industrial_tile_16
+  - first:
+      213: 9155123099824085157
+    second: industrial_tile_17
+  - first:
+      213: 5325354802915608687
+    second: industrial_tile_r1
+  - first:
+      213: -6945383039988403668
+    second: industrial_tile_18
+  - first:
+      213: -7298076493861876184
+    second: industrial_tile_19
+  - first:
+      213: 7464666654510200853
+    second: industrial_tile_20
+  - first:
+      213: 3545560109223408834
+    second: industrial_tile_21
+  - first:
+      213: 1868244951548298962
+    second: industrial_tile_22
+  - first:
+      213: -8986831851154778285
+    second: industrial_tile_23
+  - first:
+      213: 261215618833034753
+    second: industrial_tile_24
+  - first:
+      213: 1706552116200098979
+    second: industrial_tile_25
+  - first:
+      213: 7193517238082081597
+    second: industrial_tile_26
+  - first:
+      213: -8356158640023702123
+    second: industrial_tile_27
+  - first:
+      213: -380482896865425746
+    second: industrial_tile_28
+  - first:
+      213: -2910719340032709791
+    second: industrial_tile_29
+  - first:
+      213: -808205070035371036
+    second: industrial_tile_30
+  - first:
+      213: -6561846081807305914
+    second: industrial_tile_31
+  - first:
+      213: -5789555430848947693
+    second: industrial_tile_32
+  - first:
+      213: -2638165638201286561
+    second: industrial_tile_33
+  - first:
+      213: 3706637782899204175
+    second: industrial_tile_34
+  - first:
+      213: -5661536870266833737
+    second: industrial_tile_35
+  - first:
+      213: -7700521372482791155
+    second: industrial_tile_36
+  - first:
+      213: 381403005192531817
+    second: industrial_tile_37
+  - first:
+      213: 6059880260234113154
+    second: industrial_tile_38
+  - first:
+      213: -5210567469323504741
+    second: industrial_tile_39
+  - first:
+      213: -7513426793705115320
+    second: industrial_tile_40
+  - first:
+      213: -4587448789487995976
+    second: industrial_tile_41
+  - first:
+      213: 6330744431895886385
+    second: industrial_tile_42
+  - first:
+      213: -8936068464227333599
+    second: industrial_tile_43
+  - first:
+      213: 4696257784752556955
+    second: industrial_tile_44
+  - first:
+      213: 6741077978815823163
+    second: industrial_tile_45
+  - first:
+      213: -540389149571844130
+    second: industrial_tile_46
+  - first:
+      213: -7496738061010247821
+    second: industrial_tile_47
+  - first:
+      213: 7762094643464693072
+    second: industrial_tile_48
+  - first:
+      213: -1205050979620396858
+    second: industrial_tile_49
+  - first:
+      213: -5661451327358486854
+    second: industrial_tile_50
+  - first:
+      213: -1822622909540848766
+    second: industrial_tile_51
+  - first:
+      213: 7636718963196118651
+    second: industrial_tile_52
+  - first:
+      213: 2581104234318594632
+    second: industrial_tile_53
+  - first:
+      213: 209792443854042218
+    second: industrial_tile_54
+  - first:
+      213: 7603427937260708357
+    second: industrial_tile_55
+  - first:
+      213: -1317137000011741220
+    second: industrial_tile_56
+  - first:
+      213: -8179832402663026681
+    second: industrial_tile_57
+  - first:
+      213: -457644920054104060
+    second: industrial_tile_58
+  - first:
+      213: -1161457715369773901
+    second: industrial_tile_59
+  - first:
+      213: 7898040985932708794
+    second: industrial_tile_60
+  - first:
+      213: -81079462108838274
+    second: industrial_tile_125
+  - first:
+      213: 5715803440655588435
+    second: industrial_tile_62
+  - first:
+      213: -3418659573280208721
+    second: industrial_tile_63
+  - first:
+      213: -5725512119042377194
+    second: industrial_tile_64
+  - first:
+      213: 38280568114665115
+    second: industrial_tile_65
+  - first:
+      213: 6401663915484192117
+    second: industrial_tile_66
+  - first:
+      213: 1984008291047520880
+    second: industrial_tile_67
+  - first:
+      213: 3862250142560014304
+    second: industrial_tile_68
+  - first:
+      213: -1426563093049410670
+    second: industrial_tile_69
+  - first:
+      213: -6043263390961520876
+    second: industrial_tile_70
+  - first:
+      213: 8389653781613539358
+    second: industrial_tile_71
+  - first:
+      213: -9048390483189243428
+    second: industrial_tile_72
+  - first:
+      213: -8248430562730308748
+    second: industrial_tile_73
+  - first:
+      213: 976045858006912073
+    second: industrial_tile_74
+  - first:
+      213: -4206369762170206808
+    second: industrial_tile_75
+  - first:
+      213: -2289302716544254470
+    second: industrial_tile_76
+  - first:
+      213: -6214268529733950292
+    second: industrial_tile_77
+  - first:
+      213: -1695895896880655433
+    second: industrial_tile_78
+  - first:
+      213: -4941975838869437541
+    second: industrial_tile_79
+  - first:
+      213: 6739327131274572693
+    second: industrial_tile_80
+  - first:
+      213: 8203111856216601067
+    second: industrial_tile_81
+  - first:
+      213: -2993355786430617205
+    second: industrial_tile_82
+  - first:
+      213: -3174944850617939716
+    second: industrial_tile_83
+  - first:
+      213: -5188931639989594125
+    second: industrial_tile_84
+  - first:
+      213: -6680850707062151056
+    second: industrial_tile_85
+  - first:
+      213: 3534036796189801108
+    second: industrial_tile_86
+  - first:
+      213: 736243416328617961
+    second: industrial_tile_87
+  - first:
+      213: -5993082998499926727
+    second: industrial_tile_88
+  - first:
+      213: -6878561132435542468
+    second: industrial_tile_89
+  - first:
+      213: 8238467851726473956
+    second: industrial_tile_90
+  - first:
+      213: 4240148355291385984
+    second: industrial_tile_91
+  - first:
+      213: 6343572389323463613
+    second: industrial_tile_92
+  - first:
+      213: 197638996430655128
+    second: industrial_tile_93
+  - first:
+      213: 7816476416550790146
+    second: industrial_tile_94
+  - first:
+      213: 3976721655284450906
+    second: industrial_tile_95
+  - first:
+      213: -351874763692012466
+    second: industrial_tile_96
+  - first:
+      213: 4376882303340102866
+    second: industrial_tile_97
+  - first:
+      213: 3683287260319167508
+    second: industrial_tile_98
+  - first:
+      213: 8441171142608078784
+    second: industrial_tile_99
+  - first:
+      213: -604215510655130945
+    second: industrial_tile_100
+  - first:
+      213: -2108455232371450724
+    second: industrial_tile_101
+  - first:
+      213: 5900746700023589067
+    second: industrial_tile_102
+  - first:
+      213: 6841507586323329884
+    second: industrial_tile_103
+  - first:
+      213: -1353412874840204129
+    second: industrial_tile_104
+  - first:
+      213: 2676471154695358273
+    second: industrial_tile_105
+  - first:
+      213: 6187738871205119535
+    second: industrial_tile_106
+  - first:
+      213: -1828517833353274058
+    second: industrial_tile_107
+  - first:
+      213: 6508701474803156141
+    second: industrial_tile_108
+  - first:
+      213: 6129079707238391076
+    second: industrial_tile_109
+  - first:
+      213: 7818519683440749207
+    second: industrial_tile_110
+  - first:
+      213: -8154494215731125940
+    second: industrial_tile_111
+  - first:
+      213: 3049934531342701510
+    second: industrial_tile_112
+  - first:
+      213: 7605086316300825169
+    second: industrial_tile_113
+  - first:
+      213: -7384299727451186318
+    second: industrial_tile_114
+  - first:
+      213: 8882607882642036076
+    second: industrial_tile_115
+  - first:
+      213: 1947565557763532937
+    second: industrial_tile_116
+  - first:
+      213: 4672530096371277556
+    second: industrial_tile_117
+  - first:
+      213: -4917636640019222806
+    second: industrial_tile_118
+  - first:
+      213: -7605249790611042791
+    second: industrial_tile_119
+  - first:
+      213: 1946308092625563399
+    second: industrial_tile_120
+  - first:
+      213: -2376826924840043563
+    second: industrial_tile_121
+  - first:
+      213: 3495717126353743519
+    second: industrial_tile_122
+  - first:
+      213: 5892648161841416349
+    second: industrial_tile_123
+  - first:
+      213: 6593405293175445392
+    second: industrial_tile_124
+  - first:
+      213: -2355507343124947196
+    second: industrial_tile_125
+  - first:
+      213: 38999669640285322
+    second: industrial_tile_126
+  - first:
+      213: 5679093772380640104
+    second: industrial_tile_127
+  - first:
+      213: -5681873784705539179
+    second: industrial_tile_128
+  - first:
+      213: 3114955977741575673
+    second: industrial_tile_129
+  - first:
+      213: -8634781728174178781
+    second: industrial_tile_130
+  - first:
+      213: -513566607262496696
+    second: industrial_tile_131
+  - first:
+      213: 2645188363489326618
+    second: industrial_tile_132
+  - first:
+      213: -1636048123463515252
+    second: industrial_tile_133
+  - first:
+      213: 9048402050542391855
+    second: industrial_tile_134
+  - first:
+      213: 8755334431790302156
+    second: industrial_tile_135
+  - first:
+      213: 4543426430415039570
+    second: industrial_tile_136
+  - first:
+      213: -4329448033661907000
+    second: industrial_tile_137
+  - first:
+      213: -495824129703883361
+    second: industrial_tile_138
+  - first:
+      213: 8500623447648999619
+    second: industrial_tile_139
+  - first:
+      213: 178281085588904865
+    second: industrial_tile_140
+  - first:
+      213: -535021088415858833
+    second: industrial_tile_141
+  - first:
+      213: -420525310199152603
+    second: industrial_tile_142
+  - first:
+      213: 2211266863465809015
+    second: industrial_tile_143
+  - first:
+      213: -9162341947819022636
+    second: industrial_tile_144
+  - first:
+      213: 6389308625841936518
+    second: industrial_tile_145
+  - first:
+      213: -3043139787785388966
+    second: industrial_tile_146
+  - first:
+      213: 30881928804000369
+    second: industrial_tile_147
+  - first:
+      213: -7793847412747419844
+    second: industrial_tile_148
+  - first:
+      213: -5702393543341215475
+    second: industrial_tile_149
+  - first:
+      213: 5823059560397830865
+    second: industrial_tile_150
+  - first:
+      213: 1472348433004732043
+    second: industrial_tile_151
+  - first:
+      213: 6052682191103983140
+    second: industrial_tile_152
+  - first:
+      213: -81079462108838274
+    second: industrial_tile_61
+  - first:
+      213: 2286129525155928318
+    second: industrial_tile_1
+  - first:
+      213: -8426439470574837094
+    second: industrial_tile_2
+  - first:
+      213: 5461395409302385230
+    second: industrial_tile_3
+  - first:
+      213: -7951105057024526591
+    second: industrial_tile_4
+  - first:
+      213: -5788541649773692977
+    second: industrial_tile_5
+  - first:
+      213: -6322086045695084797
+    second: industrial_tile_6
+  - first:
+      213: -8317736546549352994
+    second: industrial_tile_7
+  - first:
+      213: -1582430251440795817
+    second: industrial_tile_8
+  - first:
+      213: -1512234430989198809
+    second: industrial_tile_9
+  - first:
+      213: 7773330237756008253
+    second: industrial_tile_10
+  - first:
+      213: -7084025551653461534
+    second: industrial_tile_11
+  - first:
+      213: -8807814075024856896
+    second: industrial_tile_12
+  - first:
+      213: -9035761254571219820
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_12
+  - first:
+      213: -7203885922878121105
+    second: industrial_tile_13
+  - first:
+      213: 7514171324810399929
+    second: industrial_tile_14
+  - first:
+      213: 7469327125583552957
+    second: industrial_tile_15
+  - first:
+      213: 7082251046798191279
+    second: industrial_tile_16
+  - first:
+      213: 2101632141225129100
+    second: industrial_tile_17
+  - first:
+      213: -479360034132261005
+    second: industrial_tile_r1
+  - first:
+      213: -7355887355626676899
+    second: industrial_tile_18
+  - first:
+      213: -5099650961816240286
+    second: industrial_tile_19
+  - first:
+      213: -6896537310972481594
+    second: industrial_tile_20
+  - first:
+      213: -437028947053471127
+    second: industrial_tile_21
+  - first:
+      213: -8896287392072683689
+    second: industrial_tile_22
+  - first:
+      213: -6742065799668117589
+    second: industrial_tile_23
+  - first:
+      213: -362584282659044907
+    second: industrial_tile_24
+  - first:
+      213: 9059886035473632192
+    second: industrial_tile_25
+  - first:
+      213: 1921421009691867373
+    second: industrial_tile_26
+  - first:
+      213: -569812909082964746
+    second: industrial_tile_27
+  - first:
+      213: 995681887175766105
+    second: industrial_tile_28
+  - first:
+      213: 2637643577537975354
+    second: industrial_tile_29
+  - first:
+      213: -1609700724252662051
+    second: industrial_tile_30
+  - first:
+      213: 1595707221545698875
+    second: industrial_tile_31
+  - first:
+      213: 1190073931950314952
+    second: industrial_tile_32
+  - first:
+      213: 7242631399327880135
+    second: industrial_tile_33
+  - first:
+      213: -1059108795825980711
+    second: industrial_tile_34
+  - first:
+      213: 805359021764249334
+    second: industrial_tile_35
+  - first:
+      213: -8291834344161660095
+    second: industrial_tile_36
+  - first:
+      213: -4243750696579098562
+    second: industrial_tile_37
+  - first:
+      213: -8582654501002693386
+    second: industrial_tile_38
+  - first:
+      213: -4424468997920324191
+    second: industrial_tile_39
+  - first:
+      213: 5514564941847763130
+    second: industrial_tile_40
+  - first:
+      213: -358893794751655543
+    second: industrial_tile_41
+  - first:
+      213: -8957204102583341651
+    second: industrial_tile_42
+  - first:
+      213: -2120700086285745276
+    second: industrial_tile_43
+  - first:
+      213: 178840162957010077
+    second: industrial_tile_44
+  - first:
+      213: 1259975176223808771
+    second: industrial_tile_45
+  - first:
+      213: -5573974372210818880
+    second: industrial_tile_46
+  - first:
+      213: -2853161593701504926
+    second: industrial_tile_47
+  - first:
+      213: 8221823687475628353
+    second: industrial_tile_48
+  - first:
+      213: -2602920551608706728
+    second: industrial_tile_49
+  - first:
+      213: -8326023651763814974
+    second: industrial_tile_50
+  - first:
+      213: 3811243915509411515
+    second: industrial_tile_51
+  - first:
+      213: -4206033068660278859
+    second: industrial_tile_52
+  - first:
+      213: -7364457009934697379
+    second: industrial_tile_53
+  - first:
+      213: 5460670430559325246
+    second: industrial_tile_54
+  - first:
+      213: -5370724850776991889
+    second: industrial_tile_55
+  - first:
+      213: -3510755678169877700
+    second: industrial_tile_56
+  - first:
+      213: -4822843265155282623
+    second: industrial_tile_57
+  - first:
+      213: -8643989461435406088
+    second: industrial_tile_58
+  - first:
+      213: 6866220121646473496
+    second: industrial_tile_59
+  - first:
+      213: -2190817073610533797
+    second: industrial_tile_60
+  - first:
+      213: 9019885963669382866
+    second: industrial_tile_61
+  - first:
+      213: 9191038882775549066
+    second: industrial_tile_62
+  - first:
+      213: -5583029409380180388
+    second: industrial_tile_63
+  - first:
+      213: 3704754971590952432
+    second: industrial_tile_64
+  - first:
+      213: -1277272461594878877
+    second: industrial_tile_65
+  - first:
+      213: -7282390596026701154
+    second: industrial_tile_66
+  - first:
+      213: -6340937450783968906
+    second: industrial_tile_67
+  - first:
+      213: -5099526141061914967
+    second: industrial_tile_68
+  - first:
+      213: -1520529271847655987
+    second: industrial_tile_69
+  - first:
+      213: 8896344593566857179
+    second: industrial_tile_70
+  - first:
+      213: -4305767354194185946
+    second: industrial_tile_71
+  - first:
+      213: -6590687306692554554
+    second: industrial_tile_72
+  - first:
+      213: 3516303914625904342
+    second: industrial_tile_73
+  - first:
+      213: 5905950250984353937
+    second: industrial_tile_74
+  - first:
+      213: -7228316800919805853
+    second: industrial_tile_75
+  - first:
+      213: -2016808873401142962
+    second: industrial_tile_76
+  - first:
+      213: -1269278140661294933
+    second: industrial_tile_77
+  - first:
+      213: -324713128119679008
+    second: industrial_tile_78
+  - first:
+      213: -4358981553384814930
+    second: industrial_tile_79
+  - first:
+      213: 534352416629852149
+    second: industrial_tile_80
+  - first:
+      213: 8583951478468385677
+    second: industrial_tile_81
+  - first:
+      213: -7692892092182211416
+    second: industrial_tile_82
+  - first:
+      213: -8255077704987297802
+    second: industrial_tile_83
+  - first:
+      213: 2214416701810895363
+    second: industrial_tile_84
+  - first:
+      213: -5691010151579367470
+    second: industrial_tile_85
+  - first:
+      213: 1779508710415415875
+    second: industrial_tile_86
+  - first:
+      213: 5161851553537814006
+    second: industrial_tile_87
+  - first:
+      213: 8607589491172735307
+    second: industrial_tile_88
+  - first:
+      213: -1445100467926358029
+    second: industrial_tile_89
+  - first:
+      213: -9034091668474381735
+    second: industrial_tile_90
+  - first:
+      213: 1566540881664395587
+    second: industrial_tile_91
+  - first:
+      213: 5765496497698588168
+    second: industrial_tile_92
+  - first:
+      213: 7180503990908269387
+    second: industrial_tile_93
+  - first:
+      213: -1397846034047996817
+    second: industrial_tile_94
+  - first:
+      213: -3326908703766679242
+    second: industrial_tile_95
+  - first:
+      213: -5498152178695509034
+    second: industrial_tile_96
+  - first:
+      213: -4762679326237245769
+    second: industrial_tile_97
+  - first:
+      213: 6450751569189451263
+    second: industrial_tile_98
+  - first:
+      213: 7903403653459711482
+    second: industrial_tile_99
+  - first:
+      213: -1858783751442362611
+    second: industrial_tile_100
+  - first:
+      213: -4294124861397350316
+    second: industrial_tile_101
+  - first:
+      213: 784747462239879556
+    second: industrial_tile_102
+  - first:
+      213: -9156807335473808713
+    second: industrial_tile_103
+  - first:
+      213: -4705785892008422355
+    second: industrial_tile_104
+  - first:
+      213: -1477713467559912511
+    second: industrial_tile_105
+  - first:
+      213: 7749013746788260152
+    second: industrial_tile_106
+  - first:
+      213: 5309017106830157914
+    second: industrial_tile_107
+  - first:
+      213: -1527881892133411828
+    second: industrial_tile_108
+  - first:
+      213: 7034712533747183011
+    second: industrial_tile_109
+  - first:
+      213: -3137960729207482367
+    second: industrial_tile_110
+  - first:
+      213: -8232862065454802119
+    second: industrial_tile_111
+  - first:
+      213: -8716750976623120951
+    second: industrial_tile_112
+  - first:
+      213: 6612553736551354725
+    second: industrial_tile_113
+  - first:
+      213: -726111588054042830
+    second: industrial_tile_114
+  - first:
+      213: -1099852048086152253
+    second: industrial_tile_115
+  - first:
+      213: -1010718678941531722
+    second: industrial_tile_116
+  - first:
+      213: 8626635127536839865
+    second: industrial_tile_117
+  - first:
+      213: 1877938696686446117
+    second: industrial_tile_118
+  - first:
+      213: -9175980414998102934
+    second: industrial_tile_119
+  - first:
+      213: 7644623228611084447
+    second: industrial_tile_120
+  - first:
+      213: -7990106994331651897
+    second: industrial_tile_121
+  - first:
+      213: 2685930997151810295
+    second: industrial_tile_122
+  - first:
+      213: -7980073600541595890
+    second: industrial_tile_123
+  - first:
+      213: -7893770357007583546
+    second: industrial_tile_124
+  - first:
+      213: 4279140554226232261
+    second: industrial_tile_125
+  - first:
+      213: -5334314286259626521
+    second: industrial_tile_126
+  - first:
+      213: 6537165918662627241
+    second: industrial_tile_127
+  - first:
+      213: -3396771131433718488
+    second: industrial_tile_128
+  - first:
+      213: -4729593039758549516
+    second: industrial_tile_129
+  - first:
+      213: -2812273650514324850
+    second: industrial_tile_130
+  - first:
+      213: -4367350990429357754
+    second: industrial_tile_131
+  - first:
+      213: -5760580452868589970
+    second: industrial_tile_132
+  - first:
+      213: -3181863650093867481
+    second: industrial_tile_133
+  - first:
+      213: -5233717653128652316
+    second: industrial_tile_134
+  - first:
+      213: 8358814719462519385
+    second: industrial_tile_135
+  - first:
+      213: 6048718893370674073
+    second: industrial_tile_136
+  - first:
+      213: -8329630324760995805
+    second: industrial_tile_137
+  - first:
+      213: -8049093898189851262
+    second: industrial_tile_138
+  - first:
+      213: 184514931224862489
+    second: industrial_tile_139
+  - first:
+      213: -6755492640573845396
+    second: industrial_tile_140
+  - first:
+      213: 8810610452343169258
+    second: industrial_tile_141
+  - first:
+      213: -9185646581823001728
+    second: industrial_tile_142
+  - first:
+      213: -1217742947158466195
+    second: industrial_tile_143
+  - first:
+      213: 8901048067288085772
+    second: industrial_tile_144
+  - first:
+      213: -2723211089853751692
+    second: industrial_tile_145
+  - first:
+      213: -7448779124853829751
+    second: industrial_tile_146
+  - first:
+      213: 2092709327600266052
+    second: industrial_tile_147
+  - first:
+      213: 4565984411446241322
+    second: industrial_tile_148
+  - first:
+      213: -8574985440099977098
+    second: industrial_tile_149
+  - first:
+      213: 25477545983285675
+    second: industrial_tile_150
+  - first:
+      213: -2022907268675893323
+    second: industrial_tile_151
+  - first:
+      213: -2782092772982383098
+    second: industrial_tile_152
+  - first:
+      213: -7667681311776129822
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_222
+  - first:
+      213: -3006767445936517558
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_223
+  - first:
+      213: -1460168891479858282
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_224
+  - first:
+      213: -1673180694577667000
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_225
+  - first:
+      213: -5708735685623667215
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_226
+  - first:
+      213: -1652854294030877217
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_227
+  - first:
+      213: 951546276776789543
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_228
+  - first:
+      213: -6731090248912825356
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_229
+  - first:
+      213: 6522570772984431838
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_230
+  - first:
+      213: 5757071457860347132
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_231
+  - first:
+      213: -3116081137451280228
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_232
+  - first:
+      213: 2517001453674081165
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_233
+  - first:
+      213: -2064126653798767484
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_234
+  - first:
+      213: 4350455995676399299
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_235
+  - first:
+      213: 8886046539054679744
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_236
+  - first:
+      213: 2139699660552858370
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_237
+  - first:
+      213: 7405650814611963448
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_238
+  - first:
+      213: -5091068647525611684
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_239
+  - first:
+      213: 3948109328360607880
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_240
+  - first:
+      213: -2121569168646546450
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_241
+  - first:
+      213: 3368215852483884873
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_242
+  - first:
+      213: -5349830888654699422
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_243
+  - first:
+      213: -4900312038648972910
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_244
+  - first:
+      213: 5847513461697111996
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_245
+  - first:
+      213: 4218714607220592802
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_246
+  - first:
+      213: 2645919681791875809
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_247
+  - first:
+      213: 3174726908368950485
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_248
+  - first:
+      213: -4324404779812180316
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_249
+  - first:
+      213: 785771589374054727
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_250
+  - first:
+      213: 2123571381348884400
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_251
+  - first:
+      213: -2703402974203493463
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_252
+  - first:
+      213: 454400576884147365
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_253
+  - first:
+      213: -4336873622071246968
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_254
+  - first:
+      213: 4004827577998345927
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_255
+  - first:
+      213: 6066157376976629356
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_256
+  - first:
+      213: -4115519777259514576
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_257
+  - first:
+      213: -3090439733407851626
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_258
+  - first:
+      213: -5955257504928343942
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_259
+  - first:
+      213: -481935933300236444
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_260
+  - first:
+      213: -5916454890905920760
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_261
+  - first:
+      213: -2662557929546101425
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_262
+  - first:
+      213: 1494062006564580242
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_263
+  - first:
+      213: 6308096246388515472
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_264
+  - first:
+      213: -8410557538824722991
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_265
+  - first:
+      213: 5832565335748220033
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_266
+  - first:
+      213: -7950184641809264018
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_267
+  - first:
+      213: 2408997885971467924
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_268
+  - first:
+      213: -3084487500481881904
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_269
+  - first:
+      213: 8944794620002923705
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_270
+  - first:
+      213: 4105593741749845840
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_271
+  - first:
+      213: -2837078653976868068
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_272
+  - first:
+      213: 8792481793839443523
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_273
+  - first:
+      213: 4449927425763732307
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_274
+  - first:
+      213: -5984390687355824926
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_275
+  - first:
+      213: -5985317632069848279
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_276
+  - first:
+      213: 1396868641308455856
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_277
+  - first:
+      213: 50989400239465059
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_278
+  - first:
+      213: -8015496139003526412
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_279
+  - first:
+      213: 934437302181658522
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_280
+  - first:
+      213: -8031841129658840681
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_281
+  - first:
+      213: -5999696932293910322
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_282
+  - first:
+      213: 4018513048418299891
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_283
+  - first:
+      213: -5195651961914385211
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_284
+  - first:
+      213: -7557134875145453707
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_285
+  - first:
+      213: -1433137494627397559
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_286
+  - first:
+      213: -6381190191414116853
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_287
+  - first:
+      213: -8091179666970200297
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_288
+  - first:
+      213: 4894023721442281025
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_289
+  - first:
+      213: -3908186377643002662
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_290
+  - first:
+      213: -4932651287890556114
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_291
+  - first:
+      213: 5413641191484584848
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_292
+  - first:
+      213: 1669163376603638508
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_293
+  - first:
+      213: -8509857929439970707
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_294
+  - first:
+      213: -7517697846836502177
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_295
+  - first:
+      213: -1184950798485997748
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_296
+  - first:
+      213: -8595515607778428348
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_297
+  - first:
+      213: 5380729496252361397
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_298
+  - first:
+      213: -6297954235750768939
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_299
+  - first:
+      213: -6087477282817484134
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_300
+  - first:
+      213: -8826471142941458158
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_301
+  - first:
+      213: 2293955871956536916
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_302
+  - first:
+      213: -2123892438429476766
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_303
+  - first:
+      213: 1058516739605258433
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_304
+  - first:
+      213: 4715121613035596264
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_305
+  - first:
+      213: -8449119142622678182
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_306
+  - first:
+      213: 1875446900378824534
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_307
+  - first:
+      213: 8625580563142399542
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_308
+  - first:
+      213: 5896754147225823799
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_309
+  - first:
+      213: 5963615296795706604
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_310
+  - first:
+      213: 6804275647696962138
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_311
+  - first:
+      213: -7758429098987612656
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_312
+  - first:
+      213: -8935730553903389036
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_313
+  - first:
+      213: -7133123450222821235
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_314
+  - first:
+      213: 8050339429504947656
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_315
+  - first:
+      213: -4584035162131692701
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_316
+  - first:
+      213: 6721175591422574481
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_317
+  - first:
+      213: -7565921440587149585
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_318
+  - first:
+      213: -4233885893077662373
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_319
+  - first:
+      213: -3946101454780476289
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_320
+  - first:
+      213: -8829574589591482349
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_321
+  - first:
+      213: -6333086057944643207
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_322
+  - first:
+      213: 8815271279450950412
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_323
+  - first:
+      213: 295708403773177472
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_324
+  - first:
+      213: -1270022870486509874
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_325
+  - first:
+      213: -6571042179716672401
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_326
+  - first:
+      213: -2294574198917481741
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_327
+  - first:
+      213: -8343320275973771711
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_328
+  - first:
+      213: 2356929102728735370
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_329
+  - first:
+      213: -2515371170576684060
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_330
+  - first:
+      213: -2827025348228309029
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_331
+  - first:
+      213: -5291438184940670994
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_332
+  - first:
+      213: -6447098320865179553
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_333
+  - first:
+      213: -6149053921009640213
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_334
+  - first:
+      213: 3351656568574495543
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_335
+  - first:
+      213: 8612993647753759032
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_336
+  - first:
+      213: 3040279995767932380
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_337
+  - first:
+      213: -5566540698964728324
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_338
+  - first:
+      213: -2474864071531356034
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_339
+  - first:
+      213: -6395678577202152524
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_340
+  - first:
+      213: 3108517133030631972
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_341
+  - first:
+      213: 8827229713592952914
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_342
+  - first:
+      213: -6354259932459219513
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_343
+  - first:
+      213: 4054510295088508691
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_344
+  - first:
+      213: 9004797006825461104
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_345
+  - first:
+      213: -8059097583540110657
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_346
+  - first:
+      213: 4362581291509218209
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_347
+  - first:
+      213: 2288045149094323371
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_348
+  - first:
+      213: 4761122325673743480
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_349
+  - first:
+      213: -955163009911766346
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_350
+  - first:
+      213: 4810843381433413855
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_351
+  - first:
+      213: -2581131633174768871
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_352
+  - first:
+      213: -4367457323035038239
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_353
+  - first:
+      213: 4158446084211843567
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_354
+  - first:
+      213: 1460633958257146438
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_355
+  - first:
+      213: 555696871570201286
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_356
+  - first:
+      213: 6840742811806351374
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_357
+  - first:
+      213: 6681969243226515447
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_358
+  - first:
+      213: 5539213263884897491
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_359
+  - first:
+      213: 4448635347358309693
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_360
+  - first:
+      213: 3595089470713176983
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_361
+  - first:
+      213: 8566295133061791658
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_362
+  - first:
+      213: -1068125742696949725
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_363
+  - first:
+      213: 9122841534641848091
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_364
+  - first:
+      213: 4573264645148522843
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_365
+  - first:
+      213: -1047195687310422012
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_366
+  - first:
+      213: -5826487092138232811
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_367
+  - first:
+      213: 586787573408341076
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_368
+  - first:
+      213: 2190176879569500021
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_369
+  - first:
+      213: -1696698669676393270
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_370
+  - first:
+      213: -1441665343858877745
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_371
+  - first:
+      213: 5593655837316186048
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_372
+  - first:
+      213: 7354651426976227381
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_373
+  - first:
+      213: 5759033712519638639
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_374
+  - first:
+      213: 168280936372205994
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_375
+  - first:
+      213: -8546484528964875552
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_376
+  - first:
+      213: -4796485482976952208
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_377
+  - first:
+      213: 681071983114057851
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_378
+  - first:
+      213: 3867234955767289803
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_379
+  - first:
+      213: -596513549146591122
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_380
+  - first:
+      213: 4624008391266471622
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_381
+  - first:
+      213: -1828271832325429099
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_382
+  - first:
+      213: 2711303025555520921
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_383
+  - first:
+      213: 3196464945743504472
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_384
+  - first:
+      213: 870047024839121419
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_385
+  - first:
+      213: 2309755297132079373
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_386
+  - first:
+      213: -5641887371446339638
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_387
+  - first:
+      213: 3656299848794092837
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_388
+  - first:
+      213: -8900697500894463204
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_389
+  - first:
+      213: -2327918185104274086
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_390
+  - first:
+      213: 1864692268070878706
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_391
+  - first:
+      213: -5175233998552414285
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_392
+  - first:
+      213: 4583644739693509915
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_393
+  - first:
+      213: 1324392766747807325
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_394
+  - first:
+      213: -3397260597593912653
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_395
+  - first:
+      213: -1059827291141525096
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_396
+  - first:
+      213: -2677212425056320298
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_397
+  - first:
+      213: 3300689816750443830
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_398
+  - first:
+      213: 3740113155209515620
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_399
+  - first:
+      213: 3838320452602467088
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_400
+  - first:
+      213: 8619382224769161425
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_401
+  - first:
+      213: 31506409142432974
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_402
+  - first:
+      213: 6128075093430080664
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_403
+  - first:
+      213: 6525158345050547753
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_404
+  - first:
+      213: -7065602581783257020
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_405
+  - first:
+      213: 5556844630656769192
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_406
+  - first:
+      213: -127172933129757180
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_407
+  - first:
+      213: 2014060612470573919
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_408
+  - first:
+      213: -2263825324768620860
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_409
+  - first:
+      213: -2062107396135765044
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_410
+  - first:
+      213: 2694170099816556333
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_411
+  - first:
+      213: 5157268259686583877
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_412
+  - first:
+      213: -8927741934053387275
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_413
+  - first:
+      213: 2546854518522856945
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_414
+  - first:
+      213: 2779366471467610175
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_415
+  - first:
+      213: 65626539276689250
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_416
+  - first:
+      213: 6190313945147802325
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_417
+  - first:
+      213: -524203100912430211
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_418
+  - first:
+      213: -4062233937241950600
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_419
+  - first:
+      213: 1028387487643723580
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_420
+  - first:
+      213: 6507238753545613260
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_421
+  - first:
+      213: 3919896689666774152
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_422
+  - first:
+      213: 8491973411767016544
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_423
+  - first:
+      213: -5221894701129213204
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_424
+  - first:
+      213: -8374342968140922839
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_425
+  - first:
+      213: 7189136500740733194
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_426
+  - first:
+      213: -5119802124430946224
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_427
+  - first:
+      213: -3616750280567011803
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_428
+  - first:
+      213: 7850468818485496926
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_429
+  - first:
+      213: -9170906215500454963
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_430
+  - first:
+      213: -3171839837606852687
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_431
+  - first:
+      213: -2576449691379540720
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_432
+  - first:
+      213: -2541350202150826067
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_433
+  - first:
+      213: 4394648803637293932
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_434
+  - first:
+      213: 717609297242917466
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_435
+  - first:
+      213: -5680308637040564943
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_436
+  - first:
+      213: 1309621870258220691
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_437
+  - first:
+      213: 6846082431670737884
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_438
+  - first:
+      213: -6161169188860730555
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_439
+  - first:
+      213: 63255792670486892
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_440
+  - first:
+      213: -8187465605378863391
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_441
+  - first:
+      213: 6172735995006419106
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_442
+  - first:
+      213: -7351219462117977047
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_443
+  - first:
+      213: 7746462989880538883
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_444
+  - first:
+      213: 8687624359217314891
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_445
+  - first:
+      213: 7435991244681992833
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_446
+  - first:
+      213: -6803838569194587052
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_447
+  - first:
+      213: -397828763160687074
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_448
+  - first:
+      213: 7351538615464803024
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_449
+  - first:
+      213: -7932598239963560936
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_450
+  - first:
+      213: -530373722129307816
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_451
+  - first:
+      213: 8083873427284243800
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_452
+  - first:
+      213: 3582504112580596629
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_453
+  - first:
+      213: -8742315149020954341
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_454
+  - first:
+      213: 8018314423854687444
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_455
+  - first:
+      213: 7093667143616877296
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_456
+  - first:
+      213: -5867336225175153431
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_457
+  - first:
+      213: -467138888810304325
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_458
+  - first:
+      213: -6083340094970538767
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_459
+  - first:
+      213: -8389480666976262073
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_460
+  - first:
+      213: -1839495120935663768
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_461
+  - first:
+      213: -100445259352851756
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_462
+  - first:
+      213: -1883167377980710041
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_463
+  - first:
+      213: 8116882896367236794
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_464
+  - first:
+      213: -4262856240377665628
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_465
+  - first:
+      213: -7579819277838233546
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_466
+  - first:
+      213: -3312654914204955618
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_467
+  - first:
+      213: -3432338832373815114
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_468
+  - first:
+      213: -7477452979333812858
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_469
+  - first:
+      213: 481546646035489964
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_470
+  - first:
+      213: -7968873441213196299
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_471
+  - first:
+      213: -4636879481629079263
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_472
+  - first:
+      213: -7672804844963009550
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_473
+  - first:
+      213: 4215410076638967406
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_474
+  - first:
+      213: -5527088927064341878
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_475
+  - first:
+      213: 7910170211715882463
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_476
+  - first:
+      213: 5457183578386792802
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_477
+  - first:
+      213: -5707675507836815728
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_478
+  - first:
+      213: -6690530019105008683
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_479
+  - first:
+      213: 2445273039864225927
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_480
+  - first:
+      213: -1594666584653669154
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_481
+  - first:
+      213: 8699954106330504123
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_482
+  - first:
+      213: -3743635172246099770
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_483
+  - first:
+      213: 9058863148123590169
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_484
+  - first:
+      213: 6571564439752498814
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_485
+  - first:
+      213: -5790208169099598827
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_486
+  - first:
+      213: -1351544252007379
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_487
+  - first:
+      213: 8291812088740258521
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_488
+  - first:
+      213: 9179235314490960958
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_489
+  - first:
+      213: 2576263957986725364
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_490
+  - first:
+      213: -316847003250281440
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_491
+  - first:
+      213: 2586429284819882875
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_492
+  - first:
+      213: 5934325917553342253
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_493
+  - first:
+      213: -8393355188120046231
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_494
+  - first:
+      213: 1598357505146245806
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_495
+  - first:
+      213: -731869334970073105
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_496
+  - first:
+      213: -8235663292045113641
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_497
+  - first:
+      213: 5032614121971341073
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_498
+  - first:
+      213: 2617262661366972151
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_499
+  - first:
+      213: 4686744676837427071
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_500
+  - first:
+      213: -6847419759008632544
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_501
+  - first:
+      213: 6577437915930131888
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_502
+  - first:
+      213: 1404982731063587663
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_503
+  - first:
+      213: -4445652117076110514
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_504
+  - first:
+      213: 5436927219066186142
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_505
+  - first:
+      213: -2799532956670205167
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_506
+  - first:
+      213: 241716695880341735
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_507
+  - first:
+      213: 1295869890701001132
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_508
+  - first:
+      213: 3655408804802553796
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_509
+  - first:
+      213: -229489929134148352
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_510
+  - first:
+      213: -8650704787145463384
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_511
+  - first:
+      213: -8791449997387550962
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_512
+  - first:
+      213: -2485016781270040891
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_513
+  - first:
+      213: -2454268050129414150
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_514
+  - first:
+      213: 7874602488022385844
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_515
+  - first:
+      213: -310655165609085305
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_516
+  - first:
+      213: -4163724820942953934
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_517
+  - first:
+      213: 8548868878866899462
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_518
+  - first:
+      213: -1133819630681069102
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_519
+  - first:
+      213: -1425303143033195000
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_520
+  - first:
+      213: 7963419400866742989
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_521
+  - first:
+      213: -6328138940751142420
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_522
+  - first:
+      213: -8250767544509682337
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_523
+  - first:
+      213: -2356920426648070561
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_524
+  - first:
+      213: 7425117155496000914
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_525
+  - first:
+      213: 8994648574961960525
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_526
+  - first:
+      213: 5920079495985576454
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_527
+  - first:
+      213: 5607842437548924831
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_528
+  - first:
+      213: -7761790523506998935
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_529
+  - first:
+      213: 4743813525727591504
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_530
+  - first:
+      213: -2630551801541996096
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_531
+  - first:
+      213: -4607622706702199596
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_532
+  - first:
+      213: -1429691119519909465
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_533
+  - first:
+      213: 4601141069464737047
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_534
+  - first:
+      213: -4331606717542401165
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_535
+  - first:
+      213: 5959122129452220905
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_536
+  - first:
+      213: -4266189153577112492
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_537
+  - first:
+      213: 3887393520361779826
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_538
+  - first:
+      213: 4937512798869340957
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_539
+  - first:
+      213: -8154148114402786580
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_540
+  - first:
+      213: -2072895985606763423
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_541
+  - first:
+      213: -8314343434461540835
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_542
+  - first:
+      213: -2611029922715474967
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_543
+  - first:
+      213: -2103944702297562
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_544
+  - first:
+      213: 1627069396307516063
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_545
+  - first:
+      213: 7468746038032934703
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_546
+  - first:
+      213: 2354312613175029938
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_547
+  - first:
+      213: -1054618448053722824
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_548
+  - first:
+      213: 16349022362245575
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_549
+  - first:
+      213: -6340642149536636728
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_550
+  - first:
+      213: -7657374228587263766
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_551
+  - first:
+      213: -3512028009391325610
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_552
+  - first:
+      213: -5219740626663965648
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_553
+  - first:
+      213: -5555547269503448611
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_554
+  - first:
+      213: 2963175688705613679
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_555
+  - first:
+      213: 1533984629063587671
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_556
+  - first:
+      213: 3008008564814058657
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_557
+  - first:
+      213: 4206921568519939469
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_558
+  - first:
+      213: 131639003805814649
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_559
+  - first:
+      213: -5210148145935218222
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_560
+  - first:
+      213: 6398714051469727909
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_561
+  - first:
+      213: 3468156979673763683
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_562
+  - first:
+      213: 1656602392429004151
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_563
+  - first:
+      213: -5409927534857801591
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_564
+  - first:
+      213: -7135974412126106569
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_565
+  - first:
+      213: -8365351672073671671
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_566
+  - first:
+      213: 1430360890804738859
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_567
+  - first:
+      213: 8468630121424682136
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_568
+  - first:
+      213: -236500797176625042
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_569
+  - first:
+      213: -2141449612254569869
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_570
+  - first:
+      213: 8228490123037971628
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_571
+  - first:
+      213: -3725385118780349475
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_572
+  - first:
+      213: -4789412726452520635
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_573
+  - first:
+      213: -4209672935052954077
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_574
+  - first:
+      213: -5849437822240257620
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_575
+  - first:
+      213: 8779913612392627436
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_576
+  - first:
+      213: 5466207270997524896
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_577
+  - first:
+      213: 3403581443733862709
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_578
+  - first:
+      213: 4294069511282056903
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_579
+  - first:
+      213: -5058214623510547669
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_580
+  - first:
+      213: 3356836563593294204
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_581
+  - first:
+      213: -6328256575362666412
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_582
+  - first:
+      213: -3502747089035749437
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_583
+  - first:
+      213: 4147536996435345387
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_584
+  - first:
+      213: -6849263680774632005
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_585
+  - first:
+      213: 2162702143000814209
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_586
+  - first:
+      213: -4698527971996834265
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_587
+  - first:
+      213: -8116373907308537324
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_588
+  - first:
+      213: 8780378788861665379
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_589
+  - first:
+      213: -6172120552331913920
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_590
+  - first:
+      213: -4811851274162563772
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_591
+  - first:
+      213: -2221781537262793715
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_592
+  - first:
+      213: 9195288299998789086
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_593
+  - first:
+      213: -2084705375770366795
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_594
+  - first:
+      213: -4142616220661426236
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_595
+  - first:
+      213: -3240899538774828326
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_596
+  - first:
+      213: -586839804890480792
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_597
+  - first:
+      213: -8054358535190652963
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_598
+  - first:
+      213: -648228939318556925
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_599
+  - first:
+      213: -4971518938192753201
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_600
+  - first:
+      213: 6993430491365409440
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_601
+  - first:
+      213: 8586379117705595526
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_602
+  - first:
+      213: -6463517443480624879
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_603
+  - first:
+      213: -6470437737415756011
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_604
+  - first:
+      213: 1475021501561928909
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_605
+  - first:
+      213: -7498358703961100872
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_606
+  - first:
+      213: -2841599728279795720
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_607
+  - first:
+      213: -8780222365474203235
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_608
+  - first:
+      213: -887563186347372937
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_609
+  - first:
+      213: 144837754366982139
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_610
+  - first:
+      213: 3527312173705067415
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_611
+  - first:
+      213: -7859460696988446
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_612
+  - first:
+      213: 5375040575403910419
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_613
+  - first:
+      213: -7360248979293443653
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_614
+  - first:
+      213: -5666888887656151627
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_615
+  - first:
+      213: 1273115877660833856
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_616
+  - first:
+      213: 2276016377696761119
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_617
+  - first:
+      213: 7012435913948569032
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_618
+  - first:
+      213: -8286582729893055683
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_619
+  - first:
+      213: 2883876288745772611
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_620
+  - first:
+      213: 4035912286944132503
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_621
+  - first:
+      213: 1069959556528867732
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_622
+  - first:
+      213: -3433216141161073133
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_623
+  - first:
+      213: 4777395782108319095
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_624
+  - first:
+      213: 4803869574656964061
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_625
+  - first:
+      213: -638396182237679364
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_626
+  - first:
+      213: -8483350399534669100
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_627
+  - first:
+      213: -391638873785481484
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_628
+  - first:
+      213: -4724677062341721658
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_629
+  - first:
+      213: -1493074927277859527
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_630
+  - first:
+      213: -7643628628166098697
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_631
+  - first:
+      213: 8229207440327020107
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_632
+  - first:
+      213: -8680941073603280952
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_633
+  - first:
+      213: 3210341676487831168
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_634
+  - first:
+      213: 4031910407830064115
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_635
+  - first:
+      213: 4125362829276845002
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_636
+  - first:
+      213: 3914752089261997123
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_637
+  - first:
+      213: -4295419599099718313
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_638
+  - first:
+      213: 7623223111624377758
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_639
+  - first:
+      213: -5841260777034496578
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_640
+  - first:
+      213: -331658519866672597
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_641
+  - first:
+      213: -3975098225115556033
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_642
+  - first:
+      213: 6519950118676490133
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_643
+  - first:
+      213: 7416848426078051993
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_644
+  - first:
+      213: -270348289903682238
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_645
+  - first:
+      213: -5896139817397080469
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_646
+  - first:
+      213: -8340063819488567185
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_647
+  - first:
+      213: 3709590053609241290
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_648
+  - first:
+      213: -4804903318069974502
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_649
+  - first:
+      213: 3594228204430743323
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_650
+  - first:
+      213: -6668959455506515577
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_651
+  - first:
+      213: 712586395560107671
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_652
+  - first:
+      213: 1495565281384355543
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_653
+  - first:
+      213: 9116664613405895158
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_654
+  - first:
+      213: -1414054725705553209
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_655
+  - first:
+      213: 4831724743426168698
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_656
+  - first:
+      213: 7211173588181037221
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_657
+  - first:
+      213: 1676626784431874659
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_658
+  - first:
+      213: 6996534211872531919
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_659
+  - first:
+      213: 1887842781876487830
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_660
+  - first:
+      213: -297613537541041158
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_661
+  - first:
+      213: 310800687925758373
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_662
+  - first:
+      213: 3295097688479763838
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_663
+  - first:
+      213: 2235648414997263627
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_664
+  - first:
+      213: -5659750721597193570
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_665
+  - first:
+      213: -8819754239560194431
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_666
+  - first:
+      213: 4955129982338590874
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_667
+  - first:
+      213: -2959861575754684900
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_668
+  - first:
+      213: 6785896115782202741
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_669
+  - first:
+      213: -6375199991546359837
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_670
+  - first:
+      213: 6548570279409095468
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_671
+  - first:
+      213: -5325831067673468137
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_672
+  - first:
+      213: -7778517651378540677
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_673
+  - first:
+      213: 9126094094392805624
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_674
+  - first:
+      213: 4535701963119633944
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_675
+  - first:
+      213: 1694166353940931127
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_676
+  - first:
+      213: -7823403555745714788
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_677
+  - first:
+      213: 6701371784791241738
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_678
+  - first:
+      213: 7135590944044751335
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_679
+  - first:
+      213: 1366535152567609590
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_680
+  - first:
+      213: -6398285407177622001
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_681
+  - first:
+      213: 7456056996955737910
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_682
+  - first:
+      213: 1059004879337805095
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_683
+  - first:
+      213: 8241953813235060559
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_684
+  - first:
+      213: 3203808181455171603
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_685
+  - first:
+      213: 2913056606323499944
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_686
+  - first:
+      213: 5272438434326811491
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_687
+  - first:
+      213: 7812967670248762760
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_688
+  - first:
+      213: -9060419713888542780
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_689
+  - first:
+      213: 6269796263755804121
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_690
+  - first:
+      213: -222042557717332309
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_691
+  - first:
+      213: -9021471753678557979
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_692
+  - first:
+      213: -1715701417603260305
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_693
+  - first:
+      213: 3636261874217841630
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_694
+  - first:
+      213: 2105425922858234411
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_695
+  - first:
+      213: 5947124588811634414
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_696
+  - first:
+      213: 8579090932965468598
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_697
+  - first:
+      213: 3888833226629161717
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_698
+  - first:
+      213: -55520077684221098
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_699
+  - first:
+      213: -7064449203292174384
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_700
+  - first:
+      213: 7080547840789380063
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_701
+  - first:
+      213: 7765877028544193534
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_702
+  - first:
+      213: -3074333360206651116
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_703
+  - first:
+      213: -6332449738710675260
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_704
+  - first:
+      213: -4284368000835711510
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_705
+  - first:
+      213: -9201098078738958060
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_706
+  - first:
+      213: -1675227557355096231
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_707
+  - first:
+      213: -1158531120360173000
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_708
+  - first:
+      213: 8454778925716510899
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_709
+  - first:
+      213: -2215850227213780397
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_710
+  - first:
+      213: 6295503225112724021
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_711
+  - first:
+      213: 1474333225689299425
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_712
+  - first:
+      213: -4882186608299456734
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_713
+  - first:
+      213: 4918014412014705595
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_714
+  - first:
+      213: -2403504922349295309
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_715
+  - first:
+      213: 5410987746886680851
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_716
+  - first:
+      213: -2729940513636223332
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_717
+  - first:
+      213: 1488532061628954608
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_718
+  - first:
+      213: -4110171591223127216
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_719
+  - first:
+      213: -1488446379728423652
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_720
+  - first:
+      213: -5330229386866857828
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_721
+  - first:
+      213: -2444324287549520890
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_722
+  - first:
+      213: 5660448922677006151
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_723
+  - first:
+      213: -14593638586256740
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_724
+  - first:
+      213: 3406944578977644572
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_725
+  - first:
+      213: -7239277700887294273
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_726
+  - first:
+      213: 6823789936245565267
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_727
+  - first:
+      213: -107568257575000284
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_728
+  - first:
+      213: 9189429991776978311
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_729
+  - first:
+      213: 5063735633946842503
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_730
+  - first:
+      213: 5200416832182884934
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_731
+  - first:
+      213: 2375997245921732191
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_732
+  - first:
+      213: -615723477886994905
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_733
+  - first:
+      213: 1434317817717991932
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_734
+  - first:
+      213: 5662087372505289601
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_735
+  - first:
+      213: 6627730552356068980
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_736
+  - first:
+      213: -1371565847928851464
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_737
+  - first:
+      213: -4727123264484567729
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_738
+  - first:
+      213: 9093762229822754876
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_739
+  - first:
+      213: 6620367982379024614
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_740
+  - first:
+      213: 8064115800431600718
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_741
+  - first:
+      213: 7618459978435077122
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_742
+  - first:
+      213: 9004578839991382132
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_743
+  - first:
+      213: 4791210741188268097
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_744
+  - first:
+      213: -3542905337299958730
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_745
+  - first:
+      213: 1253829061514730786
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_746
+  - first:
+      213: 5416492410333110325
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_747
+  - first:
+      213: -511330570440034573
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_748
+  - first:
+      213: 6503458034536335249
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_749
+  - first:
+      213: 897652206282228021
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_750
+  - first:
+      213: -211835572036855507
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_751
+  - first:
+      213: -2482097633421941567
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_752
+  - first:
+      213: -491398034081961460
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_753
+  - first:
+      213: 8689775555236966230
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_754
+  - first:
+      213: -7024339457727682477
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_755
+  - first:
+      213: 6587142443558383435
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_756
+  - first:
+      213: 6649953285142784090
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_757
+  - first:
+      213: 3646451019062008845
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_758
+  - first:
+      213: 2822797840677627185
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_759
+  - first:
+      213: 4764686984855252275
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_760
+  - first:
+      213: 5790760626880966935
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_761
+  - first:
+      213: 1369364014396475055
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_762
+  - first:
+      213: -6055900857420467856
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_763
+  - first:
+      213: 8364554030288735333
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_764
+  - first:
+      213: -4629580231952514430
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_765
+  - first:
+      213: 5997851930959715148
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_766
+  - first:
+      213: -5687432190359036797
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_767
+  - first:
+      213: -819801161195579640
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_768
+  - first:
+      213: -1110680030479125152
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_769
+  - first:
+      213: 2992675876769139234
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_770
+  - first:
+      213: -5970420700929473494
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_771
+  - first:
+      213: -6721042368331592339
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_772
+  - first:
+      213: 7435568852006079398
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_773
+  - first:
+      213: -6413524971709468552
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_774
+  - first:
+      213: 196074316990700234
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_775
+  - first:
+      213: 6616677254024141118
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_776
+  - first:
+      213: 8104612620586715516
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_777
+  - first:
+      213: 3995032686856553249
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_778
+  - first:
+      213: -7554594433658201431
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_779
+  - first:
+      213: -8815801978263692456
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_780
+  - first:
+      213: 4177769933555023645
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_781
+  - first:
+      213: 2184341369857399855
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_782
+  - first:
+      213: -948316296477930660
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_783
+  - first:
+      213: -3430858744580512473
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_784
+  - first:
+      213: 8866279151999294712
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_785
+  - first:
+      213: -1496013323625386283
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_786
+  - first:
+      213: 4888195988111547218
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_787
+  - first:
+      213: -889378043414276867
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_788
+  - first:
+      213: -3035708861205809514
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_789
+  - first:
+      213: -3227303819105088621
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_790
+  - first:
+      213: -991654951500605216
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_791
+  - first:
+      213: -790343761010834610
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_792
+  - first:
+      213: -3577826226648801337
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_793
+  - first:
+      213: 4357455328140206911
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_794
+  - first:
+      213: -4996316132540220004
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_795
+  - first:
+      213: -2764276560245999434
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_796
+  - first:
+      213: 4005229060193214224
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_797
+  - first:
+      213: -1272914713343714639
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_798
+  - first:
+      213: 4743261416959834484
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_799
+  - first:
+      213: 8662237442040407737
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_800
+  - first:
+      213: -3690794614138600460
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_801
+  - first:
+      213: 540947883934492473
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_802
+  - first:
+      213: 5781811680654049750
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_803
+  - first:
+      213: 1085662282952484970
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_804
+  - first:
+      213: -6409451143922070412
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_805
+  - first:
+      213: -878415878279511682
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_806
+  - first:
+      213: 4568815136490924519
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_807
+  - first:
+      213: 2287865151214262956
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_808
+  - first:
+      213: 7977468427918342673
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_809
+  - first:
+      213: -3997131411002698744
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_810
+  - first:
+      213: 4741593236914208720
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_811
+  - first:
+      213: -2398502718861806545
+    second: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_812
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,12 +3407,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -73,9 +3439,3255 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: industrial_tile_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef89371d0b6f9bf10800000000000000
+      internalID: 2286129525155928318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a926e0b52f54f0b80800000000000000
+      internalID: -8426439470574837094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42fa656036cacb40800000000000000
+      internalID: 5461395409302385230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107bd30d31008a190800000000000000
+      internalID: -7951105057024526591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_5
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc77fadd908faafa0800000000000000
+      internalID: -5788541649773692977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_6
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 307f3eebc307348a0800000000000000
+      internalID: -6322086045695084797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed534af1ea6719c80800000000000000
+      internalID: -8317736546549352994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_8
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 512
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f0a0502141a0ae0800000000000000
+      internalID: -1582430251440795817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a16c31cc6730be0800000000000000
+      internalID: -1512234430989198809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37ef379aaa60eb60800000000000000
+      internalID: 7773330237756008253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1a7e52b4c70bd90800000000000000
+      internalID: -7084025551653461534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8257ab3cb54c580800000000000000
+      internalID: -8807814075024856896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial-sprite-sheet-DeadEnd-LMZ UPSCALED32x32_12
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4946b0233078a9280800000000000000
+      internalID: -9035761254571219820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6b9964cbe7a60c90800000000000000
+      internalID: -7203885922878121105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b010c41203b74860800000000000000
+      internalID: 7514171324810399929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_15
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1e89f427168a760800000000000000
+      internalID: 7469327125583552957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_16
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faa6b8ebdc5394260800000000000000
+      internalID: 7082251046798191279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_17
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84744a2c4f7a2d10800000000000000
+      internalID: 2101632141225129100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_r1
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3770706b698f859f0800000000000000
+      internalID: -479360034132261005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_18
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d95185c63aae990800000000000000
+      internalID: -7355887355626676899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fb67628766a39b0800000000000000
+      internalID: -5099650961816240286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_20
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfe147ead39a40a0800000000000000
+      internalID: -6896537310972481594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a9056fc7c5fe9f0800000000000000
+      internalID: -437028947053471127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_22
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75fa8bf50c90a8480800000000000000
+      internalID: -8896287392072683689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bafc87e40ee5f62a0800000000000000
+      internalID: -6742065799668117589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_24
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1c7f61487d7faf0800000000000000
+      internalID: -362584282659044907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb8de1195e2bbd70800000000000000
+      internalID: 9059886035473632192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_26
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8f7aa6a324aaa10800000000000000
+      internalID: 1921421009691867373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_27
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc8dad9d2e9718f0800000000000000
+      internalID: -569812909082964746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_28
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 950f66aa66f51dd00800000000000000
+      internalID: 995681887175766105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34dd33ebdaca9420800000000000000
+      internalID: 2637643577537975354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_30
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd62b3848b139a9e0800000000000000
+      internalID: -1609700724252662051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36c1c97347152610800000000000000
+      internalID: 1595707221545698875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_32
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c5d9529fedf38010800000000000000
+      internalID: 1190073931950314952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_33
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3570472eef28460800000000000000
+      internalID: 7242631399327880135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_34
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dafc4e592a4d41f0800000000000000
+      internalID: -1059108795825980711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_35
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f60ae863c53d2b00800000000000000
+      internalID: 805359021764249334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_36
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1433cd3989c7dec80800000000000000
+      internalID: -8291834344161660095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_37
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38161fc93b2b15c0800000000000000
+      internalID: -4243750696579098562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4b3d5443944e880800000000000000
+      internalID: -8582654501002693386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_39
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a50b3363e02992c0800000000000000
+      internalID: -4424468997920324191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab898a1e89ba78c40800000000000000
+      internalID: 5514564941847763130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_41
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9815cb3cef3f40bf0800000000000000
+      internalID: -358893794751655543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_42
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dad29d4735e91b380800000000000000
+      internalID: -8957204102583341651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_43
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4834cc9e182c192e0800000000000000
+      internalID: -2120700086285745276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_44
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9420a04e2e5b7200800000000000000
+      internalID: 178840162957010077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_45
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d51a44fb45c7110800000000000000
+      internalID: 1259975176223808771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_46
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c04e3537d345a2b0800000000000000
+      internalID: -5573974372210818880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26862a0b5a88768d0800000000000000
+      internalID: -2853161593701504926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_48
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14980e92519c91270800000000000000
+      internalID: 8221823687475628353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_49
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8599cc69c8190ebd0800000000000000
+      internalID: -2602920551608706728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_50
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cdfd151a95047c80800000000000000
+      internalID: -8326023651763814974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_51
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbeae48f52244e430800000000000000
+      internalID: 3811243915509411515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_52
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b935f4653b21a5c0800000000000000
+      internalID: -4206033068660278859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_53
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5cf4373e513cc990800000000000000
+      internalID: -7364457009934697379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_54
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3cc7f023d238cb40800000000000000
+      internalID: 5460670430559325246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67131b143a5775b0800000000000000
+      internalID: -5370724850776991889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_56
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33bf7dbf4a474fc0800000000000000
+      internalID: -3510755678169877700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_57
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149c8055a91d11db0800000000000000
+      internalID: -4822843265155282623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_58
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f82ce4f1616a0880800000000000000
+      internalID: -8643989461435406088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_59
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811a06462d6b94f50800000000000000
+      internalID: 6866220121646473496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_60
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54559f9a77a891e0800000000000000
+      internalID: -2190817073610533797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_61
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6ab0b9e721d2d70800000000000000
+      internalID: 9019885963669382866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_62
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a84c3acea212d8f70800000000000000
+      internalID: 9191038882775549066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_63
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ed55315581582b0800000000000000
+      internalID: -5583029409380180388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_64
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f58a8d940fe96330800000000000000
+      internalID: 3704754971590952432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_65
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c9f35a677364ee0800000000000000
+      internalID: -1277272461594878877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_66
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9aee203650cfea90800000000000000
+      internalID: -7282390596026701154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_67
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671fc07fbf67008a0800000000000000
+      internalID: -6340937450783968906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_68
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae9f2f3ef7da39b0800000000000000
+      internalID: -5099526141061914967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_69
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc5efe0feaef5eae0800000000000000
+      internalID: -1520529271847655987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_70
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7f403e54a267b70800000000000000
+      internalID: 8896344593566857179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_71
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62138cf7767de34c0800000000000000
+      internalID: -4305767354194185946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_72
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c01ae240dc2984a0800000000000000
+      internalID: -6590687306692554554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_73
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dea799b7cb6cc030800000000000000
+      internalID: 3516303914625904342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_74
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1903d03567626f150800000000000000
+      internalID: 5905950250984353937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_75
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360ef25ba2cdfab90800000000000000
+      internalID: -7228316800919805853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_76
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41b111e30bd204e0800000000000000
+      internalID: -2016808873401142962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_77
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba817b8814e926ee0800000000000000
+      internalID: -1269278140661294933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_78
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e7458061236e7bf0800000000000000
+      internalID: -324713128119679008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_79
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea684004f59c183c0800000000000000
+      internalID: -4358981553384814930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_80
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f7081a11b66a6700800000000000000
+      internalID: 534352416629852149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_81
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b1c43d362502770800000000000000
+      internalID: 8583951478468385677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_82
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4511e966b5d3590800000000000000
+      internalID: -7692892092182211416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_83
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f73cf88092107d80800000000000000
+      internalID: -8255077704987297802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_84
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a612002403bbe10800000000000000
+      internalID: 2214416701810895363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_85
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d748fd5b687501b0800000000000000
+      internalID: -5691010151579367470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a360f6eb512b810800000000000000
+      internalID: 1779508710415415875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_87
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd6be7a3a492a740800000000000000
+      internalID: 5161851553537814006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_88
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b497cb9890d447770800000000000000
+      internalID: 8607589491172735307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_89
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7af78e7c8f1fbe0800000000000000
+      internalID: -1445100467926358029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_90
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ab4400e7570a280800000000000000
+      internalID: -9034091668474381735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_91
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349cbb9c1a87db510800000000000000
+      internalID: 1566540881664395587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_92
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806451b8488230050800000000000000
+      internalID: 5765496497698588168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_93
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43bc56f55646a360800000000000000
+      internalID: 7180503990908269387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_94
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c61e9207ad99ce0800000000000000
+      internalID: -1397846034047996817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_95
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631f4df192274d1d0800000000000000
+      internalID: -3326908703766679242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_96
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db60d359b3a2b3b0800000000000000
+      internalID: -5498152178695509034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_97
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be3884f26097edb0800000000000000
+      internalID: -4762679326237245769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff5b4d7ef5ca58950800000000000000
+      internalID: 6450751569189451263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_99
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af59df0bfb78ead60800000000000000
+      internalID: 7903403653459711482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_100
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f820db6064436e0800000000000000
+      internalID: -1858783751442362611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_101
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458cc3790343864c0800000000000000
+      internalID: -4294124861397350316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_102
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481823db8abf3ea00800000000000000
+      internalID: 784747462239879556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_103
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba74644e3c7ce080800000000000000
+      internalID: -9156807335473808713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_104
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d241bcdd9a0b1beb0800000000000000
+      internalID: -4705785892008422355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_105
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbd7463e6b1e7be0800000000000000
+      internalID: -1477713467559912511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_106
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839dee852f60a8b60800000000000000
+      internalID: 7749013746788260152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_107
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5865172eea6da940800000000000000
+      internalID: 5309017106830157914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_108
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04e2a0a38fdbcae0800000000000000
+      internalID: -1527881892133411828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_109
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad2df627c150a160800000000000000
+      internalID: 7034712533747183011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_110
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1085678a759b374d0800000000000000
+      internalID: -3137960729207482367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_111
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b17cf229ffebd80800000000000000
+      internalID: -8232862065454802119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_112
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cde6da8b21e70780800000000000000
+      internalID: -8716750976623120951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_113
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561535da69284cb50800000000000000
+      internalID: 6612553736551354725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_114
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2377eb69b555ce5f0800000000000000
+      internalID: -726111588054042830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_115
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cbc658b36a8cb0f0800000000000000
+      internalID: -1099852048086152253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_116
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b186dd67b439f1f0800000000000000
+      internalID: -1010718678941531722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_117
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc6dbf41f6f7b770800000000000000
+      internalID: 8626635127536839865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_118
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 526a4fd7b47cf0a10800000000000000
+      internalID: 1877938696686446117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_119
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6cb812dd6e58a080800000000000000
+      internalID: -9175980414998102934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_120
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90401fc258271a60800000000000000
+      internalID: 7644623228611084447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_121
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c07f75a5007d1190800000000000000
+      internalID: -7990106994331651897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_122
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2c170e208564520800000000000000
+      internalID: 2685930997151810295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_123
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07ee3e2755114190800000000000000
+      internalID: -7980073600541595890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_124
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6fd0ceea1b37290800000000000000
+      internalID: -7893770357007583546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_125
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cb6f9689af826b30800000000000000
+      internalID: 4279140554226232261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_126
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed14374b65b8f5b0800000000000000
+      internalID: -5334314286259626521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_127
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af0da384cda8ba50800000000000000
+      internalID: 6537165918662627241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_128
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d679f17ae3cd0d0800000000000000
+      internalID: -3396771131433718488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_129
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd1805503c1d5eb0800000000000000
+      internalID: -4729593039758549516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_130
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8217e1d30cc8f8d0800000000000000
+      internalID: -2812273650514324850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_131
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649f106d96d0463c0800000000000000
+      internalID: -4367350990429357754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_132
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6675b6599e4e00b0800000000000000
+      internalID: -5760580452868589970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_133
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e5d645edfb7d3d0800000000000000
+      internalID: -3181863650093867481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_134
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e9539e16891e57b0800000000000000
+      internalID: -5233717653128652316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_135
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952bed053b9700470800000000000000
+      internalID: 8358814719462519385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_136
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b8d8939cd51f350800000000000000
+      internalID: 6048718893370674073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_137
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3289c461a55376c80800000000000000
+      internalID: -8329630324760995805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_138
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28531aadebfdb4090800000000000000
+      internalID: -8049093898189851262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_139
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91fd9633a578f8200800000000000000
+      internalID: 184514931224862489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_140
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6094db4c3baf32a0800000000000000
+      internalID: -6755492640573845396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_141
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0224a9683954a70800000000000000
+      internalID: 8810610452343169258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_142
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ba82af917068080800000000000000
+      internalID: -9185646581823001728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_143
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61e1eecd35b91fe0800000000000000
+      internalID: -1217742947158466195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_144
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c053263be00e68b70800000000000000
+      internalID: 8901048067288085772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_145
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47edcd421f5353ad0800000000000000
+      internalID: -2723211089853751692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_146
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f0ebce9de90a890800000000000000
+      internalID: -7448779124853829751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_147
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44ba2c9bb0cca0d10800000000000000
+      internalID: 2092709327600266052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_148
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28693e61a2ad5f30800000000000000
+      internalID: 4565984411446241322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_149
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678b1b8ac288ff880800000000000000
+      internalID: -8574985440099977098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_150
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9151e61b38a5000800000000000000
+      internalID: 25477545983285675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_151
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b784059e803de3e0800000000000000
+      internalID: -2022907268675893323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: industrial_tile_152
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e1436fc550469d0800000000000000
+      internalID: -2782092772982383098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
