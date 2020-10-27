@@ -5,10 +5,16 @@ using UnityEngine;
 
 public class PlayerCamera : MonoBehaviour
 {
-    public int DistanceAway;
-    public void Update()
+    public int DistanceAway = 10;
+    private Transform player;
+
+    public void Start()
     {
-        Vector3 PlayerPOS = GameObject.Find("Player").transform.transform.position;
-        transform.position = new Vector3(PlayerPOS.x, PlayerPOS.y, PlayerPOS.z - DistanceAway);
+        player = GameObject.Find("Player").transform;
+    }
+
+    public void LateUpdate()
+    {
+        this.transform.position = new Vector3(player.position.x, player.position.y, player.position.z - DistanceAway);
     }
 }
