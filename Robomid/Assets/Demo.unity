@@ -195,7 +195,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3c642b6bd0e9014f92bfd41884e07f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numberOfRooms: 30
+  numberOfRooms: 200
   roomNamePrefix: Level_
   numberOfObstacles: 60
   possibleObstacleSizes:

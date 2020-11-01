@@ -63,11 +63,9 @@ public class DungeonGeneration : MonoBehaviour
 
     private Room GenerateDungeon()
     {
-        int gridSize = 3 * numberOfRooms;
+        rooms = new Room[numberOfRooms, numberOfRooms];
 
-        rooms = new Room[gridSize, gridSize];
-
-        Vector2Int initialRoomCoordinate = new Vector2Int((gridSize / 2) - 1, (gridSize / 2) - 1);
+        Vector2Int initialRoomCoordinate = new Vector2Int((numberOfRooms / 2) - 1, (numberOfRooms / 2) - 1);
 
         Queue<Room> roomsToCreate = new Queue<Room>();
         roomsToCreate.Enqueue(new Room(initialRoomCoordinate.x, initialRoomCoordinate.y, roomNamePrefix));
@@ -75,6 +73,10 @@ public class DungeonGeneration : MonoBehaviour
         while (roomsToCreate.Count > 0 && createdRooms.Count < numberOfRooms)
         {
             Room currentRoom = roomsToCreate.Dequeue();
+            if (currentRoom.roomCoordinate.x == 0 || currentRoom.roomCoordinate.y == 0)
+            {
+                continue;
+            }
             rooms[currentRoom.roomCoordinate.x, currentRoom.roomCoordinate.y] = currentRoom;
             createdRooms.Add(currentRoom);
             AddNeighbors(currentRoom, roomsToCreate);
