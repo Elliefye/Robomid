@@ -27,20 +27,28 @@ public class AIController : MonoBehaviour
     {
         var distanceFromPlayer = Vector2.Distance(transform.position, Player.transform.position);
 
-        if (distanceFromPlayer >= FollowRange && distanceFromPlayer <= SightRange)
+        if(distanceFromPlayer <= SightRange)
         {
-            Animator.SetBool("IsMoving", true);
-            transform.position = Vector2.MoveTowards(transform.position, Player.transform.position, MoveSpeed * Time.deltaTime);
-
             Flip(transform.position.x - Player.transform.position.x);
-        }
 
-        if (distanceFromPlayer <= AttackRange + 0.01f && !IsAttacking)
-        {
-            Animator.SetBool("IsAttacking", true);
-            Flip(transform.position.x - Player.transform.position.x);
-            _aiLogic.Attack();
-            Invoke("StopAttackAnimation", AttackCooldown);
+            // Enemy rotation to follow player
+            // going to leave for now but it sometimes looks weird
+            transform.LookAt(Player.transform.position);
+            transform.Rotate(new Vector3(0, -90, 0), Space.Self);
+
+            if (distanceFromPlayer >= FollowRange)
+            {
+                Animator.SetBool("IsMoving", true);
+                transform.position = Vector2.MoveTowards(transform.position, Player.transform.position, MoveSpeed * Time.deltaTime);
+
+            }
+
+            if (distanceFromPlayer <= AttackRange + 0.01f && !IsAttacking)
+            {
+                Animator.SetBool("IsAttacking", true);
+                _aiLogic.Attack();
+                Invoke("StopAttackAnimation", AttackCooldown);
+            }
         }
 
         else

@@ -165,8 +165,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AiEnum: 6
-  MoveSpeed: 0
-  SightRange: 0
-  FollowRange: 0
-  AttackRange: 0
-  AttackCooldown: 0
+  MoveSpeed: 1
+  SightRange: 4
+  FollowRange: 3
+  AttackRange: 3
+  AttackCooldown: 2
