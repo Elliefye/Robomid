@@ -4,55 +4,55 @@ using UnityEngine.Tilemaps;
 
 public class Room
 {
-	public Vector2Int roomCoordinate;
-	public Dictionary<string, Room> neighbors;
+	public Vector2Int RoomCoordinate;
+	public Dictionary<string, Room> Neighbors;
 	public string RoomNamePrefix;
 
-	private string[,] population;
+	private string[,] Population;
 
-	private Dictionary<string, GameObject> name2Prefab;
+	private Dictionary<string, GameObject> Name2Prefab;
 
 	public Room(int xCoordinate, int yCoordinate, string roomNamePrefix)
 	{
 		RoomNamePrefix = roomNamePrefix;
-		roomCoordinate = new Vector2Int(xCoordinate, yCoordinate);
-		neighbors = new Dictionary<string, Room>();
-		population = new string[16, 12];
-		for (int xIndex = 0; xIndex < population.GetLength(0); xIndex += 1)
+		RoomCoordinate = new Vector2Int(xCoordinate, yCoordinate);
+		Neighbors = new Dictionary<string, Room>();
+		Population = new string[16, 12];
+		for (int xIndex = 0; xIndex < Population.GetLength(0); xIndex += 1)
 		{
-			for (int yIndex = 0; yIndex < population.GetLength(1); yIndex += 1)
+			for (int yIndex = 0; yIndex < Population.GetLength(1); yIndex += 1)
 			{
-				population[xIndex, yIndex] = "";
+				Population[xIndex, yIndex] = "";
 			}
 		}
-		name2Prefab = new Dictionary<string, GameObject>();
+		Name2Prefab = new Dictionary<string, GameObject>();
 	}
 
 	public Room(Vector2Int roomCoordinate, string roomNamePrefix)
 	{
 		RoomNamePrefix = roomNamePrefix;
         Room room = this;
-        room.roomCoordinate = roomCoordinate;
-		neighbors = new Dictionary<string, Room>();
-		population = new string[16, 12];
-		for (int xIndex = 0; xIndex < population.GetLength(0); xIndex += 1)
+        room.RoomCoordinate = roomCoordinate;
+		Neighbors = new Dictionary<string, Room>();
+		Population = new string[16, 12];
+		for (int xIndex = 0; xIndex < Population.GetLength(0); xIndex += 1)
 		{
-			for (int yIndex = 0; yIndex < population.GetLength(1); yIndex += 1)
+			for (int yIndex = 0; yIndex < Population.GetLength(1); yIndex += 1)
 			{
-				population[xIndex, yIndex] = "";
+				Population[xIndex, yIndex] = "";
 			}
 		}
-		name2Prefab = new Dictionary<string, GameObject>();
+		Name2Prefab = new Dictionary<string, GameObject>();
 	}
 
 	public List<Vector2Int> NeighborCoordinates()
 	{
         List<Vector2Int> neighborCoordinates = new List<Vector2Int>
         {
-            new Vector2Int(roomCoordinate.x, roomCoordinate.y - 1),
-            new Vector2Int(roomCoordinate.x + 1, roomCoordinate.y),
-            new Vector2Int(roomCoordinate.x, roomCoordinate.y + 1),
-            new Vector2Int(roomCoordinate.x - 1, roomCoordinate.y)
+            new Vector2Int(RoomCoordinate.x, RoomCoordinate.y - 1),
+            new Vector2Int(RoomCoordinate.x + 1, RoomCoordinate.y),
+            new Vector2Int(RoomCoordinate.x, RoomCoordinate.y + 1),
+            new Vector2Int(RoomCoordinate.x - 1, RoomCoordinate.y)
         };
 
         return neighborCoordinates;
@@ -61,29 +61,29 @@ public class Room
 	public void Connect(Room neighbor)
 	{
 		string direction = "";
-		if (neighbor.roomCoordinate.y < roomCoordinate.y)
+		if (neighbor.RoomCoordinate.y < RoomCoordinate.y)
 		{
 			direction = "N";
 		}
-		if (neighbor.roomCoordinate.x > roomCoordinate.x)
+		if (neighbor.RoomCoordinate.x > RoomCoordinate.x)
 		{
 			direction = "E";
 		}
-		if (neighbor.roomCoordinate.y > roomCoordinate.y)
+		if (neighbor.RoomCoordinate.y > RoomCoordinate.y)
 		{
 			direction = "S";
 		}
-		if (neighbor.roomCoordinate.x < roomCoordinate.x)
+		if (neighbor.RoomCoordinate.x < RoomCoordinate.x)
 		{
 			direction = "W";
 		}
-		neighbors.Add(direction, neighbor);
+		Neighbors.Add(direction, neighbor);
 	}
 
 	public string PrefabName()
 	{
 		string name = RoomNamePrefix;
-		foreach (KeyValuePair<string, Room> neighborPair in neighbors)
+		foreach (KeyValuePair<string, Room> neighborPair in Neighbors)
 		{
 			name += neighborPair.Key;
 		}
@@ -92,7 +92,7 @@ public class Room
 
 	public Room Neighbor(string direction)
 	{
-		return neighbors[direction];
+		return Neighbors[direction];
 	}
 
 	public void PopulateObstacles(int numberOfObstacles, Vector2Int[] possibleSizes)
@@ -104,7 +104,7 @@ public class Room
 			List<Vector2Int> region = FindFreeRegion(regionSize);
 			foreach (Vector2Int coordinate in region)
 			{
-				population[coordinate.x, coordinate.y] = "Obstacle";
+				Population[coordinate.x, coordinate.y] = "Obstacle";
 			}
 		}
 	}
@@ -117,8 +117,8 @@ public class Room
 			GameObject prefab = possiblePrefabs[choiceIndex];
 			List<Vector2Int> region = FindFreeRegion(new Vector2Int(1, 1));
 
-			population[region[0].x, region[0].y] = prefab.name;
-			name2Prefab[prefab.name] = prefab;
+			Population[region[0].x, region[0].y] = prefab.name;
+			Name2Prefab[prefab.name] = prefab;
 		}
 	}
 
@@ -129,7 +129,7 @@ public class Room
 		{
 			region.Clear();
 
-			Vector2Int centerTile = new Vector2Int(Random.Range(1, population.GetLength(0)-1), Random.Range(1, population.GetLength(1)-1));
+			Vector2Int centerTile = new Vector2Int(Random.Range(1, Population.GetLength(0)-1), Random.Range(1, Population.GetLength(1)-1));
 
 			region.Add(centerTile);
 
@@ -150,7 +150,7 @@ public class Room
 	{
 		foreach (Vector2Int tile in region)
 		{
-			if (population[tile.x, tile.y] != string.Empty)
+			if (Population[tile.x, tile.y] != string.Empty)
 			{
 				return false;
 			}
@@ -160,17 +160,17 @@ public class Room
 
 	public void AddPopulationToTilemap(Tilemap tilemap, TileBase obstacleTile)
 	{
-		for (int xIndex = 0; xIndex < population.GetLength(0); xIndex += 1)
+		for (int xIndex = 0; xIndex < Population.GetLength(0); xIndex += 1)
 		{
-			for (int yIndex = 0; yIndex < population.GetLength(1); yIndex += 1)
+			for (int yIndex = 0; yIndex < Population.GetLength(1); yIndex += 1)
 			{
-				if (population[xIndex, yIndex] == "Obstacle")
+				if (Population[xIndex, yIndex] == "Obstacle")
 				{
 					tilemap.SetTile(new Vector3Int(xIndex - 10, yIndex - 4, 0), obstacleTile);
 				}
-				else if (population[xIndex, yIndex] != "" && population[xIndex, yIndex] != "Player")
+				else if (Population[xIndex, yIndex] != "" && Population[xIndex, yIndex] != "Player")
 				{
-					GameObject prefab = Object.Instantiate(name2Prefab[population[xIndex, yIndex]]);
+					GameObject prefab = Object.Instantiate(Name2Prefab[Population[xIndex, yIndex]]);
 					prefab.transform.position = new Vector2(xIndex - 10 + 0.5f, yIndex - 4 + 0.5f);
 				}
 			}

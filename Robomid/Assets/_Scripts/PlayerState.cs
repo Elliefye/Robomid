@@ -2,22 +2,22 @@
 
 public class PlayerState : MonoBehaviour
 {
-    public PlayerStatistics localPlayerData = new PlayerStatistics();
+    public PlayerStatistics LocalPlayerData = new PlayerStatistics();
 
     public void SavePlayer()
     {
-        GlobalControl.Instance.savedPlayerData = localPlayerData;
+        GlobalControl.Instance.SavedPlayerData = LocalPlayerData;
     }
 
     void Start()
     {
-        localPlayerData = GlobalControl.Instance.savedPlayerData;
+        LocalPlayerData = GlobalControl.Instance.SavedPlayerData;
         MovePlayerToDoor();
     }
 
     void MovePlayerToDoor()
     {
-        switch (localPlayerData.DirectionFrom)
+        switch (LocalPlayerData.DirectionFrom)
         {
             case "N":
                 GameObject.FindGameObjectWithTag("Player").transform.position =

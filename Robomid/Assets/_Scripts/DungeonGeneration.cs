@@ -6,78 +6,78 @@ public class DungeonGeneration : MonoBehaviour
 {
 
     [SerializeField]
-    private int numberOfRooms;
+    private int NumberOfRooms;
     [SerializeField]
-    public string roomNamePrefix;
+    public string RoomNamePrefix;
 
     [SerializeField]
-    private int numberOfObstacles;
+    private int NumberOfObstacles;
     [SerializeField]
-    private Vector2Int[] possibleObstacleSizes;
+    private Vector2Int[] PossibleObstacleSizes;
 
     [SerializeField]
-    private int numberOfEnemies;
+    private int NumberOfEnemies;
     [SerializeField]
-    private GameObject[] possibleEnemies;
-
-    [SerializeField]
-    private GameObject goalPrefab;
+    private GameObject[] PossibleEnemies;
 
     [SerializeField]
-    private TileBase obstacleTile;
+    private GameObject GoalPrefab;
 
-    private Room[,] rooms;
+    [SerializeField]
+    private TileBase ObstacleTile;
 
-    private Room currentRoom;
+    private Room[,] Rooms;
+
+    private Room CurrentRoom;
 
     [HideInInspector]
-    public GameObject roomObject;
+    public GameObject RoomObject;
 
-    private static DungeonGeneration instance = null;
+    private static DungeonGeneration Instance = null;
 
     void Awake()
     {
-        if (instance == null)
+        if (Instance == null)
         {
             DontDestroyOnLoad(gameObject);
-            instance = this;
-            currentRoom = GenerateDungeon();
+            Instance = this;
+            CurrentRoom = GenerateDungeon();
         }
         else
         {
-            string roomPrefabName = instance.currentRoom.PrefabName();
-            roomObject = (GameObject)Instantiate(Resources.Load(roomPrefabName));
-            Tilemap tilemap = roomObject.GetComponentInChildren<Tilemap>();
-            instance.currentRoom.AddPopulationToTilemap(tilemap, instance.obstacleTile);
+            string roomPrefabName = Instance.CurrentRoom.PrefabName();
+            RoomObject = (GameObject)Instantiate(Resources.Load(roomPrefabName));
+            Tilemap tilemap = RoomObject.GetComponentInChildren<Tilemap>();
+            Instance.CurrentRoom.AddPopulationToTilemap(tilemap, Instance.ObstacleTile);
             Destroy(gameObject);
         }
     }
 
     void Start()
     {
-        string roomPrefabName = currentRoom.PrefabName();
-        roomObject = (GameObject)Instantiate(Resources.Load(roomPrefabName));
-        Tilemap tilemap = roomObject.GetComponentInChildren<Tilemap>();
-        currentRoom.AddPopulationToTilemap(tilemap, obstacleTile);
+        string roomPrefabName = CurrentRoom.PrefabName();
+        RoomObject = (GameObject)Instantiate(Resources.Load(roomPrefabName));
+        Tilemap tilemap = RoomObject.GetComponentInChildren<Tilemap>();
+        CurrentRoom.AddPopulationToTilemap(tilemap, ObstacleTile);
     }
 
     private Room GenerateDungeon()
     {
-        rooms = new Room[numberOfRooms, numberOfRooms];
+        Rooms = new Room[NumberOfRooms, NumberOfRooms];
 
-        Vector2Int initialRoomCoordinate = new Vector2Int((numberOfRooms / 2) - 1, (numberOfRooms / 2) - 1);
+        Vector2Int initialRoomCoordinate = new Vector2Int((NumberOfRooms / 2) - 1, (NumberOfRooms / 2) - 1);
 
         Queue<Room> roomsToCreate = new Queue<Room>();
-        roomsToCreate.Enqueue(new Room(initialRoomCoordinate.x, initialRoomCoordinate.y, roomNamePrefix));
+        roomsToCreate.Enqueue(new Room(initialRoomCoordinate.x, initialRoomCoordinate.y, RoomNamePrefix));
         List<Room> createdRooms = new List<Room>();
-        while (roomsToCreate.Count > 0 && createdRooms.Count < numberOfRooms)
+        while (roomsToCreate.Count > 0 && createdRooms.Count < NumberOfRooms)
         {
             Room currentRoom = roomsToCreate.Dequeue();
-            if (currentRoom.roomCoordinate.x == 0 || currentRoom.roomCoordinate.y == 0)
+            if (currentRoom.RoomCoordinate.x == 0 || currentRoom.RoomCoordinate.y == 0)
             {
                 continue;
             }
-            rooms[currentRoom.roomCoordinate.x, currentRoom.roomCoordinate.y] = currentRoom;
+            Rooms[currentRoom.RoomCoordinate.x, currentRoom.RoomCoordinate.y] = currentRoom;
             createdRooms.Add(currentRoom);
             AddNeighbors(currentRoom, roomsToCreate);
         }
@@ -89,16 +89,16 @@ public class DungeonGeneration : MonoBehaviour
             List<Vector2Int> neighborCoordinates = room.NeighborCoordinates();
             foreach (Vector2Int coordinate in neighborCoordinates)
             {
-                Room neighbor = rooms[coordinate.x, coordinate.y];
+                Room neighbor = Rooms[coordinate.x, coordinate.y];
                 if (neighbor != null)
                 {
                     room.Connect(neighbor);
                 }
             }
-            room.PopulateObstacles(numberOfObstacles, possibleObstacleSizes);
-            room.PopulatePrefabs(numberOfEnemies, possibleEnemies);
+            room.PopulateObstacles(NumberOfObstacles, PossibleObstacleSizes);
+            room.PopulatePrefabs(NumberOfEnemies, PossibleEnemies);
 
-            int distanceToInitialRoom = Mathf.Abs(room.roomCoordinate.x - initialRoomCoordinate.x) + Mathf.Abs(room.roomCoordinate.y - initialRoomCoordinate.y);
+            int distanceToInitialRoom = Mathf.Abs(room.RoomCoordinate.x - initialRoomCoordinate.x) + Mathf.Abs(room.RoomCoordinate.y - initialRoomCoordinate.y);
             if (distanceToInitialRoom > maximumDistanceToInitialRoom)
             {
                 maximumDistanceToInitialRoom = distanceToInitialRoom;
@@ -106,10 +106,10 @@ public class DungeonGeneration : MonoBehaviour
             }
         }
 
-        GameObject[] goalPrefabs = { goalPrefab };
+        GameObject[] goalPrefabs = { GoalPrefab };
         finalRoom.PopulatePrefabs(1, goalPrefabs);
 
-        return rooms[initialRoomCoordinate.x, initialRoomCoordinate.y];
+        return Rooms[initialRoomCoordinate.x, initialRoomCoordinate.y];
     }
 
     private void AddNeighbors(Room currentRoom, Queue<Room> roomsToCreate)
@@ -118,7 +118,7 @@ public class DungeonGeneration : MonoBehaviour
         List<Vector2Int> availableNeighbors = new List<Vector2Int>();
         foreach (Vector2Int coordinate in neighborCoordinates)
         {
-            if (rooms[coordinate.x, coordinate.y] == null)
+            if (Rooms[coordinate.x, coordinate.y] == null)
             {
                 availableNeighbors.Add(coordinate);
             }
@@ -143,24 +143,24 @@ public class DungeonGeneration : MonoBehaviour
                     roomFrac += 1f / availableNeighbors.Count;
                 }
             }
-            roomsToCreate.Enqueue(new Room(chosenNeighbor, roomNamePrefix));
+            roomsToCreate.Enqueue(new Room(chosenNeighbor, RoomNamePrefix));
             availableNeighbors.Remove(chosenNeighbor);
         }
     }
 
     public void MoveToRoom(Room room)
     {
-        currentRoom = room;
+        CurrentRoom = room;
     }
 
-    public Room CurrentRoom()
+    public Room GetCurrentRoom()
     {
-        return currentRoom;
+        return CurrentRoom;
     }
 
     public void ResetDungeon()
     {
-        currentRoom = GenerateDungeon();
+        CurrentRoom = GenerateDungeon();
     }
 
 }

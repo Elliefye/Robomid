@@ -2,7 +2,7 @@
 
 public class GlobalControl : MonoBehaviour
 {
-    public PlayerStatistics savedPlayerData = new PlayerStatistics();
+    public PlayerStatistics SavedPlayerData = new PlayerStatistics();
 
     public static GlobalControl Instance;
 

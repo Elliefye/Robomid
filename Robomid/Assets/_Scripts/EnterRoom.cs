@@ -5,7 +5,7 @@ public class EnterRoom : MonoBehaviour
 {
 
     [SerializeField]
-    string direction;
+    string Direction;
 
     void OnCollisionEnter2D(Collision2D col)
     {
@@ -14,10 +14,10 @@ public class EnterRoom : MonoBehaviour
             var dungeon = GameObject.FindGameObjectWithTag("Dungeon");
             var dungeonGeneration = dungeon.GetComponent<DungeonGeneration>();
 
-            var room = dungeonGeneration.CurrentRoom();
-            dungeonGeneration.MoveToRoom(room.Neighbor(direction));
+            var room = dungeonGeneration.GetCurrentRoom();
+            dungeonGeneration.MoveToRoom(room.Neighbor(Direction));
 
-            col.gameObject.GetComponent<PlayerState>().localPlayerData.DirectionFrom = direction;
+            col.gameObject.GetComponent<PlayerState>().LocalPlayerData.DirectionFrom = Direction;
             col.gameObject.GetComponent<PlayerState>().SavePlayer();
 
             SceneManager.LoadScene("Demo");
