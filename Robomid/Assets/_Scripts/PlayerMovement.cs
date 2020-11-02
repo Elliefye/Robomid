@@ -21,22 +21,20 @@ public class PlayerMovement : MonoBehaviour
 
         if (horizontal != 0 || vertical != 0)
         {
-            Animator.SetFloat("Speed", 1);
+            Animator.SetBool("IsMoving", true);
         }
         else
         {
-            Animator.SetFloat("Speed", -1);
+            Animator.SetBool("IsMoving", false);
         }
 
-        if (horizontal < 0)
-        {
-            transform.localRotation = Quaternion.Euler(0, 180, 0);
-        }
-        else
-        {
-            transform.localRotation = Quaternion.Euler(0, 0, 0);
-        }
+        Flip(horizontal);
 
         GetComponent<Rigidbody2D>().velocity = new Vector2(horizontal * Speed, vertical * Speed);
+    }
+
+    private void Flip(float movement)
+    {
+        transform.localRotation = movement < 0 ? Quaternion.Euler(0, 180, 0) : Quaternion.Euler(0, 0, 0);
     }
 }
