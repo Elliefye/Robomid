@@ -34,7 +34,7 @@ public class AIController : MonoBehaviour
             // Enemy rotation to follow player
             // going to leave for now but it sometimes looks weird
             transform.LookAt(Player.transform.position);
-            transform.Rotate(new Vector3(0, -90, 0), Space.Self);
+            transform.Rotate(new Vector2(0, -90), Space.Self);
 
             if (distanceFromPlayer >= FollowRange)
             {
