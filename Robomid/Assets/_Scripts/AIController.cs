@@ -1,8 +1,11 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 public class AIController : MonoBehaviour
 {
     private IAiLogic _aiLogic;
     public AiEnums AiEnum;
+    //sitas visiem enemy type turi but skirtingas tai reik iskelt prie ai bet ne mano darbas jau
+    public int health = 10;
 
     public int MoveSpeed = 4;
 
@@ -16,6 +19,8 @@ public class AIController : MonoBehaviour
     private GameObject Player;
     private Animator Animator;
     public GameObject bullet;
+
+    private bool ableToAttk = true;
 
     void Start()
     {
@@ -47,7 +52,12 @@ public class AIController : MonoBehaviour
             if (distanceFromPlayer <= AttackRange + 0.01f && !IsAttacking)
             {
                 Animator.SetBool("IsAttacking", true);
-                _aiLogic.Attack();
+                if(ableToAttk)
+                {
+                    _aiLogic.Attack();
+                    ableToAttk = false;
+                    StartCoroutine(attackCooldown());
+                }
                 Invoke("StopAttackAnimation", AttackCooldown);
             }
         }
@@ -68,5 +78,21 @@ public class AIController : MonoBehaviour
     {
         Animator.SetBool("IsAttacking", false);
         IsAttacking = false;
+    }
+    
+    private IEnumerator attackCooldown()
+    {
+        yield return new WaitForSeconds(0.5f);
+        ableToAttk = true;
+    }
+
+    public void Damage(int amount)
+    {
+        health -= amount;
+        if (health > 0)
+        {
+            //play damage animation
+        }
+        else Destroy(gameObject); //play death animation
     }
 }

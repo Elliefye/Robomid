@@ -1,8 +1,11 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerState : MonoBehaviour
 {
     public PlayerStatistics LocalPlayerData = new PlayerStatistics();
+    public bool invincible = false;
+    public Text playerHealthDisplay;
 
     public void SavePlayer()
     {
@@ -13,6 +16,11 @@ public class PlayerState : MonoBehaviour
     {
         LocalPlayerData = GlobalControl.Instance.SavedPlayerData;
         MovePlayerToDoor();
+    }
+
+    private void Update()
+    {
+        playerHealthDisplay.text = LocalPlayerData.HP.ToString();
     }
 
     void MovePlayerToDoor()
@@ -35,6 +43,26 @@ public class PlayerState : MonoBehaviour
                 GameObject.FindGameObjectWithTag("Player").transform.position =
                     GameObject.FindGameObjectWithTag("Door E").transform.position + Vector3.left * 1.2f;
                 break;
+        }
+    }
+
+    public void Damage(GameObject damager)
+    {
+        if(!invincible)
+        {
+            if (damager.name == "AK-5000(Clone)")
+            {
+                LocalPlayerData.HP -= 10;
+            }
+            GetComponent<PlayerMovement>().damaged = true;
+
+            if (LocalPlayerData.HP <= 0)
+            {
+                //cia reik playint death animation bet neideta movement??? tai tsg sunaikina
+                //GetComponent<PlayerMovement>().death = true; --sita atkomentuot ir istrint sekancia eilute kai idesim
+                Destroy(gameObject);
+                playerHealthDisplay.text = "Game over";
+            }
         }
     }
 }

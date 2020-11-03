@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    private string shooterTag;
+    private GameObject shooter;
     [SerializeField]
     private Sprite[] weapons; //change self sprite
     private int speed = 1;
@@ -13,7 +13,7 @@ public class Bullet : MonoBehaviour
 
     public void SetValues(Vector2 direction, GameObject shooter, int speed = 1)
     {
-        shooterTag = shooter.tag;
+        this.shooter = shooter;
         this.speed = speed;
         this.direction = Vector2.right;
         if (direction == Vector2.left)
@@ -37,14 +37,14 @@ public class Bullet : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag(shooterTag)) 
+        if(collision.gameObject.CompareTag("Player"))
         {
-            //this should never occur but im leaving it just in case
-            return;
+            collision.gameObject.GetComponent<PlayerState>().Damage(shooter);
         }
-        else if(collision.gameObject.CompareTag("Player") || (collision.gameObject.CompareTag("Enemy")))
+        else if (collision.gameObject.CompareTag("Enemy"))
         {
-            //reduce enemy/player health
+            //damage amount nuo gun type priklauso bet to dar neturim kol kas
+            collision.gameObject.GetComponent<AIController>().Damage(1);
         }
         Destroy(gameObject);
     }
