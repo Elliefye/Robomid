@@ -9,6 +9,7 @@ TagManager:
   - Door N
   - Door S
   - Door W
+  - Enemy
   layers:
   - Default
   - TransparentFX
