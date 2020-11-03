@@ -15,7 +15,13 @@ public class Bullet : MonoBehaviour
     {
         shooterTag = shooter.tag;
         this.speed = speed;
-        this.direction = direction;
+        this.direction = Vector2.right;
+        if (direction == Vector2.left)
+            transform.Rotate(new Vector3(0, 0, 180));
+        else if(direction == Vector2.up)
+            transform.Rotate(new Vector3(0, 0, 90));
+        else if (direction == Vector2.down)
+            transform.Rotate(new Vector3(0, 0, -90));
     }
 
     private void Start()
@@ -33,7 +39,7 @@ public class Bullet : MonoBehaviour
     {
         if (collision.gameObject.CompareTag(shooterTag)) 
         {
-            Debug.Log("return");
+            //this should never occur but im leaving it just in case
             return;
         }
         else if(collision.gameObject.CompareTag("Player") || (collision.gameObject.CompareTag("Enemy")))

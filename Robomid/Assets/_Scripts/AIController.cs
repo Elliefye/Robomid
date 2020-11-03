@@ -15,6 +15,7 @@ public class AIController : MonoBehaviour
 
     private GameObject Player;
     private Animator Animator;
+    public GameObject bullet;
 
     void Start()
     {

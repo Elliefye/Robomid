@@ -37,9 +37,21 @@ public class PlayerMovement : MonoBehaviour
 
     public void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("FireUp"))
         {
             Shoot(Vector2.up);
+        }
+        if (Input.GetButtonDown("FireDown"))
+        {
+            Shoot(Vector2.down);
+        }
+        if (Input.GetButtonDown("FireLeft"))
+        {
+            Shoot(Vector2.left);
+        }
+        if (Input.GetButtonDown("FireRight"))
+        {
+            Shoot(Vector2.right);
         }
     }
 
