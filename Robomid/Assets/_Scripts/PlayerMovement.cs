@@ -67,7 +67,7 @@ public class PlayerMovement : MonoBehaviour
         }      
         if(damaged)
         {
-            StartCoroutine(DamageAnimation());
+            Animator.Play("Player_hurt");
             damaged = false;
         }
         if(death)
@@ -84,37 +84,10 @@ public class PlayerMovement : MonoBehaviour
 
     private void Shoot(Vector2 direction)
     {
-        canAttack = false;
         GameObject bulletInstance = Instantiate(bullet, transform.position, Quaternion.Euler(new Vector3(0, 0, 1)));
         Physics2D.IgnoreCollision(bulletInstance.GetComponent<Collider2D>(), GetComponent<Collider2D>());
         bulletInstance.GetComponent<Bullet>().SetValues(direction, gameObject);
-        Animator.SetBool("IsAttacking", true);
-        StartCoroutine(AttackCooldown());
-    }
-
-    private IEnumerator DamageAnimation()
-    {
-        Debug.Log("damage animation");
-        GetComponent<PlayerState>().invincible = true;
-        Animator.SetBool("IsHurt", true);
-        Animator.Play("Base Layer.Player_hurt");
-
-        if (Animator.GetCurrentAnimatorStateInfo(0).IsName("Player_hurt"))
-        {
-            for(int i = 0; i < 3; i++)
-                yield return null;
-        }
-
-        Animator.Play("Base Layer.Player_idle");
-        Animator.SetBool("IsHurt", false);
-        GetComponent<PlayerState>().invincible = false;
-    }
-
-    private IEnumerator AttackCooldown()
-    {
-        yield return new WaitForSeconds(0.3f);
-        Animator.SetBool("IsAttacking", false);
-        canAttack = true;
+        Animator.Play("Base Layer.Player_cast");
     }
 
     private IEnumerator DeathAnimation()
