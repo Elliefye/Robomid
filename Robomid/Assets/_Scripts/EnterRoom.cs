@@ -11,16 +11,20 @@ public class EnterRoom : MonoBehaviour
     {
         if (col.gameObject.CompareTag("Player"))
         {
-            var dungeon = GameObject.FindGameObjectWithTag("Dungeon");
-            var dungeonGeneration = dungeon.GetComponent<DungeonGeneration>();
+            //GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+            //if (enemies.Length == 0)
+            //{
+                var dungeon = GameObject.FindGameObjectWithTag("Dungeon");
+                var dungeonGeneration = dungeon.GetComponent<DungeonGeneration>();
 
-            var room = dungeonGeneration.GetCurrentRoom();
-            dungeonGeneration.MoveToRoom(room.Neighbor(Direction));
+                var room = dungeonGeneration.GetCurrentRoom();
+                dungeonGeneration.MoveToRoom(room.Neighbor(Direction));
 
-            col.gameObject.GetComponent<PlayerState>().LocalPlayerData.DirectionFrom = Direction;
-            col.gameObject.GetComponent<PlayerState>().SavePlayer();
+                col.gameObject.GetComponent<PlayerState>().LocalPlayerData.DirectionFrom = Direction;
+                col.gameObject.GetComponent<PlayerState>().SavePlayer();
 
-            SceneManager.LoadScene("Demo");
+                SceneManager.LoadScene("Demo");
+            //}
         }
     }
 }
