@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.IO.IsolatedStorage;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -7,12 +6,13 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     private float Speed;
     [SerializeField]
-    private GameObject bullet;
+    private GameObject Bullet;
     private Animator Animator;
-    public bool damaged = false;
-    private bool canAttack = true;
-    public bool death = false;
-    private bool canMove = true;
+
+    public bool IsDamaged = false;
+    private bool CanAttack = true;
+    public bool IsDead = false;
+    private bool CanMove = true;
 
     // Use this for initialization
     void Start()
@@ -23,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if(canMove)
+        if (CanMove)
         {
             float horizontal = Input.GetAxis("Horizontal");
             float vertical = Input.GetAxis("Vertical");
@@ -45,7 +45,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void Update()
     {
-        if(canAttack)
+        if (CanAttack)
         {
             if (Input.GetButtonDown("FireUp"))
             {
@@ -63,17 +63,17 @@ public class PlayerMovement : MonoBehaviour
             {
                 Shoot(Vector2.right);
             }
-            
-        }      
-        if(damaged)
+
+        }
+        if (IsDamaged)
         {
             Animator.Play("Player_hurt");
-            damaged = false;
+            IsDamaged = false;
         }
-        if(death)
+        if (IsDead)
         {
             StartCoroutine(DeathAnimation());
-            death = false;
+            IsDead = false;
         }
     }
 
@@ -84,7 +84,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Shoot(Vector2 direction)
     {
-        GameObject bulletInstance = Instantiate(bullet, transform.position, Quaternion.Euler(new Vector3(0, 0, 1)));
+        GameObject bulletInstance = Instantiate(Bullet, transform.position, Quaternion.Euler(new Vector3(0, 0, 1)));
         Physics2D.IgnoreCollision(bulletInstance.GetComponent<Collider2D>(), GetComponent<Collider2D>());
         bulletInstance.GetComponent<Bullet>().SetValues(direction, gameObject);
         Animator.Play("Base Layer.Player_cast");
@@ -92,10 +92,10 @@ public class PlayerMovement : MonoBehaviour
 
     private IEnumerator DeathAnimation()
     {
-        canAttack = false;
-        canMove = false;
-        Animator.SetTrigger("Death");
-        //laukt kol baigsis death animation
+        CanAttack = false;
+        CanMove = false;
+        Animator.SetTrigger("IsDead");
+        //laukt kol baigsis IsDead animation
         yield return new WaitForSeconds(0.3f);
         Destroy(gameObject);
     }

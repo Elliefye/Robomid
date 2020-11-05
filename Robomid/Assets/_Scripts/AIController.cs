@@ -5,7 +5,7 @@ public class AIController : MonoBehaviour
     private IAiLogic _aiLogic;
     public AiEnums AiEnum;
     //sitas visiem enemy type turi but skirtingas tai reik iskelt prie ai bet ne mano darbas jau
-    public int health = 10;
+    public int Health = 10;
 
     public int MoveSpeed = 4;
 
@@ -18,9 +18,9 @@ public class AIController : MonoBehaviour
 
     private GameObject Player;
     private Animator Animator;
-    public GameObject bullet;
+    public GameObject Bullet;
 
-    private bool ableToAttk = true;
+    private bool IsAbleToAttack = true;
 
     void Start()
     {
@@ -52,10 +52,10 @@ public class AIController : MonoBehaviour
             if (distanceFromPlayer <= AttackRange + 0.01f && !IsAttacking)
             {
                 Animator.SetBool("IsAttacking", true);
-                if(ableToAttk)
+                if(IsAbleToAttack)
                 {
                     _aiLogic.Attack();
-                    ableToAttk = false;
+                    IsAbleToAttack = false;
                     StartCoroutine(attackCooldown());
                 }
                 Invoke("StopAttackAnimation", AttackCooldown);
@@ -83,16 +83,16 @@ public class AIController : MonoBehaviour
     private IEnumerator attackCooldown()
     {
         yield return new WaitForSeconds(0.5f);
-        ableToAttk = true;
+        IsAbleToAttack = true;
     }
 
     public void Damage(int amount)
     {
-        health -= amount;
-        if (health > 0)
+        Health -= amount;
+        if (Health > 0)
         {
-            //play damage animation
+            //play Damage animation
         }
-        else Destroy(gameObject); //play death animation
+        else Destroy(gameObject); //play IsDead animation
     }
 }

@@ -17,13 +17,13 @@ public class Chest : MonoBehaviour
     public int[] table =
     {
         //percentage for getting a certain item
-        40, // money
-        10, // baseHP
-        10, // defence
-        10, // speed
-        10, //damage
-        10, // defence
-        10 // speed
+        40, // Money
+        10, // BaseHP
+        10, // Defence
+        10, // Speed
+        10, //Damage
+        10, // Defence
+        10 // Speed
     };
 
     [SerializeField]

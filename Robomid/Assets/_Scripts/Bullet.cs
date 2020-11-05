@@ -43,7 +43,7 @@ public class Bullet : MonoBehaviour
         }
         else if (collision.gameObject.CompareTag("Enemy"))
         {
-            //damage amount nuo gun type priklauso bet to dar neturim kol kas
+            //Damage amount nuo gun type priklauso bet to dar neturim kol kas
             collision.gameObject.GetComponent<AIController>().Damage(1);
         }
         Destroy(gameObject);
