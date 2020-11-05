@@ -48,7 +48,7 @@ public class PlayerState : MonoBehaviour
 
     public void Damage(GameObject damager)
     {
-        if(!IsInvincible)
+        if (!IsInvincible)
         {
             //TODO paimti duomenis is pacio game object o ne hardcoded values pagal name.
             if (damager.name == "AK-5000(Clone)")
@@ -66,5 +66,16 @@ public class PlayerState : MonoBehaviour
                 playerHealthDisplay.text = "Game over";
             }
         }
+    }
+
+    public void Consumable(GameObject consumable)
+    {
+        //TODO paimti duomenis is pacio game object o ne hardcoded values pagal name.
+        if (consumable.name == "Coin(Clone)")
+        {
+            LocalPlayerData.HP -= 10;
+        }
+        Destroy(gameObject);
+
     }
 }

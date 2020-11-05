@@ -118,6 +118,7 @@ MonoBehaviour:
   tagName: 
   powerUps:
   - {fileID: 4561464766883014080, guid: 738204108ebe3d440a0d99df3ba0ae37, type: 3}
+  - {fileID: 8291889386940930666, guid: 72f8f49884099fe49968c0ef9da89a4e, type: 3}
   spawnPoint: {fileID: 8716910250061352213}
   table: 23000000230000001e000000
   spriteRendered: {fileID: 8716910249581566688}

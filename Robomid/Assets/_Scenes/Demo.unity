@@ -219,7 +219,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 5
-  Bullet: {fileID: 0}
+  Bullet: {fileID: 1994896513789170558, guid: e72f370896fd5714fa43487f158048c6, type: 3}
   IsDamaged: 0
   IsDead: 0
 --- !u!95 &573112931
@@ -750,6 +750,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5452241054339077063, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}
+      propertyPath: PossibleEnemies.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5452241054339077063, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}
       propertyPath: GoalPrefab
       value: 
       objectReference: {fileID: 7345402815312211518, guid: 4cec07cbed1239a40a8f05187c7fa4cf, type: 3}
@@ -769,5 +773,9 @@ PrefabInstance:
       propertyPath: NumberOfRooms
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 5452241054339077063, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}
+      propertyPath: PossibleEnemies.Array.data[8]
+      value: 
+      objectReference: {fileID: 8716910249581566691, guid: 3edc2ac90428ab841bbc932c47fec54a, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}
