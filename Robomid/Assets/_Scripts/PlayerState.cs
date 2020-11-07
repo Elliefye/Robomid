@@ -5,7 +5,7 @@ public class PlayerState : MonoBehaviour
 {
     public PlayerStatistics LocalPlayerData = new PlayerStatistics();
     public bool IsInvincible = false;
-    public Text playerHealthDisplay;
+    public Text PlayerHealthDisplay;
 
     public void SavePlayer()
     {
@@ -20,7 +20,7 @@ public class PlayerState : MonoBehaviour
 
     private void Update()
     {
-        playerHealthDisplay.text = LocalPlayerData.HP.ToString();
+        PlayerHealthDisplay.text = LocalPlayerData.HP.ToString();
     }
 
     void MovePlayerToDoor()
@@ -29,7 +29,7 @@ public class PlayerState : MonoBehaviour
         {
             case "N":
                 GameObject.FindGameObjectWithTag("Player").transform.position =
-                    GameObject.FindGameObjectWithTag("Door S").transform.position + Vector3.up * 1.2f;
+                    GameObject.FindGameObjectWithTag("Door S").transform.position + Vector3.up * 1.4f;
                 break;
             case "E":
                 GameObject.FindGameObjectWithTag("Player").transform.position =
@@ -37,7 +37,7 @@ public class PlayerState : MonoBehaviour
                 break;
             case "S":
                 GameObject.FindGameObjectWithTag("Player").transform.position =
-                    GameObject.FindGameObjectWithTag("Door N").transform.position + Vector3.down * 1.2f;
+                    GameObject.FindGameObjectWithTag("Door N").transform.position + Vector3.down * 1.4f;
                 break;
             case "W":
                 GameObject.FindGameObjectWithTag("Player").transform.position =
@@ -63,7 +63,7 @@ public class PlayerState : MonoBehaviour
                 //cia reik playint IsDead animation bet neideta movement??? tai tsg sunaikina
                 //GetComponent<PlayerMovement>().IsDead = true; --sita atkomentuot ir istrint sekancia eilute kai idesim
                 Destroy(gameObject);
-                playerHealthDisplay.text = "Game over";
+                PlayerHealthDisplay.text = "Game over";
             }
         }
     }

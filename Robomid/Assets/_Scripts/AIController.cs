@@ -1,5 +1,8 @@
 ﻿using System.Collections;
 using UnityEngine;
+/// <summary>
+/// AiController handles global ai controlls that effect all ai 
+/// </summary>
 public class AIController : MonoBehaviour
 {
     private IAiLogic _aiLogic;
@@ -13,6 +16,7 @@ public class AIController : MonoBehaviour
     public float FollowRange = 0;
     public float AttackRange = 0;
     public int AttackCooldown = 2;  //InSeconds
+    public bool IsRotationEnabled = false;
 
     private bool IsAttacking = false;
 
@@ -39,20 +43,21 @@ public class AIController : MonoBehaviour
 
             // Enemy rotation to follow player
             // going to leave for now but it sometimes looks weird
-            transform.LookAt(Player.transform.position);
-            transform.Rotate(new Vector2(0, -90), Space.Self);
+            if (IsRotationEnabled)
+            {
+                Rotate();
+            }
 
             if (distanceFromPlayer >= FollowRange)
             {
                 Animator.SetBool("IsMoving", true);
                 transform.position = Vector2.MoveTowards(transform.position, Player.transform.position, MoveSpeed * Time.deltaTime);
-
             }
 
             if (distanceFromPlayer <= AttackRange + 0.01f && !IsAttacking)
             {
                 Animator.SetBool("IsAttacking", true);
-                if(IsAbleToAttack)
+                if (IsAbleToAttack)
                 {
                     _aiLogic.Attack();
                     IsAbleToAttack = false;
@@ -68,13 +73,21 @@ public class AIController : MonoBehaviour
         }
     }
 
-    void Flip(float movement)
+    private void Rotate()
+    {
+        var relativePos = Player.transform.position - transform.position;
+        var angle = Mathf.Atan2(relativePos.y, relativePos.x) * Mathf.Rad2Deg;
+        var rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+        transform.rotation = rotation;
+    }
+
+    private void Flip(float movement)
     {
         transform.localRotation = movement > 0 ? Quaternion.Euler(0, 180, 0) : Quaternion.Euler(0, 0, 0);
     }
 
 
-    void StopAttackAnimation()
+    private void StopAttackAnimation()
     {
         Animator.SetBool("IsAttacking", false);
         IsAttacking = false;

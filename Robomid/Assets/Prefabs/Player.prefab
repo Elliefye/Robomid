@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2960841935612469072}
   - component: {fileID: 2960841935612469103}
   m_Layer: 0
-  m_Name: Player 1
+  m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -120,9 +120,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 5
-  bullet: {fileID: 1994896513789170558, guid: e72f370896fd5714fa43487f158048c6, type: 3}
-  damaged: 0
-  death: 0
+  Bullet: {fileID: 1994896513789170558, guid: e72f370896fd5714fa43487f158048c6, type: 3}
+  IsDamaged: 0
+  IsDead: 1
 --- !u!50 &2960841935612469073
 Rigidbody2D:
   serializedVersion: 4
@@ -182,7 +182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b43261942ac43214b82f58f3281fe0af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  invincible: 0
+  IsInvincible: 0
   playerHealthDisplay: {fileID: 2960841937084268252}
 --- !u!1 &2960841936178898206
 GameObject:

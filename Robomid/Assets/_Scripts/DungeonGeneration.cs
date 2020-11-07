@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -45,7 +46,7 @@ public class DungeonGeneration : MonoBehaviour
         else
         {
             string roomPrefabName = Instance.CurrentRoom.PrefabName();
-            RoomObject = (GameObject)Instantiate(Resources.Load(roomPrefabName));
+            RoomObject = (GameObject)Instantiate(Resources.Load($"Levels/{roomPrefabName}"));
             Tilemap tilemap = RoomObject.GetComponentInChildren<Tilemap>();
             Instance.CurrentRoom.AddPopulationToTilemap(tilemap, Instance.ObstacleTile);
             Destroy(gameObject);
@@ -55,14 +56,16 @@ public class DungeonGeneration : MonoBehaviour
     void Start()
     {
         string roomPrefabName = CurrentRoom.PrefabName();
-        RoomObject = (GameObject)Instantiate(Resources.Load(roomPrefabName));
+
+        RoomObject = (GameObject)Instantiate(Resources.Load($"Levels/{roomPrefabName}"));
         Tilemap tilemap = RoomObject.GetComponentInChildren<Tilemap>();
         CurrentRoom.AddPopulationToTilemap(tilemap, ObstacleTile);
+        PrintGrid();
     }
 
     private Room GenerateDungeon()
     {
-        Rooms = new Room[NumberOfRooms, NumberOfRooms];
+        Rooms = new Room[1 + NumberOfRooms, 1 + NumberOfRooms];
 
         Vector2Int initialRoomCoordinate = new Vector2Int((NumberOfRooms / 2) - 1, (NumberOfRooms / 2) - 1);
 
@@ -72,10 +75,6 @@ public class DungeonGeneration : MonoBehaviour
         while (roomsToCreate.Count > 0 && createdRooms.Count < NumberOfRooms)
         {
             Room currentRoom = roomsToCreate.Dequeue();
-            if (currentRoom.RoomCoordinate.x == 0 || currentRoom.RoomCoordinate.y == 0)
-            {
-                continue;
-            }
             Rooms[currentRoom.RoomCoordinate.x, currentRoom.RoomCoordinate.y] = currentRoom;
             createdRooms.Add(currentRoom);
             AddNeighbors(currentRoom, roomsToCreate);
@@ -88,7 +87,8 @@ public class DungeonGeneration : MonoBehaviour
             List<Vector2Int> neighborCoordinates = room.NeighborCoordinates();
             foreach (Vector2Int coordinate in neighborCoordinates)
             {
-                Room neighbor = Rooms[coordinate.x, coordinate.y];
+                Room neighbor = null;
+                neighbor = Rooms[coordinate.x, coordinate.y];
                 if (neighbor != null)
                 {
                     room.Connect(neighbor);
@@ -105,7 +105,12 @@ public class DungeonGeneration : MonoBehaviour
             }
         }
 
-        GameObject[] goalPrefabs = { GoalPrefab };
+        var goalPrefabs = new GameObject[] { GoalPrefab };
+
+        if(finalRoom == null)
+        {
+            finalRoom = createdRooms.FirstOrDefault();
+        }
         finalRoom.PopulatePrefabs(1, goalPrefabs);
 
         return Rooms[initialRoomCoordinate.x, initialRoomCoordinate.y];
@@ -117,9 +122,16 @@ public class DungeonGeneration : MonoBehaviour
         List<Vector2Int> availableNeighbors = new List<Vector2Int>();
         foreach (Vector2Int coordinate in neighborCoordinates)
         {
-            if (Rooms[coordinate.x, coordinate.y] == null)
+            try
             {
-                availableNeighbors.Add(coordinate);
+                if (Rooms[coordinate.x, coordinate.y] == null)
+                {
+                    availableNeighbors.Add(coordinate);
+                }
+            }
+            catch (System.IndexOutOfRangeException ex)
+            {
+                Debug.LogError(ex);
             }
         }
 
@@ -161,5 +173,23 @@ public class DungeonGeneration : MonoBehaviour
     {
         CurrentRoom = GenerateDungeon();
     }
-
+    void PrintGrid()
+    {
+        for (int rowIndex = 0; rowIndex < Rooms.GetLength(1); rowIndex++)
+        {
+            string row = "";
+            for (int columnIndex = 0; columnIndex < Rooms.GetLength(0); columnIndex++)
+            {
+                if (Rooms[columnIndex, rowIndex] == null)
+                {
+                    row += "X";
+                }
+                else
+                {
+                    row += "R";
+                }
+            }
+            Debug.Log(row);
+        }
+    }
 }

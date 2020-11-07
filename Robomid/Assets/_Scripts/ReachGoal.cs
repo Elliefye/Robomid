@@ -1,25 +1,54 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using System.Linq;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class ReachGoal : MonoBehaviour
 {
 
-    void OnTriggerEnter2D(Collider2D col)
+    void OnTriggerEnter2D(Collider2D collider)
     {
-        if (col.gameObject.CompareTag("Player"))
+        if (collider.gameObject.CompareTag("Player"))
         {
-            //GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
-            //if (enemies.Length == 0)
-            //{
-            GameObject dungeon = GameObject.FindGameObjectWithTag("Dungeon");
-            DungeonGeneration dungeonGeneration = dungeon.GetComponent<DungeonGeneration>();
-            dungeonGeneration.ResetDungeon();
+           // var enemies = GameObject.FindGameObjectsWithTag("Enemy");
+           //if (enemies.Length == 0)
+           // {
+                ResetDungeon();
+                SavePlayerData(collider);
+                AddFloorEffect();
 
-            col.gameObject.GetComponent<PlayerState>().LocalPlayerData.DirectionFrom = string.Empty;
-            col.gameObject.GetComponent<PlayerState>().SavePlayer();
+                SceneManager.LoadScene("Shop");
+           // }
+        }
+    }
 
-            SceneManager.LoadScene("Shop");
-            //}
+    private static void SavePlayerData(Collider2D col)
+    {
+        col.gameObject.GetComponent<PlayerState>().LocalPlayerData.DirectionFrom = string.Empty;
+        col.gameObject.GetComponent<PlayerState>().SavePlayer();
+    }
+
+    private void ResetDungeon()
+    {
+        var dungeon = GameObject.FindGameObjectWithTag("Dungeon");
+        var dungeonGeneration = dungeon.GetComponent<DungeonGeneration>();
+        dungeonGeneration.ResetDungeon();
+    }
+
+    private void AddFloorEffect()
+    {
+        var values = System.Enum.GetValues(typeof(FloorEffectEnums))
+            .Cast<FloorEffectEnums>()
+            .Select(f => (int)f).ToList();
+        
+        var existingValues = GlobalControl.Instance.FloorEffects.ConvertAll(f => (int)f);
+
+        values.RemoveAll(c => existingValues.Contains(c));
+
+        if(values.Any())
+        {
+            var randomBar = (FloorEffectEnums)values[Random.Range(0, values.Count)];
+            GlobalControl.Instance.FloorEffects.Add(randomBar);
         }
     }
 }

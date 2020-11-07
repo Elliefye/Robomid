@@ -158,7 +158,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsInvincible: 0
-  playerHealthDisplay: {fileID: 1972855788}
+  PlayerHealthDisplay: {fileID: 1972855788}
 --- !u!61 &573112928
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -205,7 +205,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &573112930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -304,7 +304,7 @@ Transform:
   m_LocalScale: {x: 3, y: 3, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &815507977
 GameObject:
@@ -498,6 +498,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f944a5e8169b6384389075760c7ab866, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  FloorEffects: 
 --- !u!4 &1030238626
 Transform:
   m_ObjectHideFlags: 0
@@ -727,7 +728,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5452241054339077060, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5452241054339077060, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -763,7 +764,7 @@ PrefabInstance:
       objectReference: {fileID: 4849056105888925514, guid: 5cb6a883b0ed6e84b92e67b40d3d8797, type: 3}
     - target: {fileID: 5452241054339077063, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}
       propertyPath: NumberOfEnemies
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5452241054339077063, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}
       propertyPath: PossibleEnemies1.Array.data[0]
@@ -771,7 +772,7 @@ PrefabInstance:
       objectReference: {fileID: 7477164805961536474, guid: c77ed24f0b8b30b42a6aade0ed563b61, type: 3}
     - target: {fileID: 5452241054339077063, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}
       propertyPath: NumberOfRooms
-      value: 6
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5452241054339077063, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}
       propertyPath: PossibleEnemies.Array.data[8]

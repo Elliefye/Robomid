@@ -1,24 +1,21 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEditor;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    private GameObject shooter;
+    private GameObject Shooter;
     [SerializeField]
-    private Sprite[] weapons; //change self sprite
-    private int speed = 1;
-    private Vector2 direction;
+    private Sprite[] Weapons; //change self sprite
+    private int Speed = 1;
+    private Vector2 Direction;
 
     public void SetValues(Vector2 direction, GameObject shooter, int speed = 1)
     {
-        this.shooter = shooter;
-        this.speed = speed;
-        this.direction = Vector2.right;
+        this.Shooter = shooter;
+        this.Speed = speed;
+        this.Direction = Vector2.right;
         if (direction == Vector2.left)
             transform.Rotate(new Vector3(0, 0, 180));
-        else if(direction == Vector2.up)
+        else if (direction == Vector2.up)
             transform.Rotate(new Vector3(0, 0, 90));
         else if (direction == Vector2.down)
             transform.Rotate(new Vector3(0, 0, -90));
@@ -31,21 +28,22 @@ public class Bullet : MonoBehaviour
 
     void FixedUpdate()
     {
-        if(direction != null)
-            transform.Translate(direction * (float)speed/10);
+        if (Direction != null)
+            transform.Translate(Direction * Speed / 10);
     }
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player"))
         {
-            collision.gameObject.GetComponent<PlayerState>().Damage(shooter);
+            collision.gameObject.GetComponent<PlayerState>().Damage(Shooter);
         }
         else if (collision.gameObject.CompareTag("Enemy"))
         {
             //Damage amount nuo gun type priklauso bet to dar neturim kol kas
             collision.gameObject.GetComponent<AIController>().Damage(1);
         }
+
         Destroy(gameObject);
     }
 }

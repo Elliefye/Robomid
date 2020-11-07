@@ -3209,6 +3209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f944a5e8169b6384389075760c7ab866, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  FloorEffects: 
 --- !u!4 &1965532892
 Transform:
   m_ObjectHideFlags: 0
@@ -3583,4 +3584,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsInvincible: 0
-  playerHealthDisplay: {fileID: 2960841935829364762}
+  PlayerHealthDisplay: {fileID: 2960841935829364762}

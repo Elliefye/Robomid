@@ -155,8 +155,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AiEnum: 2
+  Health: 10
   MoveSpeed: 2
   SightRange: 10
   FollowRange: 4
   AttackRange: 4
   AttackCooldown: 2
+  IsRotationEnabled: 1
+  Bullet: {fileID: 0}
