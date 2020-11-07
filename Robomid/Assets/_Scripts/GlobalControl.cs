@@ -4,7 +4,7 @@ using UnityEngine;
 public class GlobalControl : MonoBehaviour
 {
     public PlayerStatistics SavedPlayerData = new PlayerStatistics();
-    public List<FloorEffectEnums> FloorEffects = new List<FloorEffectEnums>();
+    public readonly List<FloorEffectEnums> FloorEffects = new List<FloorEffectEnums>();
 
     public static GlobalControl Instance;
 
@@ -19,9 +19,11 @@ public class GlobalControl : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        foreach (var floorEffect in Instance.FloorEffects)
-        {
-            FloorEffectResolver.AddFloorEffect(gameObject, floorEffect);
-        }
+    }
+
+    public void AddFloorEffect(FloorEffectEnums floorEffect)
+    {
+        GlobalControl.Instance.FloorEffects.Add(floorEffect);
+        FloorEffectResolver.AddFloorEffect(Instance.gameObject, floorEffect);
     }
 }

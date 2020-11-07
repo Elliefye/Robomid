@@ -47,8 +47,8 @@ public class ReachGoal : MonoBehaviour
 
         if(values.Any())
         {
-            var randomBar = (FloorEffectEnums)values[Random.Range(0, values.Count)];
-            GlobalControl.Instance.FloorEffects.Add(randomBar);
+            var randomEffect = (FloorEffectEnums)values[Random.Range(0, values.Count)];
+            GlobalControl.Instance.AddFloorEffect(randomEffect);
         }
     }
 }

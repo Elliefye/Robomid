@@ -1,8 +1,14 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GigantismFloorEffect : MonoBehaviour
 {
     void Start()
+    {
+        SceneManager.sceneLoaded += OnLevelLoad;
+    }
+
+    void OnLevelLoad(Scene scene, LoadSceneMode sceneMode)
     {
         var enemies = GameObject.FindGameObjectsWithTag("Enemy");
         foreach (var enemy in enemies)

@@ -498,7 +498,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f944a5e8169b6384389075760c7ab866, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FloorEffects: 
 --- !u!4 &1030238626
 Transform:
   m_ObjectHideFlags: 0
@@ -772,7 +771,7 @@ PrefabInstance:
       objectReference: {fileID: 7477164805961536474, guid: c77ed24f0b8b30b42a6aade0ed563b61, type: 3}
     - target: {fileID: 5452241054339077063, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}
       propertyPath: NumberOfRooms
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5452241054339077063, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}
       propertyPath: PossibleEnemies.Array.data[8]
