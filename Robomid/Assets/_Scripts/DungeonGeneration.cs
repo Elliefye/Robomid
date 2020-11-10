@@ -97,7 +97,7 @@ public class DungeonGeneration : MonoBehaviour
                 }
             }
             room.PopulateObstacles(NumberOfObstacles, PossibleObstacleSizes);
-            room.PopulatePrefabs(NumberOfEnemies, PossibleEnemies1);
+            room.PopulatePrefabs(NumberOfEnemies, PossibleEnemies);
 
             int distanceToInitialRoom = Mathf.Abs(room.RoomCoordinate.x - initialRoomCoordinate.x) + Mathf.Abs(room.RoomCoordinate.y - initialRoomCoordinate.y);
             if (distanceToInitialRoom > maximumDistanceToInitialRoom)
