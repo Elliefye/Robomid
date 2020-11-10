@@ -21,6 +21,8 @@ public class DungeonGeneration : MonoBehaviour
     [SerializeField]
     private GameObject[] PossibleEnemies;
     [SerializeField]
+    private GameObject[] PossibleEnemies1;
+    [SerializeField]
     private GameObject GoalPrefab;
 
     [SerializeField]
@@ -95,7 +97,7 @@ public class DungeonGeneration : MonoBehaviour
                 }
             }
             room.PopulateObstacles(NumberOfObstacles, PossibleObstacleSizes);
-            room.PopulatePrefabs(NumberOfEnemies, PossibleEnemies);
+            room.PopulatePrefabs(NumberOfEnemies, PossibleEnemies1);
 
             int distanceToInitialRoom = Mathf.Abs(room.RoomCoordinate.x - initialRoomCoordinate.x) + Mathf.Abs(room.RoomCoordinate.y - initialRoomCoordinate.y);
             if (distanceToInitialRoom > maximumDistanceToInitialRoom)

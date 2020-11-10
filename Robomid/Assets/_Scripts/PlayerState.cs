@@ -60,9 +60,9 @@ public class PlayerState : MonoBehaviour
 
             if (LocalPlayerData.HP <= 0)
             {
-                //cia reik playint IsDead animation bet neideta movement??? tai tsg sunaikina
-                //GetComponent<PlayerMovement>().IsDead = true; --sita atkomentuot ir istrint sekancia eilute kai idesim
-                Destroy(gameObject);
+                var pm = GetComponent<PlayerMovement>();
+                if (pm.IsDead == false)
+                    pm.death = true;
                 PlayerHealthDisplay.text = "Game over";
             }
         }

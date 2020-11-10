@@ -14,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
     public bool IsDamaged = false;
     private bool CanAttack = true;
     public bool IsDead = false;
+    public bool death = false;
     private bool CanMove = true;
 
     public int weaponType = 0;
@@ -70,15 +71,16 @@ public class PlayerMovement : MonoBehaviour
             }
 
         }
-        if (IsDamaged)
+        if (IsDamaged && !IsDead)
         {
             Animator.Play("Player_hurt");
             IsDamaged = false;
         }
-        if (IsDead)
+        if (death)
         {
+            death = false;
+            IsDead = true;
             StartCoroutine(DeathAnimation());
-            IsDead = false;
         }
     }
 
@@ -100,9 +102,9 @@ public class PlayerMovement : MonoBehaviour
     {
         CanAttack = false;
         CanMove = false;
-        Animator.SetTrigger("IsDead");
+        Animator.Play("Player_death");
         //laukt kol baigsis IsDead animation
-        yield return new WaitForSeconds(0.3f);
+        yield return new WaitForSeconds(0.4f);
         Destroy(gameObject);
     }
 }
