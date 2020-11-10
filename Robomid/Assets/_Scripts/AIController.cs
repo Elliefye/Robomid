@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 /// <summary>
-/// AiController handles global ai controlls that effect all ai 
+/// AiController handles global ai controlls for all enemies
 /// </summary>
 public class AIController : MonoBehaviour
 {

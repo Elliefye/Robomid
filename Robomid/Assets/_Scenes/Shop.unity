@@ -3209,7 +3209,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f944a5e8169b6384389075760c7ab866, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FloorEffects: 
 --- !u!4 &1965532892
 Transform:
   m_ObjectHideFlags: 0
@@ -3462,7 +3461,7 @@ Transform:
   m_GameObject: {fileID: 2960841937127346600}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.39, y: -1.47, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalScale: {x: 3.5, y: 3.5, z: 3.5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7

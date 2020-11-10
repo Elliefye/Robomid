@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using UnityEngine;
-
+/// <summary>
+/// Handles all player input and animations
+/// </summary>
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField]
@@ -14,10 +16,13 @@ public class PlayerMovement : MonoBehaviour
     public bool IsDead = false;
     private bool CanMove = true;
 
+    public int weaponType = 0;
+
     // Use this for initialization
     void Start()
     {
         Animator = GetComponent<Animator>();
+        weaponType = GetComponent<PlayerState>().LocalPlayerData.currentWeapon;
     }
 
     // Update is called once per frame
@@ -84,9 +89,10 @@ public class PlayerMovement : MonoBehaviour
 
     private void Shoot(Vector2 direction)
     {
+        int weaponType = GetComponent<PlayerState>().LocalPlayerData.currentWeapon;
         GameObject bulletInstance = Instantiate(Bullet, transform.position, Quaternion.Euler(new Vector3(0, 0, 1)));
         Physics2D.IgnoreCollision(bulletInstance.GetComponent<Collider2D>(), GetComponent<Collider2D>());
-        bulletInstance.GetComponent<Bullet>().SetValues(direction, gameObject);
+        bulletInstance.GetComponent<Bullet>().SetValues(direction, gameObject, weaponType);
         Animator.Play("Base Layer.Player_cast");
     }
 
