@@ -24,6 +24,11 @@ public class PlayerMovement : MonoBehaviour
     {
         Animator = GetComponent<Animator>();
         weaponType = GetComponent<PlayerState>().LocalPlayerData.currentWeapon;
+
+        Debug.Log("up: " + Vector2.up);
+        Debug.Log("down: " + Vector2.down);
+        Debug.Log("right: " + Vector2.left);
+        Debug.Log("left: " + Vector2.right);
     }
 
     // Update is called once per frame
@@ -57,15 +62,15 @@ public class PlayerMovement : MonoBehaviour
             {
                 Shoot(Vector2.up);
             }
-            if (Input.GetButtonDown("FireDown"))
+            else if (Input.GetButtonDown("FireDown"))
             {
                 Shoot(Vector2.down);
             }
-            if (Input.GetButtonDown("FireLeft"))
+            else if (Input.GetButtonDown("FireLeft"))
             {
                 Shoot(Vector2.left);
             }
-            if (Input.GetButtonDown("FireRight"))
+            else if (Input.GetButtonDown("FireRight"))
             {
                 Shoot(Vector2.right);
             }

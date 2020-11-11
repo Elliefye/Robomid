@@ -222,6 +222,8 @@ MonoBehaviour:
   Bullet: {fileID: 1994896513789170558, guid: e72f370896fd5714fa43487f158048c6, type: 3}
   IsDamaged: 0
   IsDead: 0
+  death: 0
+  weaponType: 0
 --- !u!95 &573112931
 Animator:
   serializedVersion: 3
@@ -777,5 +779,13 @@ PrefabInstance:
       propertyPath: PossibleEnemies.Array.data[8]
       value: 
       objectReference: {fileID: 8716910249581566691, guid: 3edc2ac90428ab841bbc932c47fec54a, type: 3}
+    - target: {fileID: 5452241054339077063, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}
+      propertyPath: PossibleEnemies.Array.data[6]
+      value: 
+      objectReference: {fileID: 7477164805961536474, guid: c77ed24f0b8b30b42a6aade0ed563b61, type: 3}
+    - target: {fileID: 5452241054339077063, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}
+      propertyPath: PossibleEnemies.Array.data[2]
+      value: 
+      objectReference: {fileID: 7477164805961536474, guid: c77ed24f0b8b30b42a6aade0ed563b61, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}

@@ -16,14 +16,24 @@ public class Bullet : MonoBehaviour
         this.Shooter = shooter;
         this.Speed = getSpeed(weaponType);
         this.weaponType = weaponType;
-        GetComponent<SpriteRenderer>().sprite = Weapons[weaponType];
-        this.Direction = Vector2.right;
+        Transform sprite = transform.GetChild(0);
+        sprite.GetComponent<SpriteRenderer>().sprite = Weapons[weaponType];
+        this.Direction = direction;
+        //this.Direction = Vector2.right;
         if (direction == Vector2.left)
-            transform.Rotate(new Vector3(0, 0, 180));
+            sprite.transform.Rotate(new Vector3(0, 0, 180));
         else if (direction == Vector2.up)
-            transform.Rotate(new Vector3(0, 0, 90));
+            sprite.transform.Rotate(new Vector3(0, 0, 90));
         else if (direction == Vector2.down)
-            transform.Rotate(new Vector3(0, 0, -90));
+            sprite.transform.Rotate(new Vector3(0, 0, -90));
+        else if (direction == new Vector2(-1f, -1f)) //downleft
+            sprite.transform.Rotate(new Vector3(0, 0, -135));
+        else if (direction == new Vector2(1f, -1f)) //downright
+            sprite.transform.Rotate(new Vector3(0, 0, -45));
+        else if (direction == new Vector2(1f, 1f)) //upleft
+            sprite.transform.Rotate(new Vector3(0, 0, 45));
+        else if (direction == new Vector2(-1f, 1f)) //upright
+            sprite.transform.Rotate(new Vector3(0, 0, 135));
     }
 
     private void Start()
@@ -39,11 +49,11 @@ public class Bullet : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player") && Shooter.tag != "Player")
         {
             collision.gameObject.GetComponent<PlayerState>().Damage(Shooter);
         }
-        else if (collision.gameObject.CompareTag("Enemy"))
+        else if (collision.gameObject.CompareTag("Enemy") && Shooter.tag != "Enemy")
         {
             collision.gameObject.GetComponent<AIController>().Damage(weaponType + 1);
         }

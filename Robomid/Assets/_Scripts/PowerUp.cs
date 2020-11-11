@@ -6,6 +6,7 @@ public class PowerUp : MonoBehaviour
 {
     public string itemName;
     public int quantity;
+    private bool follow = false;
 
     private GameObject player;
     private PlayerState playerState;
@@ -14,6 +15,18 @@ public class PowerUp : MonoBehaviour
     {
         player = GameObject.FindWithTag("Player");
         playerState = player.GetComponent<PlayerState>();
+        StartCoroutine(waitForPickup());
+    }
+
+    private void FixedUpdate()
+    {
+        if(follow)
+        {
+            Vector2 relativePos = player.transform.position - transform.position;
+            float speed = 5f;
+
+            transform.Translate(relativePos * speed * Time.deltaTime);
+        }
     }
 
     public void OnTriggerStay2D(Collider2D other)
@@ -34,4 +47,9 @@ public class PowerUp : MonoBehaviour
         }
     }
 
+    private IEnumerator waitForPickup()
+    {
+        yield return new WaitForSeconds(3);
+        follow = true;
+    }
 }
