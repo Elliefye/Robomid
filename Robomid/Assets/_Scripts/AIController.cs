@@ -7,7 +7,6 @@ public class AIController : MonoBehaviour
 {
     private IAiLogic _aiLogic;
     public AiEnums AiEnum;
-    //sitas visiem enemy type turi but skirtingas tai reik iskelt prie ai bet ne mano darbas jau
     public int Health = 10;
 
     public int MoveSpeed = 4;

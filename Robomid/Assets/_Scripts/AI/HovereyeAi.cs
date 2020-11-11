@@ -9,7 +9,7 @@ public class HovereyeAi : MonoBehaviour, IAiLogic
 
     void Start()
     {
-
+        GetComponent<AIController>().Health = 7;
     }
 
     void Update()

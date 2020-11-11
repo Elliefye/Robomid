@@ -9,7 +9,7 @@ public class RocketBotAi : MonoBehaviour, IAiLogic
 
     void Start()
     {
-
+        GetComponent<AIController>().Health = 100;
     }
 
     void Update()
