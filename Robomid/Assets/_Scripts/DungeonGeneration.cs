@@ -21,8 +21,6 @@ public class DungeonGeneration : MonoBehaviour
     [SerializeField]
     private GameObject[] PossibleEnemies;
     [SerializeField]
-    private GameObject[] PossibleEnemies1;
-    [SerializeField]
     private GameObject GoalPrefab;
 
     [SerializeField]

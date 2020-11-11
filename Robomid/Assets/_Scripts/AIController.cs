@@ -25,6 +25,7 @@ public class AIController : MonoBehaviour
     public GameObject Bullet;
 
     private bool IsAbleToAttack = true;
+    public bool dead = false;
 
     void Start()
     {
@@ -35,41 +36,44 @@ public class AIController : MonoBehaviour
 
     void Update()
     {
-        var distanceFromPlayer = Vector2.Distance(transform.position, Player.transform.position);
-
-        if(distanceFromPlayer <= SightRange)
+        if(!dead)
         {
-            Flip(transform.position.x - Player.transform.position.x);
+            var distanceFromPlayer = Vector2.Distance(transform.position, Player.transform.position);
 
-            // Enemy rotation to follow player
-            // going to leave for now but it sometimes looks weird
-            if (IsRotationEnabled)
+            if (distanceFromPlayer <= SightRange)
             {
-                Rotate();
-            }
+                Flip(transform.position.x - Player.transform.position.x);
 
-            if (distanceFromPlayer >= FollowRange)
-            {
-                Animator.SetBool("IsMoving", true);
-                transform.position = Vector2.MoveTowards(transform.position, Player.transform.position, MoveSpeed * Time.deltaTime);
-            }
-
-            if (distanceFromPlayer <= AttackRange + 0.01f && !IsAttacking)
-            {
-                Animator.SetBool("IsAttacking", true);
-                if (IsAbleToAttack)
+                // Enemy rotation to follow player
+                // going to leave for now but it sometimes looks weird
+                if (IsRotationEnabled)
                 {
-                    _aiLogic.Attack();
-                    IsAbleToAttack = false;
-                    StartCoroutine(attackCooldown());
+                    Rotate();
                 }
-                Invoke("StopAttackAnimation", AttackCooldown);
-            }
-        }
 
-        else
-        {
-            Animator.SetBool("IsMoving", false);
+                if (distanceFromPlayer >= FollowRange)
+                {
+                    Animator.SetBool("IsMoving", true);
+                    transform.position = Vector2.MoveTowards(transform.position, Player.transform.position, MoveSpeed * Time.deltaTime);
+                }
+
+                if (distanceFromPlayer <= AttackRange + 0.01f && !IsAttacking)
+                {
+                    Animator.SetBool("IsAttacking", true);
+                    if (IsAbleToAttack)
+                    {
+                        _aiLogic.Attack();
+                        IsAbleToAttack = false;
+                        StartCoroutine(attackCooldown());
+                    }
+                    Invoke("StopAttackAnimation", AttackCooldown);
+                }
+            }
+
+            else
+            {
+                Animator.SetBool("IsMoving", false);
+            }
         }
     }
 
@@ -104,8 +108,15 @@ public class AIController : MonoBehaviour
         Health -= amount;
         if (Health > 0)
         {
-            //play Damage animation
+            Animator.Play("hurt");
         }
-        else Destroy(gameObject); //play IsDead animation
+        else StartCoroutine(die());
+    }
+
+    private IEnumerator die()
+    {
+        Animator.Play("death");
+        yield return new WaitForSeconds(0.5f);
+        Destroy(gameObject);
     }
 }
