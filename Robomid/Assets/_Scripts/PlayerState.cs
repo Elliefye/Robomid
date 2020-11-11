@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class PlayerState : MonoBehaviour
+public class PlayerState : MonoBehaviour, IShopCustomer
 {
     public PlayerStatistics LocalPlayerData = new PlayerStatistics();
     public bool IsInvincible = false;
@@ -77,5 +77,26 @@ public class PlayerState : MonoBehaviour
         }
         Destroy(gameObject);
 
+    }
+
+    public void BoughtItem(GameObject shopItem)
+    {
+        UnityEngine.Debug.Log("Bought " + shopItem.name);
+        switch (shopItem.name)
+        {
+            default:
+            case "Health":
+                LocalPlayerData.HP += 10;
+                break;
+            case "TaserPhaser":
+                LocalPlayerData.currentWeapon = 1;
+                break;
+            case "Boomzooka":
+                LocalPlayerData.currentWeapon = 2;
+                break;
+            case "LaserPointer9000":
+                //LocalPlayerData.currentWeapon = 3;
+                break;
+        }
     }
 }

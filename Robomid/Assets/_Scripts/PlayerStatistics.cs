@@ -8,9 +8,9 @@ public class PlayerStatistics
     public int Defence = 1; //prideda 0.1
     public int Speed = 1; //prideda 0.1
     public int Damage = 1; //prideda 0.1
-    public int Money = 0; //prideda 10
+    public int Money = 1000; //prideda 10
     public string DirectionFrom;
-    public int currentWeapon = 2; //default is 0
+    public int currentWeapon = 0; //default is 0
 
     public int HP
     {
