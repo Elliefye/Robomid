@@ -24,11 +24,6 @@ public class PlayerMovement : MonoBehaviour
     {
         Animator = GetComponent<Animator>();
         weaponType = GetComponent<PlayerState>().LocalPlayerData.currentWeapon;
-
-        Debug.Log("up: " + Vector2.up);
-        Debug.Log("down: " + Vector2.down);
-        Debug.Log("right: " + Vector2.left);
-        Debug.Log("left: " + Vector2.right);
     }
 
     // Update is called once per frame

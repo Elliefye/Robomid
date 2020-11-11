@@ -5,7 +5,6 @@ public class PlayerState : MonoBehaviour
 {
     public PlayerStatistics LocalPlayerData = new PlayerStatistics();
     public bool IsInvincible = false;
-    public Text PlayerHealthDisplay;
 
     public void SavePlayer()
     {
@@ -16,11 +15,6 @@ public class PlayerState : MonoBehaviour
     {
         LocalPlayerData = GlobalControl.Instance.SavedPlayerData;
         MovePlayerToDoor();
-    }
-
-    private void Update()
-    {
-        PlayerHealthDisplay.text = LocalPlayerData.HP.ToString();
     }
 
     void MovePlayerToDoor()
@@ -77,5 +71,10 @@ public class PlayerState : MonoBehaviour
         }
         Destroy(gameObject);
 
+    }
+
+    public int GetCurrentHealth()
+    {
+        return LocalPlayerData.HP;
     }
 }
