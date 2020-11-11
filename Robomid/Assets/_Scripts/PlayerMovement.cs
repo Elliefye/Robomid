@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 /// <summary>
 /// Handles all player input and animations
 /// </summary>
@@ -103,8 +104,9 @@ public class PlayerMovement : MonoBehaviour
         CanAttack = false;
         CanMove = false;
         Animator.Play("Player_death");
-        //laukt kol baigsis IsDead animation
-        yield return new WaitForSeconds(0.4f);
+        //laukt kol baigsis death animation
+        yield return new WaitForSeconds(0.45f);
         Destroy(gameObject);
+        SceneManager.LoadScene(3);
     }
 }

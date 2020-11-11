@@ -57,7 +57,6 @@ public class PlayerState : MonoBehaviour
                 var pm = GetComponent<PlayerMovement>();
                 if (pm.IsDead == false)
                     pm.death = true;
-                PlayerHealthDisplay.text = "Game over";
             }
         }
     }
