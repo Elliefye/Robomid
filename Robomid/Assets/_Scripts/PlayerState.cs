@@ -74,7 +74,6 @@ public class PlayerState : MonoBehaviour, IShopCustomer
 
     public void BoughtItem(GameObject shopItem)
     {
-        UnityEngine.Debug.Log("Bought " + shopItem.name);
         switch (shopItem.name)
         {
             default:
@@ -82,15 +81,16 @@ public class PlayerState : MonoBehaviour, IShopCustomer
                 LocalPlayerData.HP += 10;
                 break;
             case "TaserPhaser":
-                LocalPlayerData.currentWeapon = 1;
+                LocalPlayerData.currentWeapon = Weapons.TaserPhaser;
                 break;
             case "Boomzooka":
-                LocalPlayerData.currentWeapon = 2;
+                LocalPlayerData.currentWeapon = Weapons.Boomzooka;
                 break;
             case "LaserPointer9000":
-                //LocalPlayerData.currentWeapon = 3;
+                LocalPlayerData.currentWeapon = Weapons.LaserPointer9000;
                 break;
         }
+    }
 
     public int GetCurrentHealth()
     {

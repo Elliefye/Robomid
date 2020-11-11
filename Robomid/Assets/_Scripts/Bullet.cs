@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 /// <summary>
 /// Handles bullet objects and on collision calls damage methods
 /// </summary>
@@ -6,18 +7,18 @@ public class Bullet : MonoBehaviour
 {
     private GameObject Shooter;
     [SerializeField]
-    private Sprite[] Weapons; //change self sprite
+    private Sprite[] Weapon_sprites; //change self sprite
     private int Speed = 1;
     private Vector2 Direction;
     private int weaponType = 0;
 
-    public void SetValues(Vector2 direction, GameObject shooter, int weaponType = 0)
+    public void SetValues(Vector2 direction, GameObject shooter, int weaponType = (int)Weapons.TaserPhaser)
     {
         this.Shooter = shooter;
-        this.Speed = getSpeed(weaponType);
+        this.Speed = getSpeed((Weapons)weaponType);
         this.weaponType = weaponType;
         Transform sprite = transform.GetChild(0);
-        sprite.GetComponent<SpriteRenderer>().sprite = Weapons[weaponType];
+        sprite.GetComponent<SpriteRenderer>().sprite = Weapon_sprites[weaponType];
         this.Direction = direction;
         if (direction == Vector2.left)
             sprite.transform.Rotate(new Vector3(0, 0, 180));
@@ -54,14 +55,51 @@ public class Bullet : MonoBehaviour
         }
         else if (collision.gameObject.CompareTag("Enemy") && Shooter.tag != "Enemy")
         {
-            collision.gameObject.GetComponent<AIController>().Damage(weaponType + 1);
+            collision.gameObject.GetComponent<AIController>().Damage(getDamage((Weapons)weaponType));
         }
 
         Destroy(gameObject);
     }
 
-    private int getSpeed(int weaponType)
+    private int getSpeed(Weapons weaponType)
     {
-        return weaponType + 1;
+        switch (weaponType)
+        {
+            case Weapons.PlasmaShooter:
+                return 1;
+            case Weapons.LaserPointer9000:
+                return 2;
+            case Weapons.SemiManualGifle:
+                return 3;
+            case Weapons.Boomzooka:
+                return 1;
+            case Weapons.TaserPhaser:
+                return 4;
+            case Weapons.AK5000laser:
+                return 1;
+            default:
+                throw new IndexOutOfRangeException("Weapon out of range, got " + weaponType);
+        }
+    }
+
+    private int getDamage(Weapons weaponType)
+    {
+        switch(weaponType)
+        {
+            case Weapons.PlasmaShooter:
+                return 1;
+            case Weapons.LaserPointer9000:
+                return 2;
+            case Weapons.SemiManualGifle:
+                return 1;
+            case Weapons.Boomzooka:
+                return 3;
+            case Weapons.TaserPhaser:
+                return 1;
+            case Weapons.AK5000laser:
+                return 1;
+            default:
+                throw new IndexOutOfRangeException("Weapon out of range, got " + weaponType);
+        }
     }
 }

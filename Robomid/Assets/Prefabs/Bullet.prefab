@@ -206,10 +206,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e50c4fa6fd604e44913d3095058a362, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Weapons:
+  Weapon_sprites:
+  - {fileID: 21300000, guid: 5eefb4e982245ce4798ea72888879475, type: 3}
+  - {fileID: 21300000, guid: 87a38153a7f307241b7834b319c0bdb9, type: 3}
   - {fileID: 21300000, guid: 1a4ecc323181b0d4892605eeb1b0dc51, type: 3}
-  - {fileID: 21300000, guid: a4e412bfdae72c244bc191c98bb6f2eb, type: 3}
   - {fileID: 21300000, guid: e2b2759a9445e694d90ea208b051e115, type: 3}
+  - {fileID: 21300000, guid: 5e1b414e1c4a29544996af57358142fa, type: 3}
+  - {fileID: 21300000, guid: 32ef3f8ce36fd20459125f683ef10570, type: 3}
 --- !u!50 &2528900815662987758
 Rigidbody2D:
   serializedVersion: 4

@@ -11,11 +11,10 @@ public class AK5000Ai : MonoBehaviour, IAiLogic
     {
         Transform player = GameObject.FindGameObjectWithTag("Player").transform;
         Vector2 relativedir = Snapping.Snap(player.position - transform.position, new Vector2(1f, 1f));
-        Debug.Log(returnApproximation(relativedir));
         GameObject bullet = GetComponent<AIController>().Bullet;
         GameObject bulletInstance = Instantiate(bullet, transform.position, Quaternion.Euler(new Vector3(0, 0, 1)));
         Physics2D.IgnoreCollision(bulletInstance.GetComponent<Collider2D>(), GetComponent<Collider2D>());
-        bulletInstance.GetComponent<Bullet>().SetValues(returnApproximation(relativedir), gameObject);
+        bulletInstance.GetComponent<Bullet>().SetValues(returnApproximation(relativedir), gameObject, (int)Weapons.AK5000laser);
     }
 
     private Vector2 returnApproximation(Vector2 number)

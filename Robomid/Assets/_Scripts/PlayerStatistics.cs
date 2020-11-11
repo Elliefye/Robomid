@@ -10,7 +10,7 @@ public class PlayerStatistics
     public int Damage = 1; //prideda 0.1
     public int Money = 1000; //prideda 10
     public string DirectionFrom;
-    public int currentWeapon = 0; //default is 0
+    public Weapons currentWeapon = Weapons.PlasmaShooter; //default is 0
 
     public int HP
     {

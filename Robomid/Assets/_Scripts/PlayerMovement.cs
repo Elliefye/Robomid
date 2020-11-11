@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
     public bool death = false;
     private bool CanMove = true;
 
-    public int weaponType = 0;
+    public Weapons weaponType;
 
     // Use this for initialization
     void Start()
@@ -92,10 +92,10 @@ public class PlayerMovement : MonoBehaviour
 
     private void Shoot(Vector2 direction)
     {
-        int weaponType = GetComponent<PlayerState>().LocalPlayerData.currentWeapon;
+        Weapons weaponType = GetComponent<PlayerState>().LocalPlayerData.currentWeapon;
         GameObject bulletInstance = Instantiate(Bullet, transform.position, Quaternion.Euler(new Vector3(0, 0, 1)));
         Physics2D.IgnoreCollision(bulletInstance.GetComponent<Collider2D>(), GetComponent<Collider2D>());
-        bulletInstance.GetComponent<Bullet>().SetValues(direction, gameObject, weaponType);
+        bulletInstance.GetComponent<Bullet>().SetValues(direction, gameObject, (int)weaponType);
         Animator.Play("Base Layer.Player_cast");
     }
 
