@@ -25,6 +25,7 @@ public class AIController : MonoBehaviour
 
     private bool IsAbleToAttack = true;
     public bool dead = false;
+    public GameObject[] itemDrops;
 
     void Start()
     {
@@ -116,6 +117,35 @@ public class AIController : MonoBehaviour
     {
         Animator.Play("death");
         yield return new WaitForSeconds(0.5f);
+        DropItem();
         Destroy(gameObject);
     }
+    
+    /*
+    private void OnDestroy()
+    {
+        if (itemDrops.Length >= 1)
+        {
+            //Need to change randomization logic
+            if (Random.Range(0, 101) > 50)
+            {
+                transform.rotation = Quaternion.Euler(0, 0, 0);
+                GameObject item = Instantiate(itemDrops[Random.Range(0, itemDrops.Length)], transform.position, transform.rotation) as GameObject;
+            }
+        }
+    }
+    */
+    private void DropItem()
+    {
+        if (itemDrops.Length >= 1)
+        {
+            //Need to change randomization logic
+            if (Random.Range(0, 101) > 50)
+            {
+                transform.rotation = Quaternion.Euler(0, 0, 0);
+                GameObject item = Instantiate(itemDrops[Random.Range(0, itemDrops.Length)], transform.position, transform.rotation) as GameObject;
+            }
+        }
+    }
+
 }

@@ -9,7 +9,6 @@ using System.Security.AccessControl;
 public class Chest : MonoBehaviour
 {
     //public List<GameObject> powerUps;
-    public string tagName;
     public GameObject[] powerUps;
     public Transform spawnPoint;
 

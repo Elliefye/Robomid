@@ -9,6 +9,7 @@ public class PlayerStatistics
     public int Speed = 1; //prideda 0.1
     public int Damage = 1; //prideda 0.1
     public int Money = 1000; //prideda 10
+    public int Keys = 0;
     public string DirectionFrom;
     public Weapons currentWeapon = Weapons.PlasmaShooter; //default is 0
 

@@ -43,6 +43,11 @@ public class PowerUp : MonoBehaviour
                 playerState.LocalPlayerData.HP += quantity;
                 Destroy(gameObject);
             }
+            else if (itemName == "Key")
+            {
+                playerState.LocalPlayerData.Keys += quantity;
+                Destroy(gameObject);
+            }
 
         }
     }

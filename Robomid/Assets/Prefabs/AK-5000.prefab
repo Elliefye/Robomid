@@ -171,4 +171,8 @@ MonoBehaviour:
   FollowRange: 3
   AttackRange: 3
   AttackCooldown: 2
+  IsRotationEnabled: 0
   Bullet: {fileID: 1994896513789170558, guid: e72f370896fd5714fa43487f158048c6, type: 3}
+  dead: 0
+  itemDrops:
+  - {fileID: 4561464766883014080, guid: 738204108ebe3d440a0d99df3ba0ae37, type: 3}
