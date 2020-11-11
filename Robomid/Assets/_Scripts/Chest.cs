@@ -11,6 +11,7 @@ public class Chest : MonoBehaviour
     //public List<GameObject> powerUps;
     public GameObject[] powerUps;
     public Transform spawnPoint;
+    public bool isLocked;
 
     //LootTable 
     public int[] table =
@@ -34,9 +35,14 @@ public class Chest : MonoBehaviour
     private int total;
     bool isOpen = false;
     private int randomNumber;
+    private GameObject player;
+    private PlayerState playerState;
 
     private void Start()
     {
+            player = GameObject.FindWithTag("Player");
+            playerState = player.GetComponent<PlayerState>();
+
         //Template logic not implemented yet
         /*
         foreach(var item in table)
@@ -82,9 +88,16 @@ public class Chest : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            spriteRendered.sprite = openSprite;
-            OpenChest();
-            isOpen = true;
+            if (isLocked)
+            {
+                UnlockChest();
+            }
+            else
+            {
+                spriteRendered.sprite = openSprite;
+                OpenChest();
+                isOpen = true;
+            }
         }
     }
 
@@ -93,6 +106,15 @@ public class Chest : MonoBehaviour
         if (!isOpen) 
         {
             GameObject item = Instantiate(powerUps[Random.Range(0, powerUps.Length)], spawnPoint.position, spawnPoint.rotation) as GameObject;
+        }
+    }
+
+    void UnlockChest()
+    {
+        if (playerState.LocalPlayerData.Keys >= 1)
+        {
+            playerState.LocalPlayerData.Keys--;
+            isLocked = false;
         }
     }
 }

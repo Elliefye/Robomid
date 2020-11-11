@@ -165,9 +165,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AiEnum: 1
+  Health: 10
   MoveSpeed: 1
   SightRange: 20
   FollowRange: 2
   AttackRange: 2
   AttackCooldown: 2
-  bullet: {fileID: 1994896513789170558, guid: e72f370896fd5714fa43487f158048c6, type: 3}
+  IsRotationEnabled: 0
+  Bullet: {fileID: 0}
+  dead: 0
+  itemDrops:
+  - {fileID: 4561464766883014080, guid: 738204108ebe3d440a0d99df3ba0ae37, type: 3}
+  - {fileID: 242046118598383478, guid: c0d339c0515b315439ffab5d06b78596, type: 3}

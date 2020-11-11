@@ -61,19 +61,6 @@ public class PlayerState : MonoBehaviour, IShopCustomer
         }
     }
 
-    /*
-    public void Consumable(GameObject consumable)
-    {
-        //TODO paimti duomenis is pacio game object o ne hardcoded values pagal name.
-       if (consumable.name == "Coin(Clone)")
-        {
-            LocalPlayerData.HP -= 10;
-        }
-        Destroy(gameObject);
-
-    }
-    */
-
     public void BoughtItem(GameObject shopItem)
     {
         switch (shopItem.name)

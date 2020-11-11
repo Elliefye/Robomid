@@ -158,7 +158,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsInvincible: 0
-  PlayerHealthDisplay: {fileID: 0}
 --- !u!61 &573112928
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -897,7 +896,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5452241054339077063, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}
       propertyPath: PossibleEnemies.Array.size
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5452241054339077063, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}
       propertyPath: GoalPrefab
@@ -935,6 +934,10 @@ PrefabInstance:
       propertyPath: PossibleEnemies.Array.data[7]
       value: 
       objectReference: {fileID: 4849056105888925514, guid: 5cb6a883b0ed6e84b92e67b40d3d8797, type: 3}
+    - target: {fileID: 5452241054339077063, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}
+      propertyPath: PossibleEnemies.Array.data[9]
+      value: 
+      objectReference: {fileID: 4624872142949038791, guid: f9dc09723be859244abdf1419aea2e56, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}
 --- !u!1 &6455406300471824442
