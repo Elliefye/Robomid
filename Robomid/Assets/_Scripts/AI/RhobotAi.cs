@@ -9,7 +9,7 @@ public class RhobotAi : MonoBehaviour, IAiLogic
 
     void Start()
     {
-
+        GetComponent<AIController>().Health = 20;
     }
 
     void Update()

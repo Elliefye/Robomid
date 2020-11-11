@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 /// <summary>
 /// Handles all player input and animations
 /// </summary>
@@ -24,11 +25,6 @@ public class PlayerMovement : MonoBehaviour
     {
         Animator = GetComponent<Animator>();
         weaponType = GetComponent<PlayerState>().LocalPlayerData.currentWeapon;
-
-        Debug.Log("up: " + Vector2.up);
-        Debug.Log("down: " + Vector2.down);
-        Debug.Log("right: " + Vector2.left);
-        Debug.Log("left: " + Vector2.right);
     }
 
     // Update is called once per frame
@@ -108,8 +104,9 @@ public class PlayerMovement : MonoBehaviour
         CanAttack = false;
         CanMove = false;
         Animator.Play("Player_death");
-        //laukt kol baigsis IsDead animation
-        yield return new WaitForSeconds(0.4f);
+        //laukt kol baigsis death animation
+        yield return new WaitForSeconds(0.45f);
         Destroy(gameObject);
+        SceneManager.LoadScene(3);
     }
 }

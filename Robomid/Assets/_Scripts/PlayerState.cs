@@ -5,7 +5,6 @@ public class PlayerState : MonoBehaviour, IShopCustomer
 {
     public PlayerStatistics LocalPlayerData = new PlayerStatistics();
     public bool IsInvincible = false;
-    public Text PlayerHealthDisplay;
 
     public void SavePlayer()
     {
@@ -16,11 +15,6 @@ public class PlayerState : MonoBehaviour, IShopCustomer
     {
         LocalPlayerData = GlobalControl.Instance.SavedPlayerData;
         MovePlayerToDoor();
-    }
-
-    private void Update()
-    {
-        PlayerHealthDisplay.text = LocalPlayerData.HP.ToString();
     }
 
     void MovePlayerToDoor()
@@ -63,7 +57,6 @@ public class PlayerState : MonoBehaviour, IShopCustomer
                 var pm = GetComponent<PlayerMovement>();
                 if (pm.IsDead == false)
                     pm.death = true;
-                PlayerHealthDisplay.text = "Game over";
             }
         }
     }
@@ -98,5 +91,9 @@ public class PlayerState : MonoBehaviour, IShopCustomer
                 //LocalPlayerData.currentWeapon = 3;
                 break;
         }
+
+    public int GetCurrentHealth()
+    {
+        return LocalPlayerData.HP;
     }
 }

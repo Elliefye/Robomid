@@ -2,6 +2,11 @@
 
 public class AK5000Ai : MonoBehaviour, IAiLogic
 {
+    void Start()
+    {
+        GetComponent<AIController>().Health = 10;
+    }
+
     public void Attack()
     {
         Transform player = GameObject.FindGameObjectWithTag("Player").transform;

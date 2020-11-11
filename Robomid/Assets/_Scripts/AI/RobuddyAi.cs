@@ -9,7 +9,7 @@ public class RobuddyAi : MonoBehaviour, IAiLogic
 
     void Start()
     {
-
+        GetComponent<AIController>().Health = 15;
     }
 
     void Update()

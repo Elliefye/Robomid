@@ -19,7 +19,6 @@ public class Bullet : MonoBehaviour
         Transform sprite = transform.GetChild(0);
         sprite.GetComponent<SpriteRenderer>().sprite = Weapons[weaponType];
         this.Direction = direction;
-        //this.Direction = Vector2.right;
         if (direction == Vector2.left)
             sprite.transform.Rotate(new Vector3(0, 0, 180));
         else if (direction == Vector2.up)
