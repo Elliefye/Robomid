@@ -1,26 +1,25 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PowerUp : MonoBehaviour
 {
-    public string itemName;
-    public int quantity;
-    private bool follow = false;
+    public string ItemName;
+    public int Quantity;
+    private bool IsFollowing = false;
 
     private GameObject player;
     private PlayerState playerState;
- 
-    void Start ()
+
+    void Start()
     {
         player = GameObject.FindWithTag("Player");
         playerState = player.GetComponent<PlayerState>();
-        StartCoroutine(waitForPickup());
+        StartCoroutine(WaitForPickup());
     }
 
     private void FixedUpdate()
     {
-        if(follow)
+        if (IsFollowing)
         {
             Vector2 relativePos = player.transform.position - transform.position;
             float speed = 5f;
@@ -33,28 +32,28 @@ public class PowerUp : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            if(itemName == "Coin")
+            if (ItemName == "Coin")
             {
-                playerState.LocalPlayerData.Money += quantity;
+                playerState.LocalPlayerData.Money += Quantity;
                 Destroy(gameObject);
             }
-            else if(itemName == "Heart")
+            else if (ItemName == "Heart")
             {
-                playerState.LocalPlayerData.HP += quantity;
+                playerState.LocalPlayerData.HP += Quantity;
                 Destroy(gameObject);
             }
-            else if (itemName == "Key")
+            else if (ItemName == "Key")
             {
-                playerState.LocalPlayerData.Keys += quantity;
+                playerState.LocalPlayerData.Keys += Quantity;
                 Destroy(gameObject);
             }
 
         }
     }
 
-    private IEnumerator waitForPickup()
+    private IEnumerator WaitForPickup()
     {
         yield return new WaitForSeconds(1.5f);
-        follow = true;
+        IsFollowing = true;
     }
 }

@@ -23,7 +23,7 @@ public class GlobalControl : MonoBehaviour
 
     public void AddFloorEffect(FloorEffectEnums floorEffect)
     {
-        GlobalControl.Instance.FloorEffects.Add(floorEffect);
+        Instance.FloorEffects.Add(floorEffect);
         FloorEffectResolver.AddFloorEffect(Instance.gameObject, floorEffect);
     }
 }

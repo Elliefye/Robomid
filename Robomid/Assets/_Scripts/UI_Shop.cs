@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class UI_Shop : MonoBehaviour
 {
-    private IShopCustomer shopCustomer;
+    private IShopCustomer ShopCustomer;
     private PlayerStatistics LocalPlayerData;
     public Text PlayerMoneyDisplay;
 
@@ -23,14 +23,14 @@ public class UI_Shop : MonoBehaviour
         if (LocalPlayerData.Money >= ShopItem.GetPrice(shopItem.name))
         {
             LocalPlayerData.Money -= ShopItem.GetPrice(shopItem.name);
-            shopCustomer.BoughtItem(shopItem);
+            ShopCustomer.BoughtItem(shopItem);
         }
         
     }
 
     public void Show(IShopCustomer shopCustomer)
     {
-        this.shopCustomer = shopCustomer;
+        this.ShopCustomer = shopCustomer;
         gameObject.SetActive(true);
     }
 

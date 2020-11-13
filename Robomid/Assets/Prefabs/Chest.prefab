@@ -115,14 +115,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71af1f88174f722428c16bd43035e34f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerUps:
+  PowerUps:
   - {fileID: 4561464766883014080, guid: 738204108ebe3d440a0d99df3ba0ae37, type: 3}
   - {fileID: 8291889386940930666, guid: 72f8f49884099fe49968c0ef9da89a4e, type: 3}
   - {fileID: 242046118598383478, guid: c0d339c0515b315439ffab5d06b78596, type: 3}
-  spawnPoint: {fileID: 8716910250061352213}
+  SpawnPoint: {fileID: 8716910250061352213}
+  IsLocked: 0
   table: 23000000230000001e000000
-  spriteRendered: {fileID: 8716910249581566688}
-  openSprite: {fileID: 21300000, guid: a352f0468c970a24bb148cbede574bf1, type: 3}
+  SpriteRendered: {fileID: 8716910249581566688}
+  OpenSprite: {fileID: 21300000, guid: a352f0468c970a24bb148cbede574bf1, type: 3}
+  IsOpen: 0
 --- !u!61 &8716910249581566692
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -157,7 +159,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8716910249581566691}
-  m_BodyType: 2
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0

@@ -1,5 +1,5 @@
 ﻿/// <summary>
-/// Stores global player data
+/// Stores global Player data
 /// </summary>
 public class PlayerStatistics
 {
@@ -11,7 +11,7 @@ public class PlayerStatistics
     public int Money = 1000; //prideda 10
     public int Keys = 0;
     public string DirectionFrom;
-    public Weapons currentWeapon = Weapons.PlasmaShooter; //default is 0
+    public WeaponEnums currentWeapon = WeaponEnums.PlasmaShooter; //default is 0
 
     public int HP
     {

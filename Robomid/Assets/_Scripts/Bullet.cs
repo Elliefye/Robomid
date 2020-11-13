@@ -12,10 +12,10 @@ public class Bullet : MonoBehaviour
     private Vector2 Direction;
     private int weaponType = 0;
 
-    public void SetValues(Vector2 direction, GameObject shooter, int weaponType = (int)Weapons.TaserPhaser)
+    public void SetValues(Vector2 direction, GameObject shooter, int weaponType = (int)WeaponEnums.TaserPhaser)
     {
         this.Shooter = shooter;
-        this.Speed = getSpeed((Weapons)weaponType);
+        this.Speed = getSpeed((WeaponEnums)weaponType);
         this.weaponType = weaponType;
         Transform sprite = transform.GetChild(0);
         sprite.GetComponent<SpriteRenderer>().sprite = Weapon_sprites[weaponType];
@@ -55,48 +55,48 @@ public class Bullet : MonoBehaviour
         }
         else if (collision.gameObject.CompareTag("Enemy") && Shooter.tag != "Enemy")
         {
-            collision.gameObject.GetComponent<AIController>().Damage(getDamage((Weapons)weaponType));
+            collision.gameObject.GetComponent<AIController>().Damage(getDamage((WeaponEnums)weaponType));
         }
 
         Destroy(gameObject);
     }
 
-    private int getSpeed(Weapons weaponType)
+    private int getSpeed(WeaponEnums weaponType)
     {
         switch (weaponType)
         {
-            case Weapons.PlasmaShooter:
+            case WeaponEnums.PlasmaShooter:
                 return 1;
-            case Weapons.LaserPointer9000:
+            case WeaponEnums.LaserPointer9000:
                 return 2;
-            case Weapons.SemiManualGifle:
+            case WeaponEnums.SemiManualGifle:
                 return 3;
-            case Weapons.Boomzooka:
+            case WeaponEnums.Boomzooka:
                 return 1;
-            case Weapons.TaserPhaser:
+            case WeaponEnums.TaserPhaser:
                 return 4;
-            case Weapons.AK5000laser:
+            case WeaponEnums.AK5000laser:
                 return 1;
             default:
                 throw new IndexOutOfRangeException("Weapon out of range, got " + weaponType);
         }
     }
 
-    private int getDamage(Weapons weaponType)
+    private int getDamage(WeaponEnums weaponType)
     {
         switch(weaponType)
         {
-            case Weapons.PlasmaShooter:
+            case WeaponEnums.PlasmaShooter:
                 return 1;
-            case Weapons.LaserPointer9000:
+            case WeaponEnums.LaserPointer9000:
                 return 2;
-            case Weapons.SemiManualGifle:
+            case WeaponEnums.SemiManualGifle:
                 return 1;
-            case Weapons.Boomzooka:
+            case WeaponEnums.Boomzooka:
                 return 3;
-            case Weapons.TaserPhaser:
+            case WeaponEnums.TaserPhaser:
                 return 1;
-            case Weapons.AK5000laser:
+            case WeaponEnums.AK5000laser:
                 return 1;
             default:
                 throw new IndexOutOfRangeException("Weapon out of range, got " + weaponType);

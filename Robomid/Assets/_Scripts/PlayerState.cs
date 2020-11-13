@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 
 public class PlayerState : MonoBehaviour, IShopCustomer
 {
@@ -55,8 +54,7 @@ public class PlayerState : MonoBehaviour, IShopCustomer
             if (LocalPlayerData.HP <= 0)
             {
                 var pm = GetComponent<PlayerMovement>();
-                if (pm.IsDead == false)
-                    pm.death = true;
+                pm.Die();
             }
         }
     }
@@ -70,13 +68,13 @@ public class PlayerState : MonoBehaviour, IShopCustomer
                 LocalPlayerData.HP += 10;
                 break;
             case "TaserPhaser":
-                LocalPlayerData.currentWeapon = Weapons.TaserPhaser;
+                LocalPlayerData.currentWeapon = WeaponEnums.TaserPhaser;
                 break;
             case "Boomzooka":
-                LocalPlayerData.currentWeapon = Weapons.Boomzooka;
+                LocalPlayerData.currentWeapon = WeaponEnums.Boomzooka;
                 break;
             case "LaserPointer9000":
-                LocalPlayerData.currentWeapon = Weapons.LaserPointer9000;
+                LocalPlayerData.currentWeapon = WeaponEnums.LaserPointer9000;
                 break;
         }
     }

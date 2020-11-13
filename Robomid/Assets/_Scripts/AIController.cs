@@ -24,7 +24,7 @@ public class AIController : MonoBehaviour
     public GameObject Bullet;
 
     private bool IsAbleToAttack = true;
-    public bool dead = false;
+    public bool IsDead = false;
     public GameObject[] itemDrops;
 
     void Start()
@@ -36,44 +36,46 @@ public class AIController : MonoBehaviour
 
     void Update()
     {
-        if(!dead)
+        if (IsDead)
         {
-            var distanceFromPlayer = Vector2.Distance(transform.position, Player.transform.position);
+            return;
+        }
 
-            if (distanceFromPlayer <= SightRange)
+        var distanceFromPlayer = Vector2.Distance(transform.position, Player.transform.position);
+
+        if (distanceFromPlayer <= SightRange)
+        {
+            Flip(transform.position.x - Player.transform.position.x);
+
+            // Enemy rotation to IsFollowing Player
+            // going to leave for now but it sometimes looks weird
+            if (IsRotationEnabled)
             {
-                Flip(transform.position.x - Player.transform.position.x);
-
-                // Enemy rotation to follow player
-                // going to leave for now but it sometimes looks weird
-                if (IsRotationEnabled)
-                {
-                    Rotate();
-                }
-
-                if (distanceFromPlayer >= FollowRange)
-                {
-                    Animator.SetBool("IsMoving", true);
-                    transform.position = Vector2.MoveTowards(transform.position, Player.transform.position, MoveSpeed * Time.deltaTime);
-                }
-
-                if (distanceFromPlayer <= AttackRange + 0.01f && !IsAttacking)
-                {
-                    Animator.SetBool("IsAttacking", true);
-                    if (IsAbleToAttack)
-                    {
-                        _aiLogic.Attack();
-                        IsAbleToAttack = false;
-                        StartCoroutine(attackCooldown());
-                    }
-                    Invoke("StopAttackAnimation", AttackCooldown);
-                }
+                Rotate();
             }
 
-            else
+            if (distanceFromPlayer >= FollowRange)
             {
-                Animator.SetBool("IsMoving", false);
+                Animator.SetBool("IsMoving", true);
+                transform.position = Vector2.MoveTowards(transform.position, Player.transform.position, MoveSpeed * Time.deltaTime);
             }
+
+            if (distanceFromPlayer <= AttackRange + 0.01f && !IsAttacking)
+            {
+                Animator.SetBool("IsAttacking", true);
+                if (IsAbleToAttack)
+                {
+                    _aiLogic.Attack();
+                    IsAbleToAttack = false;
+                    StartCoroutine(TriggerAttackCooldown());
+                }
+                Invoke("StopAttackAnimation", AttackCooldown);
+            }
+        }
+
+        else
+        {
+            Animator.SetBool("IsMoving", false);
         }
     }
 
@@ -96,8 +98,8 @@ public class AIController : MonoBehaviour
         Animator.SetBool("IsAttacking", false);
         IsAttacking = false;
     }
-    
-    private IEnumerator attackCooldown()
+
+    private IEnumerator TriggerAttackCooldown()
     {
         yield return new WaitForSeconds(0.5f);
         IsAbleToAttack = true;
@@ -110,17 +112,23 @@ public class AIController : MonoBehaviour
         {
             Animator.Play("hurt");
         }
-        else StartCoroutine(die());
+        else
+        {
+            IsDead = true;
+            StartCoroutine(Die());
+        }
     }
 
-    private IEnumerator die()
+    private IEnumerator Die()
     {
+        Animator.SetBool("IsAttacking", false);
+        Animator.SetBool("IsMoving", false);
         Animator.Play("death");
         yield return new WaitForSeconds(0.5f);
         DropItem();
         Destroy(gameObject);
     }
-    
+
     /*
     private void OnDestroy()
     {
@@ -135,16 +143,14 @@ public class AIController : MonoBehaviour
         }
     }
     */
+
     private void DropItem()
     {
-        if (itemDrops.Length >= 1)
+        //Need to change randomization logic
+        if (itemDrops.Length >= 1 && Random.Range(0, 101) > 50)
         {
-            //Need to change randomization logic
-            if (Random.Range(0, 101) > 50)
-            {
                 transform.rotation = Quaternion.Euler(0, 0, 0);
-                GameObject item = Instantiate(itemDrops[Random.Range(0, itemDrops.Length)], transform.position, transform.rotation) as GameObject;
-            }
+                GameObject item = Instantiate(itemDrops[Random.Range(0, itemDrops.Length)], transform.position, transform.rotation);
         }
     }
 

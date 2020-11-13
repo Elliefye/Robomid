@@ -163,6 +163,6 @@ MonoBehaviour:
   AttackCooldown: 2
   IsRotationEnabled: 1
   Bullet: {fileID: 0}
-  dead: 0
+  IsDead: 0
   itemDrops:
   - {fileID: 4561464766883014080, guid: 738204108ebe3d440a0d99df3ba0ae37, type: 3}

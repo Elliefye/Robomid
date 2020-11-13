@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -7,10 +8,11 @@ public class Room
     public Vector2Int RoomCoordinate;
     public Dictionary<string, Room> Neighbors;
     public string RoomNamePrefix;
+    public bool IsCleared { get; private set; } = false;
 
     private string[,] Population;
 
-    private Dictionary<string, GameObject> Name2Prefab;
+    public Dictionary<Tuple<int, int>, GameObject> PopulationToGameObject;
 
     public Room(int xCoordinate, int yCoordinate, string roomNamePrefix)
     {
@@ -22,10 +24,10 @@ public class Room
         {
             for (int yIndex = 0; yIndex < Population.GetLength(1); yIndex += 1)
             {
-                Population[xIndex, yIndex] = "";
+                Population[xIndex, yIndex] = string.Empty;
             }
         }
-        Name2Prefab = new Dictionary<string, GameObject>();
+        PopulationToGameObject = new Dictionary<Tuple<int, int>, GameObject>();
     }
 
     public Room(Vector2Int roomCoordinate, string roomNamePrefix)
@@ -39,10 +41,10 @@ public class Room
         {
             for (int yIndex = 0; yIndex < Population.GetLength(1); yIndex += 1)
             {
-                Population[xIndex, yIndex] = "";
+                Population[xIndex, yIndex] = string.Empty;
             }
         }
-        Name2Prefab = new Dictionary<string, GameObject>();
+        PopulationToGameObject = new Dictionary<Tuple<int, int>, GameObject>();
     }
 
     public List<Vector2Int> NeighborCoordinates()
@@ -104,7 +106,7 @@ public class Room
     {
         for (int obstacleIndex = 0; obstacleIndex < numberOfObstacles; obstacleIndex += 1)
         {
-            int sizeIndex = Random.Range(0, possibleSizes.Length);
+            int sizeIndex = UnityEngine.Random.Range(0, possibleSizes.Length);
             Vector2Int regionSize = possibleSizes[sizeIndex];
             List<Vector2Int> region = FindFreeRegion(regionSize);
             foreach (Vector2Int coordinate in region)
@@ -118,12 +120,12 @@ public class Room
     {
         for (int prefabIndex = 0; prefabIndex < numberOfPrefabs; prefabIndex += 1)
         {
-            int choiceIndex = Random.Range(0, possiblePrefabs.Length);
+            int choiceIndex = UnityEngine.Random.Range(0, possiblePrefabs.Length);
             GameObject prefab = possiblePrefabs[choiceIndex];
             List<Vector2Int> region = FindFreeRegion(new Vector2Int(1, 1));
 
             Population[region[0].x, region[0].y] = prefab.name;
-            Name2Prefab[prefab.name] = prefab;
+            PopulationToGameObject[new Tuple<int, int>(region[0].x, region[0].y)] = prefab;
         }
     }
 
@@ -134,7 +136,7 @@ public class Room
         {
             region.Clear();
 
-            Vector2Int centerTile = new Vector2Int(Random.Range(1, Population.GetLength(0) - 1), Random.Range(1, Population.GetLength(1) - 1));
+            Vector2Int centerTile = new Vector2Int(UnityEngine.Random.Range(1, Population.GetLength(0) - 1), UnityEngine.Random.Range(1, Population.GetLength(1) - 1));
 
             region.Add(centerTile);
 
@@ -173,10 +175,45 @@ public class Room
                 {
                     tilemap.SetTile(new Vector3Int(xIndex - 10, yIndex - 4, 0), obstacleTile);
                 }
-                else if (Population[xIndex, yIndex] != "" && Population[xIndex, yIndex] != "Player")
+                else if (Population[xIndex, yIndex] != string.Empty && Population[xIndex, yIndex] != "Player" && 
+                            PopulationToGameObject[new Tuple<int, int>(xIndex, yIndex)] != null)
                 {
-                    GameObject prefab = Object.Instantiate(Name2Prefab[Population[xIndex, yIndex]]);
-                    prefab.transform.position = new Vector2(xIndex - 10 + 0.5f, yIndex - 4 + 0.5f);
+                    if(PopulationToGameObject[new Tuple<int, int>(xIndex, yIndex)].activeSelf)
+                    {
+                        GameObject prefab = UnityEngine.Object.Instantiate(PopulationToGameObject[new Tuple<int, int>(xIndex, yIndex)]);
+                        prefab.transform.position = new Vector2(xIndex - 10 + 0.5f, yIndex - 4 + 0.5f);
+                        PopulationToGameObject[new Tuple<int, int>(xIndex, yIndex)] = prefab;
+                        prefab.SetActive(false);
+                    }
+                    else
+                    {
+                        PopulationToGameObject[new Tuple<int, int>(xIndex, yIndex)].SetActive(true);
+                    }
+                }
+            }
+        }
+    }
+
+    public void Clear()
+    {
+        IsCleared = true;
+        for (int i = 0; i < Population.GetLength(0); i++)
+        {
+            for (int j = 0; j < Population.GetLength(1); j++)
+            {
+                GameObject gameObject;
+                if (!PopulationToGameObject.TryGetValue(new Tuple<int, int>(i, j), out gameObject))
+                {
+                    continue;
+                }
+
+                if (gameObject == null || gameObject.CompareTag("Enemy"))
+                {
+                    Population[i, j] = string.Empty;
+                }
+                else
+                {
+                    gameObject.SetActive(false);
                 }
             }
         }

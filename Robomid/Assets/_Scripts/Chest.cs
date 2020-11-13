@@ -1,17 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Security.Cryptography;
-using System.Diagnostics;
-using UnityEditor;
-using UnityEngine;
-using System.Security.AccessControl;
+﻿using UnityEngine;
 
 public class Chest : MonoBehaviour
 {
-    //public List<GameObject> powerUps;
-    public GameObject[] powerUps;
-    public Transform spawnPoint;
-    public bool isLocked;
+    //public List<GameObject> PowerUps;
+    public GameObject[] PowerUps;
+    public Transform SpawnPoint;
+    public bool IsLocked;
 
     //LootTable 
     public int[] table =
@@ -27,21 +21,21 @@ public class Chest : MonoBehaviour
     };
 
     [SerializeField]
-    private SpriteRenderer spriteRendered;
+    private SpriteRenderer SpriteRendered;
 
     [SerializeField]
-    private Sprite openSprite;
+    private Sprite OpenSprite;
 
     private int total;
-    bool isOpen = false;
+    public bool IsOpen = false;
     private int randomNumber;
-    private GameObject player;
-    private PlayerState playerState;
+    private GameObject Player;
+    private PlayerState PlayerState;
 
     private void Start()
     {
-            player = GameObject.FindWithTag("Player");
-            playerState = player.GetComponent<PlayerState>();
+            Player = GameObject.FindWithTag("Player");
+            PlayerState = Player.GetComponent<PlayerState>();
 
         //Template logic not implemented yet
         /*
@@ -88,33 +82,33 @@ public class Chest : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            if (isLocked)
+            if (IsLocked)
             {
                 UnlockChest();
             }
             else
             {
-                spriteRendered.sprite = openSprite;
+                SpriteRendered.sprite = OpenSprite;
                 OpenChest();
-                isOpen = true;
+                IsOpen = true;
             }
         }
     }
 
     void OpenChest()
     {
-        if (!isOpen) 
+        if (!IsOpen) 
         {
-            GameObject item = Instantiate(powerUps[Random.Range(0, powerUps.Length)], spawnPoint.position, spawnPoint.rotation) as GameObject;
+            GameObject item = Instantiate(PowerUps[Random.Range(0, PowerUps.Length)], SpawnPoint.position, SpawnPoint.rotation);
         }
     }
 
     void UnlockChest()
     {
-        if (playerState.LocalPlayerData.Keys >= 1)
+        if (PlayerState.LocalPlayerData.Keys >= 1)
         {
-            playerState.LocalPlayerData.Keys--;
-            isLocked = false;
+            PlayerState.LocalPlayerData.Keys--;
+            IsLocked = false;
         }
     }
 }

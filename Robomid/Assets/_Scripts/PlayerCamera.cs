@@ -3,15 +3,15 @@
 public class PlayerCamera : MonoBehaviour
 {
     public int DistanceAway = 10;
-    private Transform player;
+    private Transform Player;
 
     public void Start()
     {
-        player = GameObject.Find("Player").transform;
+        Player = GameObject.Find("Player").transform;
     }
 
     public void LateUpdate()
     {
-        this.transform.position = new Vector3(player.position.x, player.position.y, player.position.z - DistanceAway);
+        transform.position = new Vector3(Player.position.x, Player.position.y, Player.position.z - DistanceAway);
     }
 }

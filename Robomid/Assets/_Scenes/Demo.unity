@@ -220,8 +220,6 @@ MonoBehaviour:
   Speed: 5
   Bullet: {fileID: 1994896513789170558, guid: e72f370896fd5714fa43487f158048c6, type: 3}
   IsDamaged: 0
-  IsDead: 0
-  death: 0
   weaponType: 0
 --- !u!95 &573112931
 Animator:
@@ -908,7 +906,7 @@ PrefabInstance:
       objectReference: {fileID: 4849056105888925514, guid: 5cb6a883b0ed6e84b92e67b40d3d8797, type: 3}
     - target: {fileID: 5452241054339077063, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}
       propertyPath: NumberOfEnemies
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5452241054339077063, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}
       propertyPath: PossibleEnemies1.Array.data[0]

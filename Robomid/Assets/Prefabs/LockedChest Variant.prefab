@@ -67,5 +67,31 @@ PrefabInstance:
       propertyPath: isLocked
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8716910249581566694, guid: 3edc2ac90428ab841bbc932c47fec54a, type: 3}
+      propertyPath: SpawnPoint
+      value: 
+      objectReference: {fileID: 4624872143426465073}
+    - target: {fileID: 8716910249581566694, guid: 3edc2ac90428ab841bbc932c47fec54a, type: 3}
+      propertyPath: SpriteRendered
+      value: 
+      objectReference: {fileID: 4624872142949038788}
+    - target: {fileID: 8716910249581566694, guid: 3edc2ac90428ab841bbc932c47fec54a, type: 3}
+      propertyPath: OpenSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8a2cfd7d65e58534e8d31d6f403450e0, type: 3}
+    - target: {fileID: 8716910249581566694, guid: 3edc2ac90428ab841bbc932c47fec54a, type: 3}
+      propertyPath: IsLocked
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3edc2ac90428ab841bbc932c47fec54a, type: 3}
+--- !u!212 &4624872142949038788 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 8716910249581566688, guid: 3edc2ac90428ab841bbc932c47fec54a, type: 3}
+  m_PrefabInstance: {fileID: 4095591777876500516}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &4624872143426465073 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8716910250061352213, guid: 3edc2ac90428ab841bbc932c47fec54a, type: 3}
+  m_PrefabInstance: {fileID: 4095591777876500516}
+  m_PrefabAsset: {fileID: 0}

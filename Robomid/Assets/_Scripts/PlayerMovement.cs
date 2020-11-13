@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 /// <summary>
-/// Handles all player input and animations
+/// Handles all Player input and animations
 /// </summary>
 public class PlayerMovement : MonoBehaviour
 {
@@ -14,11 +14,10 @@ public class PlayerMovement : MonoBehaviour
 
     public bool IsDamaged = false;
     private bool CanAttack = true;
-    public bool IsDead = false;
-    public bool death = false;
+    public bool IsDead { get; private set; }
     private bool CanMove = true;
 
-    public Weapons weaponType;
+    public WeaponEnums weaponType;
 
     // Use this for initialization
     void Start()
@@ -77,12 +76,6 @@ public class PlayerMovement : MonoBehaviour
             Animator.Play("Player_hurt");
             IsDamaged = false;
         }
-        if (death)
-        {
-            death = false;
-            IsDead = true;
-            StartCoroutine(DeathAnimation());
-        }
     }
 
     private void Flip(float movement)
@@ -90,10 +83,16 @@ public class PlayerMovement : MonoBehaviour
         transform.localRotation = movement < 0 ? Quaternion.Euler(0, 180, 0) : Quaternion.Euler(0, 0, 0);
     }
 
+    public void Die()
+    {
+        IsDead = true;
+        StartCoroutine(DeathAnimation());
+    }
+
     private void Shoot(Vector2 direction)
     {
-        Weapons weaponType = GetComponent<PlayerState>().LocalPlayerData.currentWeapon;
-        GameObject bulletInstance = Instantiate(Bullet, transform.position, Quaternion.Euler(new Vector3(0, 0, 1)));
+        var weaponType = GetComponent<PlayerState>().LocalPlayerData.currentWeapon;
+        var bulletInstance = Instantiate(Bullet, transform.position, Quaternion.Euler(new Vector3(0, 0, 1)));
         Physics2D.IgnoreCollision(bulletInstance.GetComponent<Collider2D>(), GetComponent<Collider2D>());
         bulletInstance.GetComponent<Bullet>().SetValues(direction, gameObject, (int)weaponType);
         Animator.Play("Base Layer.Player_cast");

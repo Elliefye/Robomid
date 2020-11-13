@@ -45,7 +45,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NumberOfRooms: 100
   RoomNamePrefix: Level_
-  NumberOfObstacles: 30
+  NumberOfObstacles: 20
   PossibleObstacleSizes:
   - {x: 0, y: 0}
   NumberOfEnemies: 5

@@ -1,11 +1,13 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
 public class DungeonGeneration : MonoBehaviour
 {
-
+    [SerializeField]
+    private Guid Id;
     [SerializeField]
     private int NumberOfRooms;
     [SerializeField]
@@ -42,6 +44,16 @@ public class DungeonGeneration : MonoBehaviour
             DontDestroyOnLoad(gameObject);
             Instance = this;
             CurrentRoom = GenerateDungeon();
+            foreach(var room in Rooms)
+            {
+                if (room != null)
+                {
+                    foreach (var entry in room.PopulationToGameObject)
+                    {
+                        DontDestroyOnLoad(entry.Value);
+                    }
+                }
+            }
         }
         else
         {
@@ -60,7 +72,6 @@ public class DungeonGeneration : MonoBehaviour
         RoomObject = (GameObject)Instantiate(Resources.Load($"Levels/{roomPrefabName}"));
         Tilemap tilemap = RoomObject.GetComponentInChildren<Tilemap>();
         CurrentRoom.AddPopulationToTilemap(tilemap, ObstacleTile);
-        PrintGrid();
     }
 
     private Room GenerateDungeon()
@@ -107,11 +118,19 @@ public class DungeonGeneration : MonoBehaviour
 
         var goalPrefabs = new GameObject[] { GoalPrefab };
 
-        if(finalRoom == null)
+        if (finalRoom == null)
         {
             finalRoom = createdRooms.FirstOrDefault();
         }
         finalRoom.PopulatePrefabs(1, goalPrefabs);
+
+        foreach(var room in createdRooms)
+        {
+            string roomPrefabName = room.PrefabName();
+            RoomObject = (GameObject)Resources.Load($"Levels/{roomPrefabName}");
+            Tilemap tilemap = RoomObject.GetComponentInChildren<Tilemap>();
+            room.AddPopulationToTilemap(tilemap, Instance.ObstacleTile);
+        }
 
         return Rooms[initialRoomCoordinate.x, initialRoomCoordinate.y];
     }
@@ -129,17 +148,17 @@ public class DungeonGeneration : MonoBehaviour
                     availableNeighbors.Add(coordinate);
                 }
             }
-            catch (System.IndexOutOfRangeException ex)
+            catch (IndexOutOfRangeException ex)
             {
                 Debug.LogError(ex);
             }
         }
 
-        int numberOfNeighbors = Random.Range(1, availableNeighbors.Count);
+        int numberOfNeighbors = UnityEngine.Random.Range(1, availableNeighbors.Count);
 
         for (int neighborIndex = 0; neighborIndex < numberOfNeighbors; neighborIndex++)
         {
-            float randomNumber = Random.value;
+            float randomNumber = UnityEngine.Random.value;
             float roomFrac = 1f / availableNeighbors.Count;
             Vector2Int chosenNeighbor = new Vector2Int(0, 0);
             foreach (Vector2Int coordinate in availableNeighbors)
@@ -171,8 +190,30 @@ public class DungeonGeneration : MonoBehaviour
 
     public void ResetDungeon()
     {
+        foreach (var room in Rooms)
+        {
+            if (room != null)
+            {
+                foreach (var entry in room.PopulationToGameObject)
+                {
+                    Destroy(entry.Value);
+                }
+            }
+        }
         CurrentRoom = GenerateDungeon();
+        foreach (var room in Rooms)
+        {
+            if (room != null)
+            {
+                foreach (var entry in room.PopulationToGameObject)
+                {
+                    DontDestroyOnLoad(entry.Value);
+                }
+            }
+        }
     }
+
+    //Reuse when creating map Ui
     void PrintGrid()
     {
         for (int rowIndex = 0; rowIndex < Rooms.GetLength(1); rowIndex++)
