@@ -7,7 +7,7 @@ using System;
 public class GlobalControl : MonoBehaviour
 {
     public PlayerStatistics SavedPlayerData;
-    public List<FloorEffectEnums> FloorEffects;
+    public List<FloorEffectEnums> FloorEffects = new List<FloorEffectEnums>();
 
     public static GlobalControl Instance;
 

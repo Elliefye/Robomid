@@ -74,7 +74,7 @@ public class Bullet : MonoBehaviour
             case WeaponEnums.Boomzooka:
                 return 1;
             case WeaponEnums.TaserPhaser:
-                return 4;
+                return 2;
             case WeaponEnums.AK5000laser:
                 return 1;
             default:

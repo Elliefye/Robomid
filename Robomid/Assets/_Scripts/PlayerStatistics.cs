@@ -16,7 +16,7 @@ public class PlayerStatistics
     public WeaponEnums currentWeapon = WeaponEnums.PlasmaShooter; //default is 0
 
     public int CompletedFloors = 0;
-    public List<FloorEffectEnums> FloorEffects;
+    public List<FloorEffectEnums> FloorEffects = new List<FloorEffectEnums>();
 
     public float Volume = 1;
 
