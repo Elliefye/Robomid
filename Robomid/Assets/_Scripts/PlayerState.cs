@@ -8,6 +8,7 @@ public class PlayerState : MonoBehaviour, IShopCustomer
     public void SavePlayer()
     {
         GlobalControl.Instance.SavedPlayerData = LocalPlayerData;
+        GlobalControl.Instance.SaveGame();
     }
 
     void Start()

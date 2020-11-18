@@ -22,7 +22,7 @@ public class MainMenuButtons : MonoBehaviour
         MainButtons.SetActive(false);
         OptionsMenu.SetActive(true);
         //set volume slider according to save file data
-        //volumeSlider.value = Game.current.Volume;
+        volumeSlider.value = GlobalControl.Instance.SavedPlayerData.Volume;
     }
 
     public void ExitClicked()
@@ -37,12 +37,12 @@ public class MainMenuButtons : MonoBehaviour
     public void ChangeVolume()
     {
         AudioListener.volume = volumeSlider.value;
-        //save value to save file
+        GlobalControl.Instance.SavedPlayerData.Volume = volumeSlider.value;
     }
 
     public void BackClicked()
     {
-        //save game
+        GlobalControl.Instance.SaveGame();
         OptionsMenu.SetActive(false);
         MainButtons.SetActive(true);
     }

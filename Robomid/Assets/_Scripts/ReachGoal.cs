@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class ReachGoal : MonoBehaviour
 {
-
     void OnTriggerEnter2D(Collider2D collider)
     {
         if (collider.gameObject.CompareTag("Player"))
@@ -24,8 +23,10 @@ public class ReachGoal : MonoBehaviour
 
     private static void SavePlayerData(Collider2D col)
     {
-        col.gameObject.GetComponent<PlayerState>().LocalPlayerData.DirectionFrom = string.Empty;
-        col.gameObject.GetComponent<PlayerState>().SavePlayer();
+        PlayerState playerState = col.gameObject.GetComponent<PlayerState>();
+        playerState.LocalPlayerData.DirectionFrom = string.Empty;
+        playerState.LocalPlayerData.CompletedFloors++;
+        playerState.SavePlayer();
     }
 
     private void ResetDungeon()

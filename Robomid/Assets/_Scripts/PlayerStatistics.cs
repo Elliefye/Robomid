@@ -1,6 +1,8 @@
-﻿/// <summary>
+﻿using System.Collections.Generic;
+/// <summary>
 /// Stores global Player data
 /// </summary>
+[System.Serializable]
 public class PlayerStatistics
 {
     public int BaseHP = 100; //item prideda 10
@@ -12,6 +14,11 @@ public class PlayerStatistics
     public int Keys = 0;
     public string DirectionFrom;
     public WeaponEnums currentWeapon = WeaponEnums.PlasmaShooter; //default is 0
+
+    public int CompletedFloors = 0;
+    public List<FloorEffectEnums> FloorEffects;
+
+    public float Volume = 1;
 
     public int HP
     {

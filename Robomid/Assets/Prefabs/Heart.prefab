@@ -132,5 +132,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acd90db153be81d44a7b43732984fea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemName: Heart
-  quantity: 10
+  ItemName: Heart
+  Quantity: 10
