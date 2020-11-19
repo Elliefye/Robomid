@@ -8,8 +8,7 @@ public class PlayerStatistics
     public int BaseHP = 100; //item prideda 10
     private int _HP = 100;
     public int Defence = 1; //prideda 0.1
-    public int BaseSpeed = 5; //prideda 0.1
-    public int Speed = 5; //prideda 0.1
+    public int Speed = 1; //prideda 0.1
     public int Damage = 1; //prideda 0.1
     public int Money = 1000; //prideda 10
     public int Keys = 0;

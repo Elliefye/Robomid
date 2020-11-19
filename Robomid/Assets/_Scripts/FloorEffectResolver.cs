@@ -16,18 +16,6 @@ public static class FloorEffectResolver
             case 2:
                 gameObject.AddComponent<ClaustrophobiaFloorEffect>();
                 break;
-            case 3:
-                gameObject.AddComponent<AdrenalineFloorEffect>();
-                break;
-            case 4:
-                gameObject.AddComponent<ZoomFloorEffect>();
-                break;
-            case 5:
-                gameObject.AddComponent<VignetteFloorEffect>();
-                break;
-            case 6:
-                gameObject.AddComponent<RecoilFloorEffect>();
-                break;
             default:
                 throw new ArgumentOutOfRangeException("Invalid effect");
         }

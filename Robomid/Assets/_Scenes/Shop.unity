@@ -3658,7 +3658,6 @@ GameObject:
   - component: {fileID: 1588746232}
   - component: {fileID: 1588746231}
   - component: {fileID: 1588746234}
-  - component: {fileID: 1588746235}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3744,23 +3743,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DistanceAway: 10
---- !u!114 &1588746235
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1588746230}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 0}
-  isGlobal: 0
-  blendDistance: 0
-  weight: 1
-  priority: 0
 --- !u!1 &1592618346
 GameObject:
   m_ObjectHideFlags: 0
@@ -4019,7 +4001,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -9.4, y: -42.7}
+  m_AnchoredPosition: {x: -157, y: 38}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1811637280
@@ -4927,19 +4909,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f944a5e8169b6384389075760c7ab866, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SavedPlayerData:
-    BaseHP: 100
-    Defence: 1
-    Speed: 1
-    Damage: 1
-    Money: 1000
-    Keys: 0
-    DirectionFrom: 
-    currentWeapon: 0
-    CompletedFloors: 0
-    FloorEffects: 
-    Volume: 1
-  FloorEffects: 
 --- !u!4 &1965532892
 Transform:
   m_ObjectHideFlags: 0
@@ -5699,6 +5668,8 @@ MonoBehaviour:
   Speed: 5
   Bullet: {fileID: 1994896513789170558, guid: e72f370896fd5714fa43487f158048c6, type: 3}
   IsDamaged: 0
+  IsDead: 0
+  death: 0
   weaponType: 0
 --- !u!95 &2960841937127346581
 Animator:
@@ -5800,18 +5771,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b43261942ac43214b82f58f3281fe0af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LocalPlayerData:
-    BaseHP: 100
-    Defence: 1
-    Speed: 1
-    Damage: 1
-    Money: 1000
-    Keys: 0
-    DirectionFrom: 
-    currentWeapon: 0
-    CompletedFloors: 0
-    FloorEffects: 
-    Volume: 1
   IsInvincible: 0
 --- !u!1 &2976144531191176908
 GameObject:
