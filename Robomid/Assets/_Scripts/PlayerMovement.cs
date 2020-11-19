@@ -11,11 +11,13 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     private GameObject Bullet;
     private Animator Animator;
+    private Rigidbody2D Rigidbody;
 
     public bool IsDamaged = false;
     private bool CanAttack = true;
     public bool IsDead { get; private set; }
     private bool CanMove = true;
+    public bool Recoil = false;
 
     public WeaponEnums weaponType;
 
@@ -24,11 +26,13 @@ public class PlayerMovement : MonoBehaviour
     {
         Animator = GetComponent<Animator>();
         weaponType = GetComponent<PlayerState>().LocalPlayerData.currentWeapon;
+        Rigidbody = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
+        Speed = GetComponent<PlayerState>().LocalPlayerData.Speed;
         if (CanMove)
         {
             float horizontal = Input.GetAxis("Horizontal");
@@ -60,6 +64,7 @@ public class PlayerMovement : MonoBehaviour
             else if (Input.GetButtonDown("FireDown"))
             {
                 Shoot(Vector2.down);
+
             }
             else if (Input.GetButtonDown("FireLeft"))
             {
@@ -96,6 +101,11 @@ public class PlayerMovement : MonoBehaviour
         Physics2D.IgnoreCollision(bulletInstance.GetComponent<Collider2D>(), GetComponent<Collider2D>());
         bulletInstance.GetComponent<Bullet>().SetValues(direction, gameObject, (int)weaponType);
         Animator.Play("Base Layer.Player_cast");
+
+        if (Recoil)
+        {
+            Rigidbody.MovePosition(Rigidbody.position - direction);
+        }
     }
 
     private IEnumerator DeathAnimation()

@@ -119,6 +119,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AiEnum: 3
   Health: 10
+  DefaultSpeed: 3
   MoveSpeed: 3
   SightRange: 4
   FollowRange: 0.5
