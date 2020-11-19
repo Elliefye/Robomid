@@ -9,6 +9,7 @@ public class AIController : MonoBehaviour
     public AiEnums AiEnum;
     public int Health = 10;
 
+    public int DefaultSpeed = 4;
     public int MoveSpeed = 4;
 
     public int SightRange = 3;
