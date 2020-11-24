@@ -15,7 +15,7 @@ public class Chest : MonoBehaviour
         10, // BaseHP
         10, // Defence
         10, // Speed
-        10, //Damage
+        10, //Damaged
         10, // Defence
         10 // Speed
     };

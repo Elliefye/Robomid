@@ -648,7 +648,7 @@ GameObject:
   - component: {fileID: 1030238625}
   m_Layer: 0
   m_Name: GlobalController
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1001,7 +1001,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5452241054339077063, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}
       propertyPath: PossibleEnemies.Array.size
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 5452241054339077063, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}
       propertyPath: GoalPrefab
@@ -1043,6 +1043,10 @@ PrefabInstance:
       propertyPath: PossibleEnemies.Array.data[9]
       value: 
       objectReference: {fileID: 4624872142949038791, guid: f9dc09723be859244abdf1419aea2e56, type: 3}
+    - target: {fileID: 5452241054339077063, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}
+      propertyPath: PossibleEnemies.Array.data[10]
+      value: 
+      objectReference: {fileID: 6933351342504743735, guid: debc9301b9019234e8c7cd5efdd49d61, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}
 --- !u!1 &6455406300471824442
