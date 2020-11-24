@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.Tilemaps;
+using UnityEngine.UI;
 
 public class DungeonGeneration : MonoBehaviour
 {
+    public Text minimap;
+
     [SerializeField]
     private Guid Id;
     [SerializeField]
-    private int NumberOfRooms;
+    public int NumberOfRooms;
     [SerializeField]
     public string RoomNamePrefix;
 
@@ -35,7 +38,7 @@ public class DungeonGeneration : MonoBehaviour
     [HideInInspector]
     public GameObject RoomObject;
 
-    private static DungeonGeneration Instance = null;
+    public static DungeonGeneration Instance = null;
 
     void Awake()
     {
@@ -214,8 +217,10 @@ public class DungeonGeneration : MonoBehaviour
     }
 
     //Reuse when creating map Ui
-    void PrintGrid()
+    public string PrintGrid()
     {
+        string gridStr = "\n";
+
         for (int rowIndex = 0; rowIndex < Rooms.GetLength(1); rowIndex++)
         {
             string row = "";
@@ -230,7 +235,17 @@ public class DungeonGeneration : MonoBehaviour
                     row += "R";
                 }
             }
-            Debug.Log(row);
+            gridStr += row + "\n";
         }
+        return gridStr;
+    }
+
+    public bool RoomExists(Vector2Int coordinates)
+    {
+        if (Rooms[coordinates.x, coordinates.y] == null)
+        {
+            return false;
+        }
+        else return true;
     }
 }

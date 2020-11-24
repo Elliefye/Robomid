@@ -9,6 +9,7 @@ public class ExitShop : MonoBehaviour
     {
         if (col.gameObject.CompareTag("Player"))
         {
+            col.gameObject.GetComponent<PlayerState>().LocalPlayerData.DirectionFrom = "";
             SceneManager.LoadScene("Demo");
         }
     }

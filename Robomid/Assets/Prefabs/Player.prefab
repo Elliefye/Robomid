@@ -122,7 +122,8 @@ MonoBehaviour:
   Speed: 5
   Bullet: {fileID: 1994896513789170558, guid: e72f370896fd5714fa43487f158048c6, type: 3}
   IsDamaged: 0
-  IsDead: 1
+  Recoil: 0
+  weaponType: 0
 --- !u!50 &2960841935612469073
 Rigidbody2D:
   serializedVersion: 4
@@ -182,8 +183,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b43261942ac43214b82f58f3281fe0af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LocalPlayerData:
+    BaseHP: 100
+    Defence: 1
+    BaseSpeed: 5
+    Speed: 1
+    Damage: 1
+    Money: 1000
+    Keys: 0
+    DirectionFrom: 
+    currentWeapon: 0
+    CompletedFloors: 0
+    FloorEffects: 
+    Volume: 1
   IsInvincible: 0
-  playerHealthDisplay: {fileID: 2960841937084268252}
 --- !u!1 &2960841936178898206
 GameObject:
   m_ObjectHideFlags: 0

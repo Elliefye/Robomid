@@ -10,6 +10,7 @@ TagManager:
   - Door S
   - Door W
   - Enemy
+  - Chest
   layers:
   - Default
   - TransparentFX
@@ -19,7 +20,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - minimap
   - 
   - 
   - 
@@ -49,4 +50,7 @@ TagManager:
     locked: 0
   - name: GameObject
     uniqueID: 2761129709
+    locked: 0
+  - name: Minimap
+    uniqueID: 3915658057
     locked: 0
