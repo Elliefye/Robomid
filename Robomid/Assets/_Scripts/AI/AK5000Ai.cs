@@ -4,7 +4,8 @@ public class AK5000Ai : MonoBehaviour, IAiLogic
 {
     void Start()
     {
-        GetComponent<AIController>().Health = 10;
+        GetComponent<AIController>().Health = 50;
+        GetComponent<AIController>().Damage = 10;
     }
 
     public void Attack()
@@ -76,5 +77,11 @@ public class AK5000Ai : MonoBehaviour, IAiLogic
                 return new Vector2(-1f, -1f); //(-1, -1)
             }
         }
+    }
+
+    public void Scale(int level)
+    {
+        GetComponent<AIController>().Health += level * 50 / 2;
+        GetComponent<AIController>().Damage += level * 10 / 2;
     }
 }

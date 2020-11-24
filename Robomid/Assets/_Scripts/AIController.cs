@@ -11,6 +11,7 @@ public class AIController : MonoBehaviour
 
     public int DefaultSpeed = 4;
     public int MoveSpeed = 4;
+    public int Damage = 10;
 
     public int SightRange = 3;
     public float FollowRange = 0;
@@ -33,6 +34,7 @@ public class AIController : MonoBehaviour
         Player = GameObject.FindGameObjectWithTag("Player");
         _aiLogic = AiResolver.GetLogic(gameObject, AiEnum);
         Animator = gameObject.GetComponent<Animator>();
+        _aiLogic.Scale(GlobalControl.Instance.SavedPlayerData.CompletedFloors);
     }
 
     void Update()
@@ -106,7 +108,7 @@ public class AIController : MonoBehaviour
         IsAbleToAttack = true;
     }
 
-    public void Damage(int amount)
+    public void Damaged(int amount)
     {
         Health -= amount;
         if (Health > 0)
@@ -153,6 +155,11 @@ public class AIController : MonoBehaviour
                 transform.rotation = Quaternion.Euler(0, 0, 0);
                 GameObject item = Instantiate(itemDrops[Random.Range(0, itemDrops.Length)], transform.position, transform.rotation);
         }
+    }
+
+    private void Scale(int floor)
+    {
+
     }
 
 }

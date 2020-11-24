@@ -40,15 +40,11 @@ public class PlayerState : MonoBehaviour, IShopCustomer
         }
     }
 
-    public void Damage(GameObject damager)
+    public void ReceiveDamage(int damage)
     {
         if (!IsInvincible)
         {
-            //TODO paimti duomenis is pacio game object o ne hardcoded values pagal name.
-            if (damager.name == "AK-5000(Clone)")
-            {
-                LocalPlayerData.HP -= 10;
-            }
+            LocalPlayerData.HP -= damage;
 
             GetComponent<PlayerMovement>().IsDamaged = true;
 
@@ -64,7 +60,6 @@ public class PlayerState : MonoBehaviour, IShopCustomer
     {
         switch (shopItem.name)
         {
-            default:
             case "Health":
                 LocalPlayerData.HP += 10;
                 break;
@@ -76,6 +71,8 @@ public class PlayerState : MonoBehaviour, IShopCustomer
                 break;
             case "LaserPointer9000":
                 LocalPlayerData.currentWeapon = WeaponEnums.LaserPointer9000;
+                break;
+            default:
                 break;
         }
     }

@@ -14,12 +14,12 @@ public class Bullet : MonoBehaviour
 
     public void SetValues(Vector2 direction, GameObject shooter, int weaponType = (int)WeaponEnums.TaserPhaser)
     {
-        this.Shooter = shooter;
-        this.Speed = getSpeed((WeaponEnums)weaponType);
+        Shooter = shooter;
+        Speed = GetSpeed((WeaponEnums)weaponType);
         this.weaponType = weaponType;
         Transform sprite = transform.GetChild(0);
         sprite.GetComponent<SpriteRenderer>().sprite = Weapon_sprites[weaponType];
-        this.Direction = direction;
+        Direction = direction;
         if (direction == Vector2.left)
             sprite.transform.Rotate(new Vector3(0, 0, 180));
         else if (direction == Vector2.up)
@@ -51,17 +51,18 @@ public class Bullet : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player") && Shooter.tag != "Player")
         {
-            collision.gameObject.GetComponent<PlayerState>().Damage(Shooter);
+            collision.gameObject.GetComponent<PlayerState>().ReceiveDamage(Shooter.GetComponent<AIController>().Damage);
         }
         else if (collision.gameObject.CompareTag("Enemy") && Shooter.tag != "Enemy")
         {
-            collision.gameObject.GetComponent<AIController>().Damage(getDamage((WeaponEnums)weaponType));
+            collision.gameObject.GetComponent<AIController>().Damaged(GetDamage((WeaponEnums)weaponType));
         }
 
         Destroy(gameObject);
     }
 
-    private int getSpeed(WeaponEnums weaponType)
+    //TODO kodėl čia du vienodos paskirties metodai ? xd GetSpeed ir GetDamage atlieka ta pati
+    private int GetSpeed(WeaponEnums weaponType)
     {
         switch (weaponType)
         {
@@ -70,11 +71,11 @@ public class Bullet : MonoBehaviour
             case WeaponEnums.LaserPointer9000:
                 return 2;
             case WeaponEnums.SemiManualGifle:
-                return 3;
-            case WeaponEnums.Boomzooka:
                 return 1;
+            case WeaponEnums.Boomzooka:
+                return 3;
             case WeaponEnums.TaserPhaser:
-                return 2;
+                return 1;
             case WeaponEnums.AK5000laser:
                 return 1;
             default:
@@ -82,9 +83,9 @@ public class Bullet : MonoBehaviour
         }
     }
 
-    private int getDamage(WeaponEnums weaponType)
+    private int GetDamage(WeaponEnums weaponType)
     {
-        switch(weaponType)
+        switch (weaponType)
         {
             case WeaponEnums.PlasmaShooter:
                 return 1;
