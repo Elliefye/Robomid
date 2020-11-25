@@ -34,6 +34,7 @@ public class Minimap : MonoBehaviour
             Instance.AllignCameraWithRoom(coord);
             Instance.minimapRooms[coord.x, coord.y].GetComponent<MinimapRoom>().Active = true;
             Instance.currentRoom.Active = false;
+            Instance.currentRoom.Discovered = true;
             Instance.currentRoom = Instance.minimapRooms[coord.x, coord.y].GetComponent<MinimapRoom>();
             Destroy(gameObject);
         }
@@ -52,7 +53,7 @@ public class Minimap : MonoBehaviour
                 newRoomScript.coordinate = new Vector2Int(row, column);
                 if(generator.RoomExists(newRoomScript.coordinate))
                 {
-                    newRoomScript.Discovered = true;
+                    //newRoomScript.Discovered = true;
                 }
 
                 if(row == (minimapRooms.GetLength(0) - 1) / 2 - 1 && column == (minimapRooms.GetLength(0) - 1) / 2 - 1)

@@ -7,8 +7,6 @@ using UnityEngine.UI;
 
 public class DungeonGeneration : MonoBehaviour
 {
-    public Text minimap;
-
     [SerializeField]
     private Guid Id;
     [SerializeField]
@@ -24,7 +22,7 @@ public class DungeonGeneration : MonoBehaviour
     [SerializeField]
     private int NumberOfEnemies;
     [SerializeField]
-    private GameObject[] PossibleEnemies;
+    private GameObject[] PossibleEnemies = null;
     [SerializeField]
     private GameObject GoalPrefab;
 
