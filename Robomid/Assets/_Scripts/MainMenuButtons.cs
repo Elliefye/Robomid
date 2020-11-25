@@ -27,6 +27,11 @@ public class MainMenuButtons : MonoBehaviour
         volumeSlider.value = GlobalControl.Instance.SavedPlayerData.Volume;
     }
 
+    public void CreditsClicked()
+    {
+        SceneManager.LoadScene("Credits");
+    }
+
     public void ExitClicked()
     {
 #if UNITY_EDITOR
@@ -47,5 +52,10 @@ public class MainMenuButtons : MonoBehaviour
         GlobalControl.Instance.SaveGame();
         OptionsMenu.SetActive(false);
         MainButtons.SetActive(true);
+    }
+
+    public void CreditsBackClicked()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 }
