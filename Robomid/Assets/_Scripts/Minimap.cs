@@ -12,6 +12,7 @@ public class Minimap : MonoBehaviour
     private DungeonGeneration generator;
     [SerializeField]
     private Camera MinimapCamera;
+    public bool NewDungeon = false;
 
     private MinimapRoom currentRoom;
 
@@ -27,15 +28,20 @@ public class Minimap : MonoBehaviour
             Instance = this;
             PopulateMinimap();
         }
-        else
+        else if (Instance.NewDungeon == false)
         {
             Vector2Int coord = Instance.generator.GetCurrentRoom().RoomCoordinate;
-            Debug.Log("room c.:" + coord);
+            //Debug.Log("room c.:" + coord);
             Instance.AllignCameraWithRoom(coord);
             Instance.minimapRooms[coord.x, coord.y].GetComponent<MinimapRoom>().Active = true;
             Instance.currentRoom.Active = false;
             Instance.currentRoom.Discovered = true;
             Instance.currentRoom = Instance.minimapRooms[coord.x, coord.y].GetComponent<MinimapRoom>();
+            Destroy(gameObject);
+        }
+        else
+        {
+            Instance.NewDungeon = false;
             Destroy(gameObject);
         }
     }
@@ -51,10 +57,10 @@ public class Minimap : MonoBehaviour
                 minimapRooms[row, column] = newRoom.transform;
                 MinimapRoom newRoomScript = newRoom.GetComponent<MinimapRoom>();
                 newRoomScript.coordinate = new Vector2Int(row, column);
-                if(generator.RoomExists(newRoomScript.coordinate))
+                /*if(generator.RoomExists(newRoomScript.coordinate))
                 {
-                    //newRoomScript.Discovered = true;
-                }
+                    newRoomScript.Discovered = true;
+                }*/
 
                 if(row == (minimapRooms.GetLength(0) - 1) / 2 - 1 && column == (minimapRooms.GetLength(0) - 1) / 2 - 1)
                 {
@@ -92,5 +98,27 @@ public class Minimap : MonoBehaviour
             full += row + "\n";
         }
         return full;
+    }
+
+    public void ResetMinimap()
+    {
+        for (int row = 0; row < minimapRooms.GetLength(1); row++)
+        {
+            for (int column = 0; column < minimapRooms.GetLength(0); column++)
+            {
+                MinimapRoom roomScript = minimapRooms[row, column].GetComponent<MinimapRoom>();
+
+                roomScript.Active = false;
+                roomScript.Discovered = false;
+
+                if (row == (minimapRooms.GetLength(0) - 1) / 2 - 1 && column == (minimapRooms.GetLength(1) - 1) / 2 - 1)
+                {
+                    AllignCameraWithRoom(new Vector2Int(row, column));
+                    roomScript.Active = true;
+                    currentRoom = roomScript;
+                }
+            }
+        }
+        NewDungeon = true;
     }
 }

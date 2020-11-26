@@ -46,6 +46,10 @@ public class GameOverButtons : MonoBehaviour
     {
         GlobalControl.Instance.SavedPlayerData.HP = GlobalControl.Instance.SavedPlayerData.BaseHP;
         GlobalControl.Instance.SavedPlayerData.DirectionFrom = "";
-        SceneManager.LoadScene(1);
+        var dungeon = GameObject.FindGameObjectWithTag("Dungeon");
+        var dungeonGeneration = dungeon.GetComponent<DungeonGeneration>();
+        dungeonGeneration.ResetDungeon();
+        Minimap.Instance.ResetMinimap();
+        SceneManager.LoadScene("Demo");
     }
 }

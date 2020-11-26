@@ -24,10 +24,15 @@ public class MinimapRoom : MonoBehaviour
         }
         set
         {
-            if(value == true)
+            m_discovered = value;
+            if (value == true)
             {
-                m_discovered = true;
                 spriteRenderer.color = Color.grey;
+                spriteRenderer.sprite = sprites[0];
+            }
+            else
+            {
+                spriteRenderer.color = new Color(0, 0, 0, 0);
                 spriteRenderer.sprite = sprites[0];
             }
         }
@@ -41,15 +46,15 @@ public class MinimapRoom : MonoBehaviour
         }
         set
         {
-            if(value == true)
+            m_active = value;
+
+            if (value == true)
             {
-                m_active = true;
                 spriteRenderer.sprite = sprites[1];
                 spriteRenderer.color = Color.white;
             }
             else
             {
-                m_active = false;
                 spriteRenderer.sprite = sprites[0];
                 spriteRenderer.color = Color.grey;
             }

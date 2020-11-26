@@ -11,6 +11,7 @@ TagManager:
   - Door W
   - Enemy
   - Chest
+  - Minimap
   layers:
   - Default
   - TransparentFX
