@@ -19,6 +19,12 @@ public class GlobalControl : MonoBehaviour
             Instance = this;
             SavedPlayerData = LoadGame();
             FloorEffects = SavedPlayerData.FloorEffects;
+            if (GameObject.FindWithTag("Player") == null)
+                return;
+            foreach(var floorEffect in FloorEffects)
+            {
+                FloorEffectResolver.AddFloorEffect(gameObject, floorEffect);
+            }
         }
         else if (Instance != this)
         {

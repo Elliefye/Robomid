@@ -1137,6 +1137,7 @@ MonoBehaviour:
   roomObject: {fileID: 1320316343}
   spriteOffset: 6
   MinimapCamera: {fileID: 678723908}
+  NewDungeon: 0
 --- !u!1 &977919035
 GameObject:
   m_ObjectHideFlags: 0

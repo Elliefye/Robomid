@@ -14,8 +14,7 @@ public class MainMenuButtons : MonoBehaviour
 
     public void PlayClicked()
     {
-        GlobalControl.Instance.SavedPlayerData.HP = GlobalControl.Instance.SavedPlayerData.BaseHP;
-        GlobalControl.Instance.SavedPlayerData.DirectionFrom = "";
+        Destroy(GlobalControl.Instance);
         SceneManager.LoadScene(1);
     }
 

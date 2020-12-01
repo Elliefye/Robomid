@@ -55,7 +55,7 @@ public class Bullet : MonoBehaviour
         }
         else if (collision.gameObject.CompareTag("Enemy") && Shooter.tag != "Enemy")
         {
-            collision.gameObject.GetComponent<AIController>().Damaged(GetDamage((WeaponEnums)weaponType));
+            collision.gameObject.GetComponent<AIController>().Damaged(GlobalControl.Instance.SavedPlayerData.Damage * GetDamage((WeaponEnums)weaponType));
         }
 
         Destroy(gameObject);

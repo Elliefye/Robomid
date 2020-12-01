@@ -10,7 +10,7 @@ public class PlayerStatistics
     public int Defence = 1; //prideda 0.1
     public int BaseSpeed = 5; //prideda 0.1
     public int Speed = 5; //prideda 0.1
-    public int Damage = 5; //prideda 0.1
+    public int Damage = 15; //prideda 0.1
     public int Money = 1000; //prideda 10
     public int Keys = 0;
     public string DirectionFrom;

@@ -11,9 +11,9 @@ public class EnterRoom : MonoBehaviour
     {
         if (col.gameObject.CompareTag("Player"))
         {
-            //GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
-            //if (enemies.Length == 0)
-            //{
+            GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+            if (enemies.Length == 0)
+            {
                 var dungeon = GameObject.FindGameObjectWithTag("Dungeon");
                 var dungeonGeneration = dungeon.GetComponent<DungeonGeneration>();
 
@@ -25,7 +25,7 @@ public class EnterRoom : MonoBehaviour
                 col.gameObject.GetComponent<PlayerState>().SavePlayer();
 
                 SceneManager.LoadScene("Demo");
-            //}
+            }
         }
     }
 }

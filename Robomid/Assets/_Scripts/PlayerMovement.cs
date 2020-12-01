@@ -104,7 +104,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (Recoil)
         {
-            Rigidbody.MovePosition(Rigidbody.position - direction);
+            Rigidbody.AddForce(Rigidbody.position - direction * Rigidbody.mass * 500);
         }
     }
 

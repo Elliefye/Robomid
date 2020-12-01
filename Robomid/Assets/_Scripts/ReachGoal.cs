@@ -9,15 +9,15 @@ public class ReachGoal : MonoBehaviour
     {
         if (collider.gameObject.CompareTag("Player"))
         {
-           //var enemies = GameObject.FindGameObjectsWithTag("Enemy");
-           //if (enemies.Length == 0)
-           // {
+           var enemies = GameObject.FindGameObjectsWithTag("Enemy");
+           if (enemies.Length == 0)
+            {
                 ResetDungeon();
                 SavePlayerData(collider);
                 AddFloorEffect();
 
                 SceneManager.LoadScene("Shop");
-            //}
+            }
         }
     }
 
