@@ -13,6 +13,8 @@ TagManager:
   - Chest
   - Minimap
   - DoorClosed
+  - Holding
+  - FloorEffects
   layers:
   - Default
   - TransparentFX

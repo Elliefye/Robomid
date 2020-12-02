@@ -5,33 +5,44 @@ using UnityEngine.UI;
 public class FloorEffectDisplay : MonoBehaviour
 {
     GameObject currentEffect;
+    [HideInInspector]
+    public bool FirstTrigger = false;
     void Start()
     {
-        foreach (FloorEffectEnums floorEffect in GlobalControl.Instance.FloorEffects)
+        if(GlobalControl.Instance.FloorEffects.Count != 0)
         {
-            currentEffect = transform.GetChild((int)floorEffect).gameObject;
-            currentEffect.SetActive(true);
+            foreach (FloorEffectEnums floorEffect in GlobalControl.Instance.FloorEffects)
+            {
+                currentEffect = transform.GetChild((int)floorEffect).gameObject;
+                currentEffect.SetActive(true);
+            }
+            if (FirstTrigger)
+            {
+                StartCoroutine(Blink());
+            }
         }
-        StartCoroutine(Blink());
     }
 
     IEnumerator Blink()
     {
-        Image image = currentEffect.GetComponent<Image>();
-        for(int i = 0; i < 5; i++)
+        FirstTrigger = false;
+        for(int i = 0; i < 7; i++)
         {
-            switch (image.color.a.ToString())
+            switch (currentEffect.activeSelf)
             {
-                case "0":
-                    image.color = new Color(image.color.r, image.color.g, image.color.b, 1);
-                    yield return new WaitForSeconds(0.5f);
+                case true:
+                    currentEffect.SetActive(false);
+                    yield return new WaitForSeconds(0.3f);
                     break;
-                case "1":
-                    image.color = new Color(image.color.r, image.color.g, image.color.b, 0);
-                    yield return new WaitForSeconds(0.5f);
+                case false:
+                    currentEffect.SetActive(true);
+                    yield return new WaitForSeconds(0.3f);
                     break;
+                default:
+                    throw new System.Exception("Floor effect had an unexpected state: " + currentEffect.activeSelf);
             }
         }
+        currentEffect.SetActive(true);
     }
 
 }

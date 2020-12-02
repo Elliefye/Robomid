@@ -158,6 +158,7 @@ MonoBehaviour:
   Health: 10
   DefaultSpeed: 2
   MoveSpeed: 2
+  Damage: 10
   SightRange: 10
   FollowRange: 4
   AttackRange: 4

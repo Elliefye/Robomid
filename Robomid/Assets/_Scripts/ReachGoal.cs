@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -7,6 +8,12 @@ public class ReachGoal : MonoBehaviour
 {
     public Sprite OpenSprite;
     public Sprite ClosedSprite;
+
+    private void OnEnable()
+    {
+        StopCoroutine(Flash());
+        StartCoroutine(Flash());
+    }
 
     void FixedUpdate()
     {
@@ -63,6 +70,18 @@ public class ReachGoal : MonoBehaviour
         {
             var randomEffect = (FloorEffectEnums)values[Random.Range(0, values.Count)];
             GlobalControl.Instance.AddFloorEffect(randomEffect);
+        }
+    }
+
+    IEnumerator Flash()
+    {
+        SpriteRenderer sr = gameObject.GetComponent<SpriteRenderer>();
+        while(true)
+        {
+            sr.color = new Color(125, 84, 84);
+            yield return new WaitForSeconds(0.3f);
+            sr.color = Color.red;
+            yield return new WaitForSeconds(0.3f);
         }
     }
 }

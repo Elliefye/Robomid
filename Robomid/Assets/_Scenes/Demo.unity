@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 316567538}
   m_Layer: 5
   m_Name: FloorEffects
-  m_TagString: Untagged
+  m_TagString: FloorEffects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -178,6 +178,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f245bf785da90fa4c8422659865b04a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  FirstTrigger: 0
 --- !u!1 &440125281
 GameObject:
   m_ObjectHideFlags: 0

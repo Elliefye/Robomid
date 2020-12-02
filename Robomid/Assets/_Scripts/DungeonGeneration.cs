@@ -55,6 +55,8 @@ public class DungeonGeneration : MonoBehaviour
                     }
                 }
             }
+            GameObject floorEffects = GameObject.FindGameObjectWithTag("FloorEffects");
+            //floorEffects.GetComponent<FloorEffectDisplay>().FirstTrigger = true;
         }
         else
         {

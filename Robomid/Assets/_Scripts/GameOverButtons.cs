@@ -17,6 +17,12 @@ public class GameOverButtons : MonoBehaviour
             //blackScreen.color = new Color(0, 0, 0, 255);
             StartCoroutine(FadeFromBlack(fadeSpeed));
         }
+
+        foreach(GameObject enemy in GameObject.FindGameObjectsWithTag("Enemy"))
+        {
+            SceneManager.MoveGameObjectToScene(enemy, SceneManager.GetActiveScene());
+            Destroy(enemy);
+        }
     }
 
     // Update is called once per frame
@@ -40,7 +46,7 @@ public class GameOverButtons : MonoBehaviour
     {
         GlobalControl.Instance.ResetGame();
         Minimap.Instance.ResetMinimap();
-        SceneManager.LoadScene("Main Menu");
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void ContinuePressed()
