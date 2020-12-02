@@ -42,6 +42,11 @@ public class PowerUp : MonoBehaviour
                 playerState.LocalPlayerData.HP += Quantity;
                 Destroy(gameObject);
             }
+            else if (ItemName == "GoldHeart")
+            {
+                playerState.LocalPlayerData.HP += Quantity;
+                Destroy(gameObject);
+            }
             else if (ItemName == "Key")
             {
                 playerState.LocalPlayerData.Keys += Quantity;
