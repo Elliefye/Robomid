@@ -601,6 +601,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayBtn
       objectReference: {fileID: 0}
+    - target: {fileID: 1107556827137825299, guid: 4db0862d4ade8b942a2f91e23fab2c75, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1107556827137825300, guid: 4db0862d4ade8b942a2f91e23fab2c75, type: 3}
       propertyPath: m_Color.r
       value: 0

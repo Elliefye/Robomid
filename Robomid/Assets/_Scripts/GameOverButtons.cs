@@ -39,12 +39,14 @@ public class GameOverButtons : MonoBehaviour
     public void ExitPressed()
     {
         GlobalControl.Instance.ResetGame();
-        SceneManager.LoadScene(0);
+        Minimap.Instance.ResetMinimap();
+        SceneManager.LoadScene("Main Menu");
     }
 
     public void ContinuePressed()
     {
         GlobalControl.Instance.ResetGame();
+        Minimap.Instance.ResetMinimap();
         SceneManager.LoadScene(1);
     }
 }

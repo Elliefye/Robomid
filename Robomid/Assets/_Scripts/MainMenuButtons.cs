@@ -11,11 +11,12 @@ public class MainMenuButtons : MonoBehaviour
 
     [SerializeField]
     private Slider volumeSlider;
+    public bool NewGame = false;
 
     public void PlayClicked()
     {
         Destroy(GlobalControl.Instance);
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene("Tutorial");
     }
 
     public void OptionsClicked()

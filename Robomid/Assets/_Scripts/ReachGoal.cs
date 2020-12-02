@@ -46,6 +46,7 @@ public class ReachGoal : MonoBehaviour
         var dungeon = GameObject.FindGameObjectWithTag("Dungeon");
         var dungeonGeneration = dungeon.GetComponent<DungeonGeneration>();
         dungeonGeneration.ResetDungeon();
+        Minimap.Instance.ResetMinimap();
     }
 
     private void AddFloorEffect()
