@@ -61,7 +61,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8716910249581566694, guid: 3edc2ac90428ab841bbc932c47fec54a, type: 3}
       propertyPath: PowerUps.Array.size
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8716910249581566694, guid: 3edc2ac90428ab841bbc932c47fec54a, type: 3}
       propertyPath: openSprite
@@ -101,6 +101,14 @@ PrefabInstance:
       objectReference: {fileID: 5458333206330919904, guid: 1eef5e6138962f74ca88282b39b2a429, type: 3}
     - target: {fileID: 8716910249581566694, guid: 3edc2ac90428ab841bbc932c47fec54a, type: 3}
       propertyPath: PowerUps.Array.data[3]
+      value: 
+      objectReference: {fileID: 7895985574634145817, guid: 087d40c9808779047b3398e6b8b06dcd, type: 3}
+    - target: {fileID: 8716910249581566694, guid: 3edc2ac90428ab841bbc932c47fec54a, type: 3}
+      propertyPath: PowerUps.Array.data[4]
+      value: 
+      objectReference: {fileID: 3475528170009951413, guid: 63caf46969ac2de4fa0ec1800de5f854, type: 3}
+    - target: {fileID: 8716910249581566694, guid: 3edc2ac90428ab841bbc932c47fec54a, type: 3}
+      propertyPath: PowerUps.Array.data[5]
       value: 
       objectReference: {fileID: 908862605921817189, guid: 70156b6b452f45648bcde0e6aa58a0cb, type: 3}
     m_RemovedComponents: []

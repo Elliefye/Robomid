@@ -60,6 +60,16 @@ public class WeaponPickUp : MonoBehaviour
                 playerState.LocalPlayerData.currentWeapon = WeaponEnums.LaserPointer9000;
                 Destroy(gameObject);
             }
+            else if (ItemName == "PlasmaShooter")
+            {
+                playerState.LocalPlayerData.currentWeapon = WeaponEnums.PlasmaShooter;
+                Destroy(gameObject);
+            }
+            else if (ItemName == "SemiManualGifle")
+            {
+                playerState.LocalPlayerData.currentWeapon = WeaponEnums.SemiManualGifle;
+                Destroy(gameObject);
+            }
 
         }
     }
@@ -76,7 +86,7 @@ public class WeaponPickUp : MonoBehaviour
         if (currentWeapon != 0 && isInRange)
         {
             transform.rotation = Quaternion.Euler(0, 0, 0);
-            GameObject item = Instantiate(itemDrops[currentWeapon - 1], transform.position, transform.rotation);
+            GameObject item = Instantiate(itemDrops[currentWeapon], transform.position, transform.rotation);
         }
     }
 }

@@ -98,9 +98,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ItemName: LaserPointer
   itemDrops:
+  - {fileID: 7895985574634145817, guid: 087d40c9808779047b3398e6b8b06dcd, type: 3}
   - {fileID: 3427681570075636106}
-  - {fileID: 3637522663146255284, guid: 56d2006c20ab70c479b2c0082d955828, type: 3}
+  - {fileID: 3475528170009951413, guid: 63caf46969ac2de4fa0ec1800de5f854, type: 3}
   - {fileID: 5458333206330919904, guid: 1eef5e6138962f74ca88282b39b2a429, type: 3}
+  - {fileID: 3637522663146255284, guid: 56d2006c20ab70c479b2c0082d955828, type: 3}
 --- !u!61 &3427681570075636107
 BoxCollider2D:
   m_ObjectHideFlags: 0

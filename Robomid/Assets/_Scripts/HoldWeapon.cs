@@ -25,7 +25,7 @@ public class HoldWeapon : MonoBehaviour
             var weaponType = playerState.LocalPlayerData.currentWeapon;
             spriteIndex = (int)weaponType;
 
-            if (spriteIndex > 2)
+            if (spriteIndex > 4)
             {
                 spriteIndex = 0;
             }

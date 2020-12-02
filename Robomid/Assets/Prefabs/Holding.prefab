@@ -96,6 +96,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   upgrades:
+  - {fileID: 21300000, guid: 986b583dbd89d6c4e9e4510c604dbba5, type: 3}
   - {fileID: 21300000, guid: 223f18c83801cc541817b94c01db171b, type: 3}
-  - {fileID: 21300000, guid: c2d1536c4841e094c82b5c48a0eb3475, type: 3}
+  - {fileID: 21300000, guid: 52129152055a75c46a857a4c45482f66, type: 3}
   - {fileID: 21300000, guid: 65538159e12b0aa499b2629a6f844660, type: 3}
+  - {fileID: 21300000, guid: c2d1536c4841e094c82b5c48a0eb3475, type: 3}
