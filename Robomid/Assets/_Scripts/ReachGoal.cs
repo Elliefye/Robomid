@@ -5,6 +5,18 @@ using UnityEngine.SceneManagement;
 
 public class ReachGoal : MonoBehaviour
 {
+    public Sprite OpenSprite;
+    public Sprite ClosedSprite;
+
+    void FixedUpdate()
+    {
+        var enemies = GameObject.FindGameObjectsWithTag("Enemy");
+        if (enemies.Length == 0)
+        {
+            gameObject.GetComponent<SpriteRenderer>().sprite = OpenSprite;
+        }
+    }
+
     void OnTriggerEnter2D(Collider2D collider)
     {
         if (collider.gameObject.CompareTag("Player"))

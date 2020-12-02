@@ -15,7 +15,7 @@ public class MainMenuButtons : MonoBehaviour
     public void PlayClicked()
     {
         Destroy(GlobalControl.Instance);
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(5);
     }
 
     public void OptionsClicked()

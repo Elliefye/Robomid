@@ -1246,7 +1246,7 @@ MonoBehaviour:
     CompletedFloors: 0
     FloorEffects: 
     Volume: 1
-  FloorEffects: 
+  FloorEffects: 00000000
 --- !u!4 &1030238626
 Transform:
   m_ObjectHideFlags: 0
@@ -1972,7 +1972,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5452241054339077063, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}
       propertyPath: PossibleEnemies.Array.size
-      value: 10
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 5452241054339077063, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}
       propertyPath: GoalPrefab
@@ -1984,7 +1984,7 @@ PrefabInstance:
       objectReference: {fileID: 4849056105888925514, guid: 5cb6a883b0ed6e84b92e67b40d3d8797, type: 3}
     - target: {fileID: 5452241054339077063, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}
       propertyPath: NumberOfEnemies
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5452241054339077063, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}
       propertyPath: PossibleEnemies1.Array.data[0]
@@ -2013,11 +2013,27 @@ PrefabInstance:
     - target: {fileID: 5452241054339077063, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}
       propertyPath: PossibleEnemies.Array.data[9]
       value: 
-      objectReference: {fileID: 4624872142949038791, guid: f9dc09723be859244abdf1419aea2e56, type: 3}
+      objectReference: {fileID: 5866004615277121132, guid: 7d494bea882fcf4438c18c688441f792, type: 3}
     - target: {fileID: 5452241054339077063, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}
       propertyPath: minimap
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5452241054339077063, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}
+      propertyPath: PossibleEnemies.Array.data[10]
+      value: 
+      objectReference: {fileID: 4624872142949038791, guid: f9dc09723be859244abdf1419aea2e56, type: 3}
+    - target: {fileID: 5452241054339077063, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}
+      propertyPath: PossibleEnemies.Array.data[11]
+      value: 
+      objectReference: {fileID: 4849056105888925514, guid: 5cb6a883b0ed6e84b92e67b40d3d8797, type: 3}
+    - target: {fileID: 5452241054339077063, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}
+      propertyPath: PossibleEnemies.Array.data[12]
+      value: 
+      objectReference: {fileID: 4849056105888925514, guid: 5cb6a883b0ed6e84b92e67b40d3d8797, type: 3}
+    - target: {fileID: 5452241054339077063, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}
+      propertyPath: PossibleEnemies.Array.data[13]
+      value: 
+      objectReference: {fileID: 6933351342504743735, guid: debc9301b9019234e8c7cd5efdd49d61, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 790d1a91afe66c24e9ac15e54cf4d41e, type: 3}
 --- !u!1 &6455406300471824442

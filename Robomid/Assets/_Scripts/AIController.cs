@@ -63,6 +63,11 @@ public class AIController : MonoBehaviour
                 transform.position = Vector2.MoveTowards(transform.position, Player.transform.position, MoveSpeed * Time.deltaTime);
             }
 
+            if(transform.position.y > Player.transform.position.y+0.5 || transform.position.y < Player.transform.position.y-0.5)
+            {
+                transform.position = Vector2.MoveTowards(transform.position, new Vector2(transform.position.x, Player.transform.position.y), MoveSpeed * Time.deltaTime);
+            }
+
             if (distanceFromPlayer <= AttackRange + 0.01f && !IsAttacking)
             {
                 Animator.SetBool("IsAttacking", true);

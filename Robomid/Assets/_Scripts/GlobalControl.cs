@@ -54,6 +54,27 @@ public class GlobalControl : MonoBehaviour
         }
     }
 
+    public void ResetGame()
+    {
+        var resetStatistics = new PlayerStatistics
+        {
+            Volume = Instance.SavedPlayerData.Volume
+        };
+        Instance.SavedPlayerData = resetStatistics;
+        Instance.FloorEffects = new List<FloorEffectEnums>();
+        try
+        {
+            BinaryFormatter bf = new BinaryFormatter();
+            FileStream file = File.Create(Application.persistentDataPath + "/pdata.rbm");
+            bf.Serialize(file, resetStatistics);
+            file.Close();
+        }
+        catch (Exception e)
+        {
+            Debug.Log("Game failed to save: \n" + e);
+        }
+    }
+
     public void SaveGame()
     {
         SavedPlayerData.FloorEffects = FloorEffects;

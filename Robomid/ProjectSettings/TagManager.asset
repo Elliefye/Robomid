@@ -12,6 +12,7 @@ TagManager:
   - Enemy
   - Chest
   - Minimap
+  - DoorClosed
   layers:
   - Default
   - TransparentFX

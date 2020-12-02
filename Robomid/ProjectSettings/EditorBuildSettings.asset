@@ -14,13 +14,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Scenes/Shop.unity
     guid: ac6f40c58f1dfd54bbc7b36aee8422db
-  - enabled: 0
-    path: Assets/_Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/_Scenes/Game Over.unity
     guid: 0482207828f1aae47aa028a6cc84776f
   - enabled: 1
     path: Assets/_Scenes/Credits.unity
     guid: d4b90fb9a6762f24e9531d4bac660972
+  - enabled: 1
+    path: Assets/_Scenes/Tutorial.unity
+    guid: 2cb0e70b7fa871247bfbc47397f56c4c
+  - enabled: 0
+    path: Assets/_Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}

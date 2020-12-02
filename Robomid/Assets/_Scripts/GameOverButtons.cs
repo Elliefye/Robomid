@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -23,12 +22,12 @@ public class GameOverButtons : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     private IEnumerator FadeFromBlack(int speed)
     {
-        while(blackScreen.color.a > 0)
+        while (blackScreen.color.a > 0)
         {
             float fadeAmount = blackScreen.color.a - (speed * Time.deltaTime);
             blackScreen.color = new Color(0, 0, 0, fadeAmount);
@@ -39,17 +38,13 @@ public class GameOverButtons : MonoBehaviour
 
     public void ExitPressed()
     {
+        GlobalControl.Instance.ResetGame();
         SceneManager.LoadScene(0);
     }
 
     public void ContinuePressed()
     {
-        GlobalControl.Instance.SavedPlayerData.HP = GlobalControl.Instance.SavedPlayerData.BaseHP;
-        GlobalControl.Instance.SavedPlayerData.DirectionFrom = "";
-        var dungeon = GameObject.FindGameObjectWithTag("Dungeon");
-        var dungeonGeneration = dungeon.GetComponent<DungeonGeneration>();
-        dungeonGeneration.ResetDungeon();
-        Minimap.Instance.ResetMinimap();
-        SceneManager.LoadScene("Demo");
+        GlobalControl.Instance.ResetGame();
+        SceneManager.LoadScene(1);
     }
 }

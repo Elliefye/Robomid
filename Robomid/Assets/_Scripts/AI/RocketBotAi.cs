@@ -29,6 +29,11 @@ public class RocketBotAi : MonoBehaviour, IAiLogic
 
     void Update()
     {
-
+        var player = GameObject.FindGameObjectWithTag("Player");
+        var distanceFromPlayer = Vector2.Distance(transform.position, player.transform.position);
+        if (distanceFromPlayer <= GetComponent<AIController>().SightRange && (transform.position.y > player.transform.position.y + 0.1 || transform.position.y < player.transform.position.y - 0.1))
+        {
+            transform.position = Vector2.MoveTowards(transform.position, new Vector2(transform.position.x, player.transform.position.y), GetComponent<AIController>().MoveSpeed * Time.deltaTime);
+        }
     }
 }

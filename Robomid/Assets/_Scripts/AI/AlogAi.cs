@@ -4,13 +4,13 @@ public class AlogAi : MonoBehaviour, IAiLogic
 {
     public void Attack()
     {
-        
+
     }
 
     public void Scale(int Level)
     {
-        GetComponent<AIController>().Health += Level * 25/2;
-        GetComponent<AIController>().Damage += Level * 5/2;
+        GetComponent<AIController>().Health += Level * 25 / 2;
+        GetComponent<AIController>().Damage += Level * 5 / 2;
     }
 
     public void OnTriggerEnter2D(Collider2D other)
@@ -29,6 +29,11 @@ public class AlogAi : MonoBehaviour, IAiLogic
 
     void Update()
     {
-
+        var player = GameObject.FindGameObjectWithTag("Player");
+        var distanceFromPlayer = Vector2.Distance(transform.position, player.transform.position);
+        if (distanceFromPlayer <= GetComponent<AIController>().SightRange && (transform.position.y > player.transform.position.y + 0.1 || transform.position.y < player.transform.position.y - 0.1))
+        {
+            transform.position = Vector2.MoveTowards(transform.position, new Vector2(transform.position.x, player.transform.position.y), GetComponent<AIController>().MoveSpeed * Time.deltaTime);
+        }
     }
 }
