@@ -7,20 +7,14 @@ public class WeaponPickUp : MonoBehaviour
 
     public string ItemName;
     private GameObject player;
-    private GameObject holding;
     private PlayerState playerState;
-    private PlayerMovement playerMovement;
-    private HoldWeapon holdWeapon;
     private bool isInRange = false;
     public GameObject[] itemDrops;
 
     void Start()
     {
         player = GameObject.FindWithTag("Player");
-        holding = GameObject.FindWithTag("Holding");
         playerState = player.GetComponent<PlayerState>();
-        playerMovement = player.GetComponent<PlayerMovement>();
-        holdWeapon = holding.GetComponent<HoldWeapon>();
     }
 
     void Update()
@@ -68,8 +62,6 @@ public class WeaponPickUp : MonoBehaviour
             }
             else if (ItemName == "PlasmaShooter")
             {
-                playerMovement.CanAttack = true;
-                holdWeapon.showWeapon = true;
                 playerState.LocalPlayerData.currentWeapon = WeaponEnums.PlasmaShooter;
                 Destroy(gameObject);
             }
