@@ -7,6 +7,7 @@ public class HoldWeapon : MonoBehaviour
 {
     public Sprite[] upgrades;
     private int spriteIndex = 0;
+    public bool showWeapon = true;
 
     private GameObject player;
     private PlayerState playerState;
@@ -20,7 +21,7 @@ public class HoldWeapon : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("FireRight") || Input.GetButtonDown("FireLeft") || Input.GetButtonDown("FireUp") || Input.GetButtonDown("FireDown"))
+        if (showWeapon && (Input.GetButtonDown("FireRight") || Input.GetButtonDown("FireLeft") || Input.GetButtonDown("FireUp") || Input.GetButtonDown("FireDown")))
         { 
             var weaponType = playerState.LocalPlayerData.currentWeapon;
             spriteIndex = (int)weaponType;
