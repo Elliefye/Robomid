@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D Rigidbody;
 
     public bool IsDamaged = false;
-    private bool CanAttack = true;
+    public bool CanAttack = true;
     public bool IsDead { get; private set; }
     private bool CanMove = true;
     public bool Recoil = false;

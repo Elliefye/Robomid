@@ -8,11 +8,17 @@ public class PowerUp : MonoBehaviour
     private bool IsFollowing = false;
 
     private GameObject player;
+    private GameObject holding;
+    private PlayerMovement playerMovement;
+    private HoldWeapon holdWeapon;
     private PlayerState playerState;
 
     void Start()
     {
         player = GameObject.FindWithTag("Player");
+        holding = GameObject.FindWithTag("Holding");
+        playerMovement = player.GetComponent<PlayerMovement>();
+        holdWeapon = holding.GetComponent<HoldWeapon>();
         playerState = player.GetComponent<PlayerState>();
         StartCoroutine(WaitForPickup());
     }
@@ -50,6 +56,12 @@ public class PowerUp : MonoBehaviour
             else if (ItemName == "Key")
             {
                 playerState.LocalPlayerData.Keys += Quantity;
+                Destroy(gameObject);
+            }
+            else if (ItemName == "Reset")
+            {
+                holdWeapon.showWeapon = false;
+                playerMovement.CanAttack = false;
                 Destroy(gameObject);
             }
 
