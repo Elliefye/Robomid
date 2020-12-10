@@ -15,8 +15,13 @@ public class MainMenuButtons : MonoBehaviour
 
     public void PlayClicked()
     {
+        if (!GlobalControl.Instance.SaveFileExists())
+            NewGame = true;
         Destroy(GlobalControl.Instance);
-        SceneManager.LoadScene("Tutorial");
+
+        if (NewGame)
+            SceneManager.LoadScene("Tutorial");
+        else SceneManager.LoadScene("Demo");
     }
 
     public void OptionsClicked()

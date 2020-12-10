@@ -34,6 +34,7 @@ public class ReachGoal : MonoBehaviour
                 ResetDungeon();
                 SavePlayerData(collider);
                 AddFloorEffect();
+                LevelAudio.Instance.Destroy();
 
                 SceneManager.LoadScene("Shop");
             }

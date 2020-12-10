@@ -38,6 +38,7 @@ public class PowerUp : MonoBehaviour
     {
         if (other.tag == "Player")
         {
+            other.GetComponent<PlayerMovement>().PlayItemSound();
             if (ItemName == "Coin")
             {
                 playerState.LocalPlayerData.Money += Quantity;

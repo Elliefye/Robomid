@@ -29,9 +29,18 @@ public class AIController : MonoBehaviour
     public bool IsDead = false;
     public GameObject[] itemDrops;
 
+    private bool noPlayer = false;
+
     void Start()
     {
-        Player = GameObject.FindGameObjectWithTag("Player");
+        try
+        {
+            Player = GameObject.FindGameObjectWithTag("Player");
+        }
+        catch
+        {
+            noPlayer = true;
+        }
         _aiLogic = AiResolver.GetLogic(gameObject, AiEnum);
         Animator = gameObject.GetComponent<Animator>();
         _aiLogic.Scale(GlobalControl.Instance.SavedPlayerData.CompletedFloors);
@@ -39,7 +48,7 @@ public class AIController : MonoBehaviour
 
     void Update()
     {
-        if (IsDead)
+        if (IsDead || noPlayer)
         {
             return;
         }

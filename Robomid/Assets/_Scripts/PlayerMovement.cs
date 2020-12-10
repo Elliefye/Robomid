@@ -21,6 +21,19 @@ public class PlayerMovement : MonoBehaviour
 
     public WeaponEnums weaponType;
 
+    [SerializeField]
+    AudioSource source;
+    [SerializeField]
+    AudioClip damagedClip;
+    [SerializeField]
+    AudioClip diedClip;
+    [SerializeField]
+    AudioClip itemClip;
+    [SerializeField]
+    AudioClip weaponClip;
+    [SerializeField]
+    AudioClip[] bulletClips;
+
     // Use this for initialization
     void Start()
     {
@@ -79,6 +92,8 @@ public class PlayerMovement : MonoBehaviour
         if (IsDamaged && !IsDead)
         {
             Animator.Play("Player_hurt");
+            source.clip = damagedClip;
+            source.Play();
             IsDamaged = false;
         }
     }
@@ -91,12 +106,16 @@ public class PlayerMovement : MonoBehaviour
     public void Die()
     {
         IsDead = true;
+        source.clip = diedClip;
+        source.Play();
         StartCoroutine(DeathAnimation());
     }
 
     private void Shoot(Vector2 direction)
     {
         var weaponType = GetComponent<PlayerState>().LocalPlayerData.currentWeapon;
+        source.clip = bulletClips[(int)weaponType];
+        source.Play();
         var bulletInstance = Instantiate(Bullet, transform.position, Quaternion.Euler(new Vector3(0, 0, 1)));
         Physics2D.IgnoreCollision(bulletInstance.GetComponent<Collider2D>(), GetComponent<Collider2D>());
         bulletInstance.GetComponent<Bullet>().SetValues(direction, gameObject, (int)weaponType);
@@ -117,5 +136,13 @@ public class PlayerMovement : MonoBehaviour
         yield return new WaitForSeconds(0.45f);
         Destroy(gameObject);
         SceneManager.LoadScene(3);
+    }
+
+    public void PlayItemSound(bool weapon = false)
+    {
+        if (weapon)
+            source.clip = weaponClip;
+        else source.clip = itemClip;
+        source.Play();
     }
 }

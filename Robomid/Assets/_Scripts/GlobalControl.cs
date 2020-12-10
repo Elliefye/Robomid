@@ -110,4 +110,10 @@ public class GlobalControl : MonoBehaviour
         }
         return new PlayerStatistics();
     }
+
+    public Boolean SaveFileExists()
+    {
+        if (File.Exists(Application.persistentDataPath + "/pdata.rbm")) return true;
+        return false;
+    }
 }

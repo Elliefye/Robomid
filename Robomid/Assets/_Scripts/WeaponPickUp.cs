@@ -51,6 +51,7 @@ public class WeaponPickUp : MonoBehaviour
     {
         if (isInRange)
         {
+            player.GetComponent<PlayerMovement>().PlayItemSound(true);
             if (ItemName == "BoomZooka")
             {
                 playerState.LocalPlayerData.currentWeapon = WeaponEnums.Boomzooka;

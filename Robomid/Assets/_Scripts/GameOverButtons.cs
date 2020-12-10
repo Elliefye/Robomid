@@ -12,6 +12,7 @@ public class GameOverButtons : MonoBehaviour
 
     void Start()
     {
+        LevelAudio.Instance.Destroy();
         if (fadeFromBlack)
         {
             //blackScreen.color = new Color(0, 0, 0, 255);
